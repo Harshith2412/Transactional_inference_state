@@ -1,0 +1,2 @@
+iterations,baseline_field_read_median_ns,provenance_field_read_median_ns,same_session_check_median_ns,cross_session_denied_median_ns,cross_session_declassified_median_ns
+5000,125.0,1542.0,5875.0,6084.0,5417.0

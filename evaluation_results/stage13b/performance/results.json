@@ -1,0 +1,23 @@
+{
+  "automatic_lineage_propagation": {
+    "median_ns": 47312.5,
+    "p95_ns": 48542
+  },
+  "context_assembly": {
+    "median_ns": 48166.5,
+    "p95_ns": 49292
+  },
+  "iterations": 50,
+  "manual_lineage_recording": {
+    "median_ns": 49312.5,
+    "p95_ns": 50041
+  },
+  "memory_cache_propagation": {
+    "median_ns": 139478.5,
+    "p95_ns": 142667
+  },
+  "root_query": {
+    "median_ns": 12395.5,
+    "p95_ns": 13250
+  }
+}

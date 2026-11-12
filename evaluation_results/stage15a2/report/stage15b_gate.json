@@ -1,0 +1,17 @@
+{
+  "criu_status": "RELIABLE_WITH_SCOPED_LIMITATIONS",
+  "external_boundary_limitations": [
+    "filesystem mutation persists",
+    "unmanaged observer mutation persists",
+    "persistent client must be invalidated",
+    "managed child restore failed",
+    "privileged LinuxKit only"
+  ],
+  "integration_justified": false,
+  "multiservice_integrity": "20/20 sequential with barrier",
+  "rag_integrity": "50/50",
+  "reason": "managed-child, privilege, and second-host gates remain",
+  "reliability_cycles": 200,
+  "socket_strategy": "RECONNECT_SUPPORTED",
+  "tool_integrity": "150/150"
+}

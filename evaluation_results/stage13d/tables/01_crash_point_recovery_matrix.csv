@@ -1,0 +1,14 @@
+crash_point,state,effects_before_crash,effects_replayed,effects_unknown,provenance_count,lineage_nodes,lineage_edges,quarantine_count,recovery_status
+AFTER_TX_BEGIN,{},[],[],[],0,0,0,0,INCOMPLETE_UNCOMMITTED
+AFTER_FIRST_MUTATION,{},[],[],[],0,0,0,0,INCOMPLETE_UNCOMMITTED
+AFTER_PROVENANCE_WRITE,{},[],[],[],0,0,0,0,INCOMPLETE_UNCOMMITTED
+AFTER_LINEAGE_WRITE,{},[],[],[],0,0,0,0,INCOMPLETE_UNCOMMITTED
+AFTER_VALIDATION,{},[],[],[],0,0,0,0,INCOMPLETE_UNCOMMITTED
+AFTER_PREPARE_COMMIT,{},[],[],[],0,0,0,0,PREPARED
+DURING_STATE_COMMIT,{},[],[],[],0,0,0,0,PREPARED
+AFTER_STATE_COMMIT,{'session_memory.authorization': 'approved'},[],['mail-1'],[],1,2,1,0,STATE_COMMITTED_EFFECTS_PENDING
+BEFORE_FIRST_EFFECT,{'session_memory.authorization': 'approved'},[],['mail-1'],[],1,2,1,0,STATE_COMMITTED_EFFECTS_PENDING
+AFTER_FIRST_EFFECT,{'session_memory.authorization': 'approved'},['mail-1'],[],[],1,2,1,0,STATE_COMMITTED_EFFECTS_PENDING
+DURING_SECOND_EFFECT,{'session_memory.authorization': 'approved'},"['mail-1', 'mail-2']",[],['effect-2'],1,2,1,0,PARTIAL_EFFECT_EXECUTION
+AFTER_QUARANTINE_WRITE,{},[],[],[],0,0,0,1,INCOMPLETE_UNCOMMITTED
+BEFORE_TX_COMPLETE,{'session_memory.authorization': 'approved'},['mail-1'],[],[],1,2,1,0,STATE_COMMITTED_EFFECTS_PENDING

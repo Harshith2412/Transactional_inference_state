@@ -1,0 +1,6 @@
+validator,basis,action
+POLICY_V2_BASELINE,frozen PolicyV2,ALLOW/DENY
+SEQUENCE_AWARE,"ordered writes, effects, dependencies, composition",ALLOW/DENY
+PROVENANCE_AWARE,"authoritative ancestry, session, gaps",ALLOW/QUARANTINE/REVIEW
+SEMANTIC_RULE,explainable authorization concepts and benign frames,ALLOW/DENY
+HYBRID_DETERMINISTIC,deny-overrides deterministic composition,all actions

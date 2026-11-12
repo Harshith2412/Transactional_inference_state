@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="900" viewBox="0 0 980 900" role="img" aria-labelledby="title desc">
+  <title id="title">Transactional Inference State architecture</title>
+  <desc id="desc">Untrusted content passes through a model into a structured plan. Trusted parsing, policy, and transaction components stage state and effects until commit or abort.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#334155"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.label{font-size:18px;font-weight:600}.small{font-size:14px}.zone{font-size:15px;font-weight:700;letter-spacing:1px}.box{stroke:#334155;stroke-width:1.7;rx:7}.arrow{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="235" y="24" width="510" height="258" rx="14" fill="#fff3f2" stroke="#b4534b" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="255" y="50" class="zone" fill="#8d352f">UNTRUSTED</text>
+  <rect class="box" x="340" y="65" width="300" height="58" fill="#fee2e2"/><text class="label" x="490" y="101" text-anchor="middle">User / Retrieved Content</text>
+  <path class="arrow" d="M490 123 V157"/>
+  <rect class="box" x="340" y="160" width="300" height="58" fill="#fee2e2"/><text class="label" x="490" y="196" text-anchor="middle">Untrusted Model</text>
+  <path class="arrow" d="M490 218 V250"/>
+  <rect class="box" x="340" y="253" width="300" height="58" fill="#ffedd5"/><text class="label" x="490" y="289" text-anchor="middle">Structured ModelPlan</text>
+
+  <rect x="155" y="330" width="670" height="502" rx="14" fill="#eff6ff" stroke="#35659a" stroke-width="2"/>
+  <text x="175" y="357" class="zone" fill="#234d77">TRUSTED RUNTIME</text>
+  <path class="arrow" d="M490 311 V382"/>
+  <rect class="box" x="340" y="385" width="300" height="58" fill="#dbeafe"/><text class="label" x="490" y="421" text-anchor="middle">Strict Plan Parser</text>
+  <path class="arrow" d="M490 443 V485"/>
+  <rect class="box" x="340" y="488" width="300" height="68" fill="#dbeafe"/><text class="label" x="490" y="518" text-anchor="middle">Independent Policy</text><text class="small" x="490" y="541" text-anchor="middle">decision over parsed operations</text>
+
+  <rect class="box" x="42" y="404" width="205" height="48" fill="#f8fafc"/><text class="small" x="145" y="433" text-anchor="middle">runtime provenance</text>
+  <rect class="box" x="42" y="474" width="205" height="48" fill="#f8fafc"/><text class="small" x="145" y="503" text-anchor="middle">capability checks</text>
+  <rect class="box" x="42" y="544" width="205" height="48" fill="#f8fafc"/><text class="small" x="145" y="573" text-anchor="middle">session scope</text>
+  <path class="arrow" d="M247 428 H315 Q330 428 330 443 V504 H340"/>
+  <path class="arrow" d="M247 498 H340"/>
+  <path class="arrow" d="M247 568 H315 Q330 568 330 548 H340"/>
+
+  <path class="arrow" d="M490 556 V600"/>
+  <rect class="box" x="340" y="603" width="300" height="58" fill="#dbeafe"/><text class="label" x="490" y="639" text-anchor="middle">Transaction Manager</text>
+  <path class="arrow" d="M430 661 V697 H302 V720"/>
+  <path class="arrow" d="M550 661 V697 H678 V720"/>
+  <rect class="box" x="195" y="720" width="215" height="60" fill="#fef3c7" stroke-dasharray="5 3"/><text class="label" x="302" y="746" text-anchor="middle">State Delta</text><text class="small" x="302" y="768" text-anchor="middle">tentative</text>
+  <rect class="box" x="570" y="720" width="215" height="60" fill="#fef3c7" stroke-dasharray="5 3"/><text class="label" x="678" y="746" text-anchor="middle">Effect Buffer</text><text class="small" x="678" y="768" text-anchor="middle">tentative</text>
+  <path class="arrow" d="M302 780 V804 H450"/><path class="arrow" d="M678 780 V804 H530"/>
+  <rect class="box" x="350" y="790" width="280" height="70" fill="#dcfce7"/><text class="label" x="490" y="819" text-anchor="middle">COMMIT / ABORT</text><text class="small" x="490" y="843" text-anchor="middle">publish or discard</text>
+
+  <rect x="718" y="850" width="18" height="18" fill="#fee2e2" stroke="#334155"/><text class="small" x="742" y="864">untrusted</text>
+  <rect x="812" y="850" width="18" height="18" fill="#dbeafe" stroke="#334155"/><text class="small" x="836" y="864">trusted</text>
+  <rect x="718" y="878" width="18" height="18" fill="#fef3c7" stroke="#334155"/><text class="small" x="742" y="892">tentative</text>
+  <rect x="812" y="878" width="18" height="18" fill="#dcfce7" stroke="#334155"/><text class="small" x="836" y="892">committed/closed</text>
+</svg>

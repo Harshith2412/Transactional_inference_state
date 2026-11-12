@@ -1,0 +1,194 @@
+[
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "SINGLE_PROCESS",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": true,
+      "participant_id": "simple_tool",
+      "reasons": [],
+      "status": "ELIGIBLE_SINGLE_PROCESS"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "simple_tool",
+    "persistent_socket_required": false,
+    "unmanaged_effects": false
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "SINGLE_PROCESS",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": true,
+      "participant_id": "simple_rag",
+      "reasons": [],
+      "status": "ELIGIBLE_SINGLE_PROCESS"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "simple_rag",
+    "persistent_socket_required": false,
+    "unmanaged_effects": false
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "SINGLE_PROCESS",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": false,
+      "participant_id": "filesystem_tool",
+      "reasons": [
+        "mutable filesystem state is outside CRIU process rollback"
+      ],
+      "status": "INELIGIBLE_FILESYSTEM_DEPENDENT"
+    },
+    "filesystem_dependent": true,
+    "participant_id": "filesystem_tool",
+    "persistent_socket_required": false,
+    "unmanaged_effects": false
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "SINGLE_PROCESS",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": false,
+      "participant_id": "observer_tool",
+      "reasons": [
+        "unmanaged effects survive participant restore"
+      ],
+      "status": "INELIGIBLE_UNMANAGED_EFFECTS"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "observer_tool",
+    "persistent_socket_required": false,
+    "unmanaged_effects": true
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "SINGLE_PROCESS",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": false,
+      "participant_id": "persistent_socket_tool",
+      "reasons": [
+        "measured participant requires fresh reconnect"
+      ],
+      "status": "INELIGIBLE_PERSISTENT_SOCKET_REQUIRED"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "persistent_socket_tool",
+    "persistent_socket_required": true,
+    "unmanaged_effects": false
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "PROCESS_TREE",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": false,
+      "participant_id": "parent_child_tool",
+      "reasons": [
+        "managed-child restore failed"
+      ],
+      "status": "PROCESS_TREE_NOT_ESTABLISHED"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "parent_child_tool",
+    "persistent_socket_required": false,
+    "unmanaged_effects": false
+  },
+  {
+    "capabilities": {
+      "child_process_support": false,
+      "coordinated_snapshot_support": false,
+      "digest_verification_available": true,
+      "external_effect_rollback": false,
+      "filesystem_rollback": false,
+      "health_check_available": true,
+      "mutation_quiesce_available": true,
+      "process_scope": "MULTI_SERVICE_GROUP",
+      "requires_privileged_host": true,
+      "requires_reconnect": true,
+      "restore_failure_observable": true,
+      "structural_oracle_available": true
+    },
+    "eligibility": {
+      "eligible": false,
+      "participant_id": "multi_service_group",
+      "reasons": [
+        "sequential checkpoint set is not atomic"
+      ],
+      "status": "MULTI_SERVICE_ATOMICITY_NOT_ESTABLISHED"
+    },
+    "filesystem_dependent": false,
+    "participant_id": "multi_service_group",
+    "persistent_socket_required": false,
+    "unmanaged_effects": false
+  }
+]

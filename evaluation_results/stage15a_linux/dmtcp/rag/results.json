@@ -1,0 +1,29 @@
+{
+  "backend": "DMTCP",
+  "checkpoint_ns": 2247958,
+  "checkpoint_success": true,
+  "failure": "restart exited without restored participant",
+  "image_bytes": 59157364,
+  "initial": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "kind": "rag",
+  "mutated": {
+    "authorization": "admin",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {
+      "poison": "approved disclosure"
+    },
+    "summary_cache": {}
+  },
+  "privileged": false,
+  "restore_command_success": true,
+  "restore_ns": 715273250,
+  "restored": null,
+  "success": false
+}

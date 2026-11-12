@@ -1,0 +1,122 @@
+[
+  {
+    "attack_family": "mixed_field_json",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "display_name",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "mixed-display_name"
+  },
+  {
+    "attack_family": "mixed_field_json",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "private_token",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "mixed-private_token"
+  },
+  {
+    "attack_family": "mixed_field_json",
+    "expected_authorized": true,
+    "false_block": false,
+    "field": "weather",
+    "leaked": false,
+    "outcome": "FLOW_PUBLIC_FIELD_ALLOWED",
+    "policy_allowed": true,
+    "scenario_id": "mixed-weather"
+  },
+  {
+    "attack_family": "committed_shared_state_leakage",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "restricted",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "committed_shared_state_leakage"
+  },
+  {
+    "attack_family": "retrieval_cache_contamination",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "restricted",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "retrieval_cache_contamination"
+  },
+  {
+    "attack_family": "tool_result_cache_contamination",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "restricted",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "tool_result_cache_contamination"
+  },
+  {
+    "attack_family": "shared_summary_contamination",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "restricted",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "shared_summary_contamination"
+  },
+  {
+    "attack_family": "cache_key_collision",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "restricted",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "cache_key_collision"
+  },
+  {
+    "attack_family": "label_stripping",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "private_token",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_MISSING_PROVENANCE",
+    "policy_allowed": false,
+    "scenario_id": "label_stripping"
+  },
+  {
+    "attack_family": "provenance_laundering",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "summary",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "provenance_laundering"
+  },
+  {
+    "attack_family": "source_mixing",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "combined",
+    "leaked": false,
+    "outcome": "FLOW_DENIED_CROSS_USER",
+    "policy_allowed": false,
+    "scenario_id": "source_mixing"
+  },
+  {
+    "attack_family": "dirty_cross_session_read",
+    "expected_authorized": false,
+    "false_block": false,
+    "field": "role",
+    "leaked": false,
+    "outcome": "TRANSACTION_ISOLATION",
+    "policy_allowed": false,
+    "scenario_id": "dirty_cross_session_read"
+  }
+]

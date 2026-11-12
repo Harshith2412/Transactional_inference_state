@@ -1,0 +1,43 @@
+{
+  "ambiguous": {
+    "outcome": "EFFECT_OUTCOME_UNKNOWN",
+    "service_calls": [
+      "sent"
+    ],
+    "unknown_effects": [
+      "e1"
+    ]
+  },
+  "pending_replay": {
+    "crash_point": "BEFORE_FIRST_EFFECT",
+    "effects_before_crash": [],
+    "effects_replayed": [
+      "mail-1"
+    ],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  },
+  "receipt_suppression": {
+    "crash_point": "AFTER_FIRST_EFFECT",
+    "effects_before_crash": [
+      "mail-1"
+    ],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  }
+}

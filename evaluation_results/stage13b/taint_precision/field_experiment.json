@@ -1,0 +1,16 @@
+{
+  "actually_untrusted": 1,
+  "false_lineage_count": 0,
+  "false_negative": 0,
+  "false_positive": 0,
+  "fields": 3,
+  "filtered_fields": [
+    "answer",
+    "public_metadata"
+  ],
+  "labeled_untrusted": 1,
+  "precision": 1.0,
+  "recall": 1.0,
+  "selected_public_has_untrusted_ancestor": false,
+  "true_positive": 1
+}

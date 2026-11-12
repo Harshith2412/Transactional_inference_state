@@ -1,0 +1,10 @@
+area,metric,value
+trusted_core,modules,7
+trusted_core,python_loc,1210
+trusted_core,external_runtime_dependencies,0
+evaluation_reporting,modules,16
+evaluation_reporting,python_loc,4035
+tests,files,10
+tests,python_loc,1430
+optional_ollama_adapter,modules,1
+optional_ollama_adapter,transport,stdlib urllib localhost

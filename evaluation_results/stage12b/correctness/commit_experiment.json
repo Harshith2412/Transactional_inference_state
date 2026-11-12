@@ -1,0 +1,15 @@
+{
+  "committed_after": true,
+  "committed_before": false,
+  "copied_nodes": 2,
+  "copy_amplification": 2.0,
+  "editor_provenance_unchanged": true,
+  "full_materialization_occurred": false,
+  "modified_field_new_provenance": true,
+  "modified_paths": 1,
+  "name_provenance_unchanged": true,
+  "outcome": "commit",
+  "structural_integrity": true,
+  "tentative_provenance_disappeared": false,
+  "tentative_value": true
+}

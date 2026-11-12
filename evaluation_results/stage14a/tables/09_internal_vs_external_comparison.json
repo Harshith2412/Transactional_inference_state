@@ -1,0 +1,17 @@
+{
+  "external": {
+    "benign_completion": 1.0,
+    "containment_after_rejection": 1.0,
+    "persistent_compromise": 1.0,
+    "policy_recall": 0.25
+  },
+  "realistic_internal": {
+    "benign_completion": 1.0,
+    "containment_after_rejection": 1.0,
+    "persistent_compromise": 0.55,
+    "policy_recall": 0.45
+  },
+  "synthetic": {
+    "policy_recall": "historical; distributions differ"
+  }
+}

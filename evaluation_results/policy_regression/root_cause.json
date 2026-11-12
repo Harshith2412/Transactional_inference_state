@@ -1,0 +1,40 @@
+{
+  "classifications": [
+    {
+      "classification": "GENERATION_VARIANCE",
+      "finding": "SUPPORTED",
+      "evidence": "101/150 matched trials had different raw text or one-sided parsing; only 48 exact plan matches"
+    },
+    {
+      "classification": "SCENARIO_DISTRIBUTION_DIFFERENCE",
+      "finding": "REJECTED",
+      "evidence": "same 50 scenarios, order, 3 trials each, family counts, and 90/60 split"
+    },
+    {
+      "classification": "POLICY_CONTEXT_CHANGE",
+      "finding": "NOT OBSERVED",
+      "evidence": "current replay matched all 128 Stage 11 and 129 final saved decisions"
+    },
+    {
+      "classification": "EVALUATION_HARNESS_DIFFERENCE",
+      "finding": "UNRESOLVED",
+      "evidence": "timeout changed 30s to 45s without timeouts; Stage 11 full rendered prompts were not saved"
+    },
+    {
+      "classification": "SAMPLING_VARIANCE",
+      "finding": "INSUFFICIENT EXPLANATION",
+      "evidence": "bootstrap difference interval excludes zero in 10,000 descriptive resamples"
+    },
+    {
+      "classification": "POLICY_REPLAY_BUG",
+      "finding": "REJECTED",
+      "evidence": "zero PolicyV1 or PolicyV2 replay mismatches in either run"
+    },
+    {
+      "classification": "UNKNOWN",
+      "finding": "SUPPORTED FOR ORIGIN",
+      "evidence": "historical model digest/full prompt/runtime state were not preserved, so why generations diverged is not identifiable"
+    }
+  ],
+  "primary_answer": "The frozen policy did not get worse because runtime semantics changed. It received materially different generated plans; the historical cause of that generation divergence remains unknown."
+}

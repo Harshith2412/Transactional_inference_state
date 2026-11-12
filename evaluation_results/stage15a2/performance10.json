@@ -1,0 +1,1682 @@
+[
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 136644333,
+    "restore_ns": 29468666,
+    "image_bytes": 22191031,
+    "pid_before": 7,
+    "pid_after": 7,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 32970709,
+    "restore_ns": 24279541,
+    "image_bytes": 22191287,
+    "pid_before": 36,
+    "pid_after": 36,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 27683791,
+    "restore_ns": 26580000,
+    "image_bytes": 22227374,
+    "pid_before": 65,
+    "pid_after": 65,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 34339291,
+    "restore_ns": 25377708,
+    "image_bytes": 22195243,
+    "pid_before": 94,
+    "pid_after": 94,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 166437875,
+    "restore_ns": 29177334,
+    "image_bytes": 22223878,
+    "pid_before": 123,
+    "pid_after": 123,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 48926333,
+    "restore_ns": 42541875,
+    "image_bytes": 22227749,
+    "pid_before": 152,
+    "pid_after": 152,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 39980000,
+    "restore_ns": 26275625,
+    "image_bytes": 22191680,
+    "pid_before": 181,
+    "pid_after": 181,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 58808917,
+    "restore_ns": 24251334,
+    "image_bytes": 22224037,
+    "pid_before": 210,
+    "pid_after": 210,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 55474750,
+    "restore_ns": 24030167,
+    "image_bytes": 22192269,
+    "pid_before": 239,
+    "pid_after": 239,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "mutated_digest": "1954370c5d9bdfc2b79578a0f73fc4654b9e97ef0712098017a1b49bb498a5ee",
+    "restored_digest": "16f8d26083a4ea6dcb77009fb14e2b35279e71cba584529f3a11cd2d04af626b",
+    "checkpoint_ns": 43991125,
+    "restore_ns": 38878416,
+    "image_bytes": 22195931,
+    "pid_before": 268,
+    "pid_after": 268,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 1,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 54214792,
+    "restore_ns": 21170000,
+    "image_bytes": 41073599,
+    "pid_before": 297,
+    "pid_after": 297,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 65140750,
+    "restore_ns": 24044458,
+    "image_bytes": 41101894,
+    "pid_before": 326,
+    "pid_after": 326,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 58286166,
+    "restore_ns": 33463583,
+    "image_bytes": 41072825,
+    "pid_before": 355,
+    "pid_after": 355,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 70655084,
+    "restore_ns": 27111500,
+    "image_bytes": 41069805,
+    "pid_before": 384,
+    "pid_after": 384,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 58453916,
+    "restore_ns": 23775542,
+    "image_bytes": 41069596,
+    "pid_before": 413,
+    "pid_after": 413,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 39407709,
+    "restore_ns": 27454250,
+    "image_bytes": 41068907,
+    "pid_before": 442,
+    "pid_after": 442,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 64795208,
+    "restore_ns": 26703833,
+    "image_bytes": 41069833,
+    "pid_before": 471,
+    "pid_after": 471,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 50487083,
+    "restore_ns": 27996458,
+    "image_bytes": 41069335,
+    "pid_before": 500,
+    "pid_after": 500,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 48138583,
+    "restore_ns": 27005750,
+    "image_bytes": 41105471,
+    "pid_before": 529,
+    "pid_after": 529,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "mutated_digest": "101ab1800054a35183cf9e2dcab2c54c69adcae5272e27f7e76774cd02d48d3d",
+    "restored_digest": "adcab02a0ab5c447f625531226567ae19601d541499588903191b37fd3ee08cb",
+    "checkpoint_ns": 83369125,
+    "restore_ns": 29565875,
+    "image_bytes": 41073614,
+    "pid_before": 558,
+    "pid_after": 558,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 10,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 77936167,
+    "restore_ns": 29487917,
+    "image_bytes": 72539495,
+    "pid_before": 587,
+    "pid_after": 587,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 83074458,
+    "restore_ns": 32658958,
+    "image_bytes": 72535533,
+    "pid_before": 616,
+    "pid_after": 616,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 96631375,
+    "restore_ns": 25595167,
+    "image_bytes": 72567910,
+    "pid_before": 645,
+    "pid_after": 645,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 81365166,
+    "restore_ns": 29708000,
+    "image_bytes": 72539314,
+    "pid_before": 674,
+    "pid_after": 674,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 73231083,
+    "restore_ns": 35678542,
+    "image_bytes": 72567860,
+    "pid_before": 703,
+    "pid_after": 703,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 77414709,
+    "restore_ns": 29563375,
+    "image_bytes": 72536841,
+    "pid_before": 732,
+    "pid_after": 732,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 79538834,
+    "restore_ns": 23220834,
+    "image_bytes": 72535352,
+    "pid_before": 761,
+    "pid_after": 761,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 72564666,
+    "restore_ns": 37361167,
+    "image_bytes": 72540378,
+    "pid_before": 790,
+    "pid_after": 790,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 67740583,
+    "restore_ns": 23586125,
+    "image_bytes": 72535918,
+    "pid_before": 819,
+    "pid_after": 819,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "mutated_digest": "d111c1f23b1bbee85ba232411742764b3ab759a0a814d9b74277e04746928d24",
+    "restored_digest": "0e9cb55c096600646322ce31d3900fa2f0df00a4250773099142aaf145d00ddb",
+    "checkpoint_ns": 64477000,
+    "restore_ns": 21834000,
+    "image_bytes": 72535400,
+    "pid_before": 848,
+    "pid_after": 848,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 50,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 108760917,
+    "restore_ns": 34953041,
+    "image_bytes": 124974540,
+    "pid_before": 877,
+    "pid_after": 877,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 120560041,
+    "restore_ns": 39004209,
+    "image_bytes": 124974712,
+    "pid_before": 906,
+    "pid_after": 906,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 137273375,
+    "restore_ns": 45366125,
+    "image_bytes": 124974530,
+    "pid_before": 935,
+    "pid_after": 935,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 220229042,
+    "restore_ns": 52219917,
+    "image_bytes": 124974631,
+    "pid_before": 964,
+    "pid_after": 964,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 157862208,
+    "restore_ns": 43190417,
+    "image_bytes": 124978605,
+    "pid_before": 993,
+    "pid_after": 993,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 78982625,
+    "restore_ns": 36964750,
+    "image_bytes": 124974991,
+    "pid_before": 1022,
+    "pid_after": 1022,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 99153334,
+    "restore_ns": 47872000,
+    "image_bytes": 124974995,
+    "pid_before": 1051,
+    "pid_after": 1051,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 141008625,
+    "restore_ns": 49835750,
+    "image_bytes": 124979247,
+    "pid_before": 1080,
+    "pid_after": 1080,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 212043375,
+    "restore_ns": 94761292,
+    "image_bytes": 124979047,
+    "pid_before": 1109,
+    "pid_after": 1109,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  },
+  {
+    "backend": "CRIU",
+    "kind": "tool",
+    "success": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "pre_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "mutated_digest": "a16e9df8f77926adaf04e69ab0466eaffab2ae9ec394c7821ac1847c804f25da",
+    "restored_digest": "393ba1eadec7d9ef02c6a6b05e77f85bd1e6c238e3ab381cdbb8c3cd0beade57",
+    "checkpoint_ns": 81054209,
+    "restore_ns": 51234709,
+    "image_bytes": 125011457,
+    "pid_before": 1138,
+    "pid_after": 1138,
+    "port_preserved": true,
+    "existing_socket_survived": false,
+    "new_connection_works": true,
+    "reconnect_required": true,
+    "size_mb": 100,
+    "mutation_keys": 1
+  }
+]

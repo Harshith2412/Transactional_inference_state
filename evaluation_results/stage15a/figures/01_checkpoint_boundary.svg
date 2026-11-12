@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="146"><text x="20" y="25" font-size="20">External process checkpoint boundary</text><text x="20" y="55" font-size="14">S0 → checkpoint → mutation S1 → reject → restore S0</text><text x="20" y="83" font-size="14">Unmanaged effects remain outside the boundary</text></svg>

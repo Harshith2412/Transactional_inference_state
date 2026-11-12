@@ -1,0 +1,5 @@
+{
+  "finding": "process restore is not arbitrary-world rollback",
+  "observer_effect_remains": true,
+  "service_restored": true
+}

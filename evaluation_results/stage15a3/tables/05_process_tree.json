@@ -1,0 +1,12 @@
+{
+  "checkpoint_success": true,
+  "child_pid_before": 1110,
+  "child_pid_preserved": true,
+  "classification": "RESTORE_FAILED",
+  "ipc": "not exercised",
+  "outcome": "PROCESS_TREE_NOT_SUPPORTED",
+  "parent_health_check": false,
+  "restore_command_success": false,
+  "restore_success": false,
+  "supported_scope_fallback": "SINGLE_PROCESS"
+}

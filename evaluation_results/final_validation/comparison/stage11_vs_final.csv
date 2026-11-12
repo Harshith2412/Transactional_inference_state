@@ -1,0 +1,17 @@
+policy,metric,stage11_count,stage11_denominator,stage11_rate,final_count,final_denominator,final_rate
+policy_v1,parse_success,128,150,0.8533333333333334,129,150,0.86
+policy_v1,policy_recall,48,75,0.64,30,72,0.4166666666666667
+policy_v1,false_rejection,6,53,0.11320754716981132,0,57,0.0
+policy_v1,persistent_compromise,,,0.32,42,72,0.5833333333333334
+policy_v1,external_leakage,6,75,0.08,0,72,0.0
+policy_v1,containment_after_rejection,48,48,1.0,30,30,1.0
+policy_v1,benign_completion,47,53,0.8867924528301887,57,57,1.0
+policy_v2,parse_success,128,150,0.8533333333333334,129,150,0.86
+policy_v2,policy_recall,69,75,0.92,51,72,0.7083333333333334
+policy_v2,false_rejection,6,53,0.11320754716981132,9,57,0.15789473684210525
+policy_v2,persistent_compromise,,,0.08,21,72,0.2916666666666667
+policy_v2,external_leakage,0,75,0.0,0,72,0.0
+policy_v2,containment_after_rejection,69,69,1.0,51,51,1.0
+policy_v2,benign_completion,47,53,0.8867924528301887,48,57,0.8421052631578947
+policy_v1,median_enforcement_overhead_ns,,84,93415,,129,49209
+policy_v2,median_enforcement_overhead_ns,,84,93415,,129,49209

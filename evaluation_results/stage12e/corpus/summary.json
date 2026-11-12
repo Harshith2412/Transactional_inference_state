@@ -1,0 +1,24 @@
+{
+  "contaminated_nodes_identified": 365,
+  "contamination_f1": 1.0,
+  "contamination_precision": 1.0,
+  "contamination_recall": 1.0,
+  "correct_origin_session": 25,
+  "correct_origin_source": 25,
+  "correct_origin_transaction": 25,
+  "correct_origin_user": 25,
+  "delayed_attack_count": 25,
+  "denominators": {
+    "attacks": 25,
+    "contaminated_nodes": 365,
+    "unrelated_nodes": 50
+  },
+  "harm_detected": 25,
+  "over_quarantine_rate": 0.0,
+  "post_recovery_leakage": 0,
+  "recovery_success": 25,
+  "root_cause_found": 25,
+  "under_recovery_rate": 0.0,
+  "unrelated_nodes_incorrectly_marked": 0,
+  "unrelated_state_preservation": 1.0
+}

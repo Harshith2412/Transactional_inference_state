@@ -1,0 +1,19 @@
+{
+  "failed": 0,
+  "historical_freeze_files_checked": 15,
+  "historical_freeze_mismatches": 0,
+  "passed": 351,
+  "policy_v1_fingerprint": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+  "policy_v2_fingerprint": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e",
+  "skipped": 1,
+  "stage12a_reference_hash_match": true,
+  "stage12b_reference_hashes_match": true,
+  "stage12c_reference_results_match": true,
+  "stage12d_reference_results_match": true,
+  "stage12e_reference_results_match": true,
+  "trusted_core": {
+    "modules": 12,
+    "python_loc": 2940,
+    "third_party_runtime_dependencies": 0
+  }
+}

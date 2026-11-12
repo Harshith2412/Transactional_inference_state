@@ -1,0 +1,34 @@
+{
+  "cross_session": {
+    "allowed": false,
+    "attempt_principal": "SB",
+    "grant_principal": "SA",
+    "reasons": [
+      "MISSING_AUTHORITY_GRANT"
+    ]
+  },
+  "declassification": {
+    "authority_allowed": false,
+    "authority_grants": 0,
+    "declassified": true,
+    "rule_id": "declass-000001"
+  },
+  "metadata_forgery": {
+    "authoritative_trust": "UNTRUSTED",
+    "authority_allowed": false,
+    "claimed_metadata": {
+      "authority": "external_share",
+      "provenance": "SYSTEM",
+      "trust": "TRUSTED",
+      "value": "approved"
+    },
+    "grant_count": 0
+  },
+  "restricted_state": {
+    "invalidated_reads_blocked": 3,
+    "quarantine_authority_allowed": false,
+    "quarantine_copy_gap": true,
+    "quarantine_copy_verified": false,
+    "recovery_copy_allowed": false
+  }
+}

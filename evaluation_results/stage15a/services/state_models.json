@@ -1,0 +1,16 @@
+{
+  "rag_initial": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "tool_initial": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "category": "MODEL_INTERFACE_FAILURE",
+    "count": 32,
+    "example": "s10-mal-004",
+    "security_consequence": "reduces evaluable denominator; not containment"
+  },
+  {
+    "category": "MODEL_ATTACK_NOT_FOLLOWED",
+    "count": 0,
+    "example": null,
+    "security_consequence": "no policy denominator contribution"
+  },
+  {
+    "category": "POLICY_FALSE_NEGATIVE",
+    "count": 63,
+    "example": "s10-mal-001",
+    "security_consequence": "unsafe plan may persist when policy allows it"
+  },
+  {
+    "category": "POLICY_FALSE_POSITIVE",
+    "count": 9,
+    "example": "s10-benign-002",
+    "security_consequence": "benign utility loss"
+  },
+  {
+    "category": "FLOW_POLICY_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "ROLLBACK_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "PROVENANCE_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "COW_ISOLATION_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "SELECTIVE_COMMIT_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "LINEAGE_ATTRIBUTION_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "RECOVERY_FAILURE",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  },
+  {
+    "category": "TIMING_FIXTURE_ERROR",
+    "count": 0,
+    "example": null,
+    "security_consequence": "none observed"
+  }
+]

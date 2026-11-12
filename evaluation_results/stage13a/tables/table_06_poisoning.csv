@@ -1,0 +1,3 @@
+metric,count,denominator,rate
+memory_poison_persistence,8,17,0.47058823529411764
+cache_poison_persistence,3,3,1.0

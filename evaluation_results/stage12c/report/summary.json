@@ -1,0 +1,126 @@
+{
+  "complexity": {
+    "modules": 10,
+    "python_loc": 2220,
+    "stage12b_frozen_modules": 9,
+    "stage12b_frozen_python_loc": 1958,
+    "third_party_runtime_dependencies": 0
+  },
+  "concurrency": [
+    {
+      "blocked_flows": 30,
+      "completed_transactions": 33,
+      "conflict_aborts": 27,
+      "declassified_flows_allowed": 30,
+      "false_blocks": 0,
+      "flow_decisions": 90,
+      "median_request_latency_ns": 52208.5,
+      "median_run_p95_latency_ns": 68792,
+      "median_run_throughput": 4691.998053247353,
+      "public_flows_allowed": 30,
+      "rollback_integrity": true,
+      "runs": 3,
+      "sessions": 10,
+      "total_transactions": 60,
+      "unauthorized_flows_allowed": 0
+    },
+    {
+      "blocked_flows": 75,
+      "completed_transactions": 78,
+      "conflict_aborts": 72,
+      "declassified_flows_allowed": 75,
+      "false_blocks": 0,
+      "flow_decisions": 225,
+      "median_request_latency_ns": 44584,
+      "median_run_p95_latency_ns": 63375,
+      "median_run_throughput": 5387.717785540235,
+      "public_flows_allowed": 75,
+      "rollback_integrity": true,
+      "runs": 3,
+      "sessions": 25,
+      "total_transactions": 150,
+      "unauthorized_flows_allowed": 0
+    },
+    {
+      "blocked_flows": 150,
+      "completed_transactions": 153,
+      "conflict_aborts": 147,
+      "declassified_flows_allowed": 150,
+      "false_blocks": 0,
+      "flow_decisions": 450,
+      "median_request_latency_ns": 45291.5,
+      "median_run_p95_latency_ns": 82166,
+      "median_run_throughput": 4688.128243656181,
+      "public_flows_allowed": 150,
+      "rollback_integrity": true,
+      "runs": 3,
+      "sessions": 50,
+      "total_transactions": 300,
+      "unauthorized_flows_allowed": 0
+    },
+    {
+      "blocked_flows": 300,
+      "completed_transactions": 303,
+      "conflict_aborts": 297,
+      "declassified_flows_allowed": 300,
+      "false_blocks": 0,
+      "flow_decisions": 900,
+      "median_request_latency_ns": 44583.0,
+      "median_run_p95_latency_ns": 71250,
+      "median_run_throughput": 4842.411856717348,
+      "public_flows_allowed": 300,
+      "rollback_integrity": true,
+      "runs": 3,
+      "sessions": 100,
+      "total_transactions": 600,
+      "unauthorized_flows_allowed": 0
+    }
+  ],
+  "flow_policy": {
+    "cross_session_leakage_rate": 0.0,
+    "dirty_reads_prevented_by_transaction_isolation": 1,
+    "flow_false_positive_rate": 0.0,
+    "flow_policy_precision": 1.0,
+    "flow_policy_recall": 1.0,
+    "flow_policy_trials": 11,
+    "unauthorized_cross_session_attempts": 10,
+    "unauthorized_flows_allowed": 0,
+    "unauthorized_flows_blocked": 10,
+    "valid_flows": 1,
+    "valid_flows_false_blocked": 0
+  },
+  "interpretation": {
+    "conflict_aborts_counted_as_policy_blocks": false,
+    "dirty_reads_counted_as_policy_blocks": false,
+    "stress_repetitions_per_scale": 3
+  },
+  "mixed_field": {
+    "after_outcomes": {
+      "display_name": "FLOW_DECLASSIFIED",
+      "private_token": "FLOW_DENIED_CROSS_USER",
+      "weather": "FLOW_PUBLIC_FIELD_ALLOWED"
+    },
+    "after_value": {
+      "display_name": "Alice",
+      "weather": "sunny"
+    },
+    "before_outcomes": {
+      "display_name": "FLOW_DENIED_CROSS_USER",
+      "private_token": "FLOW_DENIED_CROSS_USER",
+      "weather": "FLOW_PUBLIC_FIELD_ALLOWED"
+    },
+    "before_value": {
+      "weather": "sunny"
+    },
+    "provenance_unchanged": true,
+    "restricted_fields_leaked": 0
+  },
+  "overhead": {
+    "baseline_field_read_median_ns": 125.0,
+    "cross_session_declassified_median_ns": 5417.0,
+    "cross_session_denied_median_ns": 6084.0,
+    "iterations": 5000,
+    "provenance_field_read_median_ns": 1542.0,
+    "same_session_check_median_ns": 5875.0
+  }
+}

@@ -1,0 +1,13 @@
+category,count,example,security_consequence
+MODEL_INTERFACE_FAILURE,32,s10-mal-004,reduces evaluable denominator; not containment
+MODEL_ATTACK_NOT_FOLLOWED,0,,no policy denominator contribution
+POLICY_FALSE_NEGATIVE,63,s10-mal-001,unsafe plan may persist when policy allows it
+POLICY_FALSE_POSITIVE,9,s10-benign-002,benign utility loss
+FLOW_POLICY_FAILURE,0,,none observed
+ROLLBACK_FAILURE,0,,none observed
+PROVENANCE_FAILURE,0,,none observed
+COW_ISOLATION_FAILURE,0,,none observed
+SELECTIVE_COMMIT_FAILURE,0,,none observed
+LINEAGE_ATTRIBUTION_FAILURE,0,,none observed
+RECOVERY_FAILURE,0,,none observed
+TIMING_FIXTURE_ERROR,0,,none observed

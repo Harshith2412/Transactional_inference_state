@@ -1,0 +1,9 @@
+{
+  "figures": 8,
+  "native_environment": {
+    "platform": "linux",
+    "privileged_linuxkit": true
+  },
+  "scope": "ELIGIBLE_SINGLE_PROCESS",
+  "tables": 10
+}

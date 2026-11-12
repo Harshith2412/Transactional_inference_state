@@ -1,0 +1,73 @@
+{
+  "growth_queries": [
+    {
+      "ancestor_query_median_ns": 45000,
+      "ancestor_query_p95_ns": 52083,
+      "contamination_median_ns": 952375,
+      "contamination_p95_ns": 982166,
+      "descendant_query_median_ns": 44625,
+      "descendant_query_p95_ns": 46916,
+      "edge_creation_median_ns": 16000,
+      "edge_creation_p95_ns": 16584,
+      "edges": 99,
+      "estimated_bytes": 29827,
+      "estimated_commit_overhead_per_node_ns": 32125.0,
+      "node_creation_median_ns": 16125.0,
+      "node_creation_p95_ns": 18875,
+      "nodes": 100,
+      "recovery_planning_median_ns": 117375,
+      "recovery_planning_p95_ns": 127291,
+      "root_cause_query_median_ns": 787500,
+      "root_cause_query_p95_ns": 800416
+    },
+    {
+      "ancestor_query_median_ns": 375416,
+      "ancestor_query_p95_ns": 411250,
+      "contamination_median_ns": 9418500,
+      "contamination_p95_ns": 10793833,
+      "descendant_query_median_ns": 356625,
+      "descendant_query_p95_ns": 393209,
+      "edge_creation_median_ns": 16083,
+      "edge_creation_p95_ns": 16959,
+      "edges": 999,
+      "estimated_bytes": 301626,
+      "estimated_commit_overhead_per_node_ns": 32291.0,
+      "node_creation_median_ns": 16208.0,
+      "node_creation_p95_ns": 19291,
+      "nodes": 1000,
+      "recovery_planning_median_ns": 1259416,
+      "recovery_planning_p95_ns": 1393000,
+      "root_cause_query_median_ns": 7891000,
+      "root_cause_query_p95_ns": 9205041
+    },
+    {
+      "ancestor_query_median_ns": 4077208,
+      "ancestor_query_p95_ns": 5109917,
+      "contamination_median_ns": 99848584,
+      "contamination_p95_ns": 159804375,
+      "descendant_query_median_ns": 3920416,
+      "descendant_query_p95_ns": 4181459,
+      "edge_creation_median_ns": 16250,
+      "edge_creation_p95_ns": 17459,
+      "edges": 9999,
+      "estimated_bytes": 3046625,
+      "estimated_commit_overhead_per_node_ns": 32625.0,
+      "node_creation_median_ns": 16375.0,
+      "node_creation_p95_ns": 19875,
+      "nodes": 10000,
+      "recovery_planning_median_ns": 13808917,
+      "recovery_planning_p95_ns": 19748833,
+      "root_cause_query_median_ns": 85092000,
+      "root_cause_query_p95_ns": 97873709
+    }
+  ],
+  "recovery_operations": {
+    "contamination_analysis_median_ns": 94375,
+    "contamination_analysis_p95_ns": 111750,
+    "iterations": 15,
+    "recovery_application_median_ns": 32209,
+    "recovery_application_p95_ns": 36833,
+    "recovery_planning_median_ns": 9041,
+    "recovery_planning_p95_ns": 11291
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "attempted": 300,
+    "blocked": 300,
+    "leaked": 0,
+    "sessions": 100
+  },
+  {
+    "attempted": 1500,
+    "blocked": 1500,
+    "leaked": 0,
+    "sessions": 500
+  },
+  {
+    "attempted": 3000,
+    "blocked": 3000,
+    "leaked": 0,
+    "sessions": 1000
+  }
+]

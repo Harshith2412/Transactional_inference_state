@@ -1,0 +1,7 @@
+{
+  "checkpoint_success": true,
+  "filesystem_mutation_persists": true,
+  "observer_mutation_persists": true,
+  "process_state_reverted": true,
+  "restore_success": true
+}

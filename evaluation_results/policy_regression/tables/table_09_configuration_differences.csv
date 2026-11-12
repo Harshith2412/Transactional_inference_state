@@ -1,0 +1,12 @@
+setting,stage11,final,difference,evidence
+model tag,llama3.2:3b,llama3.2:3b,False,saved
+prompt version,explicit_schema_v2,explicit_schema_v2 (runner code; not saved per row),False,mixed saved/code
+prompt hash,e510f0338e0b6805037c40b8a5f6297f2b62289a20f7cf50a621b5de95b68c8f,e510f0338e0b6805037c40b8a5f6297f2b62289a20f7cf50a621b5de95b68c8f (instruction code; not saved per row),False,mixed saved/code
+full rendered prompt,UNKNOWN (not saved),reconstructable from final runner,UNKNOWN,insufficient historical evidence
+temperature,0,0,False,Stage11 gate artifact/final adapter default
+seed,0,0,False,Stage11 gate artifact/final adapter default
+top_p,0.9,0.9,False,Stage11 gate artifact/final adapter default
+num_predict,1024,1024,False,Stage11 gate artifact/final runner
+timeout seconds,30,45,True,saved Stage11 gate/final runner; no final timeouts
+structured output mode,Ollama format=json + explicit schema v2 prompt,Ollama format=json + explicit schema v2 prompt,False,adapter and artifacts
+Ollama version,0.32.9,0.32.9,False,saved/reported

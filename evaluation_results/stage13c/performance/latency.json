@@ -1,0 +1,22 @@
+{
+  "HYBRID_DETERMINISTIC": {
+    "median_ns": 69667.0,
+    "p95_ns": 85167
+  },
+  "POLICY_V2_BASELINE": {
+    "median_ns": 51312.5,
+    "p95_ns": 66125
+  },
+  "PROVENANCE_AWARE": {
+    "median_ns": 5124.5,
+    "p95_ns": 5667
+  },
+  "SEMANTIC_RULE": {
+    "median_ns": 5791.5,
+    "p95_ns": 7667
+  },
+  "SEQUENCE_AWARE": {
+    "median_ns": 5687.5,
+    "p95_ns": 7584
+  }
+}

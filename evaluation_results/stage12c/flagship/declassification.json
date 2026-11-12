@@ -1,0 +1,13 @@
+{
+  "after": {
+    "display_name": "FLOW_DECLASSIFIED",
+    "private_token": "FLOW_DENIED_CROSS_USER",
+    "weather": "FLOW_PUBLIC_FIELD_ALLOWED"
+  },
+  "before": {
+    "display_name": "FLOW_DENIED_CROSS_USER",
+    "private_token": "FLOW_DENIED_CROSS_USER",
+    "weather": "FLOW_PUBLIC_FIELD_ALLOWED"
+  },
+  "provenance_unchanged": true
+}

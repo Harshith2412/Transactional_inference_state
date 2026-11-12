@@ -1,0 +1,6 @@
+metric,stage13a_count,stage13a_denominator,stage13b_count,stage13b_denominator
+benign_completion,20,20,20,20
+policy_detection,9,20,9,20
+persistent_compromise,11,20,11,20
+external_effect_leakage,0,20,0,20
+containment_after_rejection,9,9,9,9

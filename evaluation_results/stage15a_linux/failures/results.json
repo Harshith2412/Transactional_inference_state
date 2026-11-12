@@ -1,0 +1,4 @@
+{
+  "criu_check_all": "AVAILABLE_WITH_KERNEL_LIMITATIONS",
+  "dmtcp_restart_without_participant": "FAIL_CLOSED"
+}

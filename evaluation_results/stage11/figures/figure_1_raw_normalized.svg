@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="298">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="30" font-family="sans-serif" font-size="18">Raw vs normalized parse success</text>
+<text x="20" y="69" font-family="sans-serif" font-size="12">llama3.2:3b raw</text>
+<rect x="250" y="52" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="68" font-family="sans-serif" font-size="12">0.900</text>
+<text x="20" y="107" font-family="sans-serif" font-size="12">qwen3:4b raw</text>
+<rect x="250" y="90" width="0.00" height="22" fill="#3569a8"/>
+<text x="260.00" y="106" font-family="sans-serif" font-size="12">0.000</text>
+<text x="20" y="145" font-family="sans-serif" font-size="12">llama3.2:3b raw</text>
+<rect x="250" y="128" width="568.89" height="22" fill="#3569a8"/>
+<text x="828.89" y="144" font-family="sans-serif" font-size="12">0.853</text>
+<text x="20" y="183" font-family="sans-serif" font-size="12">llama3.2:3b normalized</text>
+<rect x="250" y="166" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="182" font-family="sans-serif" font-size="12">0.900</text>
+<text x="20" y="221" font-family="sans-serif" font-size="12">qwen3:4b normalized</text>
+<rect x="250" y="204" width="0.00" height="22" fill="#3569a8"/>
+<text x="260.00" y="220" font-family="sans-serif" font-size="12">0.000</text>
+<text x="20" y="259" font-family="sans-serif" font-size="12">llama3.2:3b normalized</text>
+<rect x="250" y="242" width="568.89" height="22" fill="#3569a8"/>
+<text x="828.89" y="258" font-family="sans-serif" font-size="12">0.853</text>
+</svg>

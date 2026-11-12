@@ -1,0 +1,3 @@
+model,availability,attempts,raw_parse_successes,normalized_parse_successes,empty_outputs,timeouts,schema_failures,unknown_operations,invalid_provenance,other_parse_failures,qualification
+llama3.2:3b,AVAILABLE,10,9,9,0,0,1,0,0,0,QUALIFIED
+qwen3:4b,AVAILABLE,10,0,0,10,0,0,0,0,0,INTERFACE_UNRELIABLE

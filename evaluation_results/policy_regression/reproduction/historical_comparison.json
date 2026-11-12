@@ -1,0 +1,9 @@
+{
+  "compared_scenarios": 20,
+  "final_identical": 20,
+  "final_trial": 1,
+  "interpretation": "The current installed configuration exactly reproduces final subset outputs, not most Stage 11 subset outputs.",
+  "repetition": 1,
+  "stage11_identical": 7,
+  "stage11_trial": 1
+}

@@ -1,0 +1,25 @@
+{
+  "checkpoint_skew_ns": {
+    "max": 111306875,
+    "median": 61262646.0,
+    "min": 27533958,
+    "p95": 102401666,
+    "stdev": 21505495.56160293
+  },
+  "cycles": 20,
+  "negative": {
+    "barrier": false,
+    "checkpoint_skew_ns": 56919458,
+    "consistent_same_logical_moment": false,
+    "cycle": 99,
+    "health_oracle": false,
+    "intervening_mutation": true,
+    "rag_integrity": false,
+    "restore_commands": [
+      0,
+      0
+    ],
+    "tool_integrity": true
+  },
+  "successes": 20
+}

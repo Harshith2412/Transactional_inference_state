@@ -1,0 +1,29 @@
+{
+  "backend": "DMTCP",
+  "checkpoint_ns": 2814208,
+  "checkpoint_success": true,
+  "failure": "restart exited without restored participant",
+  "image_bytes": 59116404,
+  "initial": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  },
+  "kind": "tool",
+  "mutated": {
+    "counter": 1,
+    "history": [
+      "unsafe-operation"
+    ],
+    "key_value_store": {
+      "role": "admin"
+    }
+  },
+  "privileged": false,
+  "restore_command_success": true,
+  "restore_ns": 717026083,
+  "restored": null,
+  "success": false
+}

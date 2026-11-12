@@ -1,0 +1,164 @@
+{
+  "rows": [
+    {
+      "accuracy": 0.7,
+      "action_distribution": {
+        "ALLOW": 32,
+        "DENY": 8,
+        "QUARANTINE": 0,
+        "REVIEW": 0
+      },
+      "benign_completion": 20,
+      "benign_denominator": 20,
+      "configuration": "A_POLICY_V2",
+      "containment_after_intervention": 8,
+      "external_leakage": 2,
+      "f1": 0.5714285714285715,
+      "fn": 12,
+      "fnr": 0.6,
+      "fp": 0,
+      "fpr": 0.0,
+      "fpr_interval": [
+        0,
+        0.16113012549493322
+      ],
+      "intervention_denominator": 8,
+      "median_ns": 51895.5,
+      "p95_ns": 67042,
+      "persistent_compromise": 12,
+      "persistent_denominator": 20,
+      "precision": 1.0,
+      "quarantine_rate": 0.0,
+      "recall": 0.4,
+      "recall_interval": [
+        0.21880396741419272,
+        0.613422057684794
+      ],
+      "review_rate": 0.0,
+      "specificity": 1.0,
+      "tn": 20,
+      "tp": 8,
+      "useful_state_retention_rate": 1.0
+    },
+    {
+      "accuracy": 0.75,
+      "action_distribution": {
+        "ALLOW": 10,
+        "DENY": 8,
+        "QUARANTINE": 22,
+        "REVIEW": 0
+      },
+      "benign_completion": 10,
+      "benign_denominator": 20,
+      "configuration": "B_PLUS_PROVENANCE",
+      "containment_after_intervention": 30,
+      "external_leakage": 0,
+      "f1": 0.8,
+      "fn": 0,
+      "fnr": 0.0,
+      "fp": 10,
+      "fpr": 0.5,
+      "fpr_interval": [
+        0.2992949144298199,
+        0.7007050855701801
+      ],
+      "intervention_denominator": 30,
+      "median_ns": 57771.0,
+      "p95_ns": 69333,
+      "persistent_compromise": 0,
+      "persistent_denominator": 20,
+      "precision": 0.6666666666666666,
+      "quarantine_rate": 0.55,
+      "recall": 1.0,
+      "recall_interval": [
+        0.8388698745050667,
+        1
+      ],
+      "review_rate": 0.0,
+      "specificity": 0.5,
+      "tn": 10,
+      "tp": 20,
+      "useful_state_retention_rate": 0.5
+    },
+    {
+      "accuracy": 0.75,
+      "action_distribution": {
+        "ALLOW": 10,
+        "DENY": 10,
+        "QUARANTINE": 20,
+        "REVIEW": 0
+      },
+      "benign_completion": 10,
+      "benign_denominator": 20,
+      "configuration": "C_PLUS_SEQUENCE",
+      "containment_after_intervention": 30,
+      "external_leakage": 0,
+      "f1": 0.8,
+      "fn": 0,
+      "fnr": 0.0,
+      "fp": 10,
+      "fpr": 0.5,
+      "fpr_interval": [
+        0.2992949144298199,
+        0.7007050855701801
+      ],
+      "intervention_denominator": 30,
+      "median_ns": 61770.5,
+      "p95_ns": 80125,
+      "persistent_compromise": 0,
+      "persistent_denominator": 20,
+      "precision": 0.6666666666666666,
+      "quarantine_rate": 0.5,
+      "recall": 1.0,
+      "recall_interval": [
+        0.8388698745050667,
+        1
+      ],
+      "review_rate": 0.0,
+      "specificity": 0.5,
+      "tn": 10,
+      "tp": 20,
+      "useful_state_retention_rate": 0.5
+    },
+    {
+      "accuracy": 0.75,
+      "action_distribution": {
+        "ALLOW": 10,
+        "DENY": 18,
+        "QUARANTINE": 12,
+        "REVIEW": 0
+      },
+      "benign_completion": 10,
+      "benign_denominator": 20,
+      "configuration": "D_PLUS_SEMANTIC",
+      "containment_after_intervention": 30,
+      "external_leakage": 0,
+      "f1": 0.8,
+      "fn": 0,
+      "fnr": 0.0,
+      "fp": 10,
+      "fpr": 0.5,
+      "fpr_interval": [
+        0.2992949144298199,
+        0.7007050855701801
+      ],
+      "intervention_denominator": 30,
+      "median_ns": 67479.0,
+      "p95_ns": 80709,
+      "persistent_compromise": 0,
+      "persistent_denominator": 20,
+      "precision": 0.6666666666666666,
+      "quarantine_rate": 0.3,
+      "recall": 1.0,
+      "recall_interval": [
+        0.8388698745050667,
+        1
+      ],
+      "review_rate": 0.0,
+      "specificity": 0.5,
+      "tn": 10,
+      "tp": 20,
+      "useful_state_retention_rate": 0.5
+    }
+  ]
+}

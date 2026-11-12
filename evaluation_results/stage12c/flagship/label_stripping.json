@@ -1,0 +1,6 @@
+{
+  "allowed": false,
+  "leaked": false,
+  "outcome": "FLOW_DENIED_MISSING_PROVENANCE",
+  "raw_value_stored": true
+}

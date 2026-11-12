@@ -1,0 +1,9 @@
+{
+  "dependent_paths_blocked": [
+    "session_memory/k:d",
+    "session_memory/k:c"
+  ],
+  "normal_state_contains_branch": false,
+  "quarantine_count": 3,
+  "source_quarantined": true
+}

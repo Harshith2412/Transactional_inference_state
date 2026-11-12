@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="146">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="30" font-family="sans-serif" font-size="18">Stage 10 vs Stage 11 interface reliability</text>
+<text x="20" y="69" font-family="sans-serif" font-size="12">Stage 10 Llama explicit</text>
+<rect x="250" y="52" width="333.33" height="22" fill="#3569a8"/>
+<text x="593.33" y="68" font-family="sans-serif" font-size="12">0.500</text>
+<text x="20" y="107" font-family="sans-serif" font-size="12">Stage 11 Llama v2</text>
+<rect x="250" y="90" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="106" font-family="sans-serif" font-size="12">0.900</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "ambiguous_effects": 1,
+  "duplicate_effects": 0,
+  "incorrect_state_commits": 0,
+  "journal_corruption_detected": 1,
+  "lineage_mismatches": 0,
+  "lost_committed_state": 0,
+  "lost_effects": 0,
+  "provenance_mismatches": 0,
+  "quarantine_mismatches": 0,
+  "transactions_recovered": 13
+}

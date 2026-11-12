@@ -1,0 +1,9 @@
+metric,value
+model_compromise_rate,1.0
+policy_detection_rate,0.675
+policy_detection_given_compromise,0.675
+containment_given_rejection,1.0
+persistent_compromise_rate,0.325
+external_leakage_rate,0.0
+benign_completion_rate,1.0
+benign_false_rejection_rate,0.0

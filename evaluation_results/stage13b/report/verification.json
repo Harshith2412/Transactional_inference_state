@@ -1,0 +1,20 @@
+{
+  "pytest": {
+    "passed": 388,
+    "skipped": 1,
+    "failed": 0,
+    "elapsed_seconds": 2.33
+  },
+  "policy_fingerprints": {
+    "policy_v1": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+    "policy_v2": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e"
+  },
+  "historical_freeze": {
+    "files_checked": 15,
+    "mismatches": 0,
+    "result": "MATCH"
+  },
+  "automatic_workflows": 40,
+  "tables": 10,
+  "figures": 8
+}

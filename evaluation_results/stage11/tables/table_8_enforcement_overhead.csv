@@ -1,0 +1,2 @@
+count,maximum,mean,mean_interface_overhead_ns,median,median_generation_ns,minimum,model,overhead_fraction,overhead_percent,p90,p95,std_dev,timing_fixture_errors
+84,219291,101805.51190476191,226220.2857142857,93415.0,2298026187.0,54000,llama3.2:3b,4.608917637271266e-05,0.004608917637271266,141753,182499,35437.30700812286,44

@@ -1,0 +1,156 @@
+{
+  "configuration": {
+    "contention": "LOW",
+    "journal_mode": "disabled",
+    "repetition": 2,
+    "sessions": 1000,
+    "workload_mix": {
+      "conflict_heavy": 0.05,
+      "effects": 0.05,
+      "flow_policy": 0.1,
+      "private_state": 0.4,
+      "provenance_lineage": 0.15,
+      "selective_quarantine": 0.05,
+      "shared_cache": 0.2
+    }
+  },
+  "conflicts": {
+    "conflict_abort_rate": 0.0,
+    "conflict_aborts": 0,
+    "shared_write_attempts": 900
+  },
+  "correctness": {
+    "capability_blocks": 1000,
+    "declassified_flows_allowed": 1,
+    "duplicate_effects": 0,
+    "duplicate_logical_commits": 0,
+    "incorrect_commits": 0,
+    "journal_corruption": 0,
+    "lineage_mismatches": 0,
+    "lost_commits": 0,
+    "provenance_mismatches": 0,
+    "public_flows_allowed": 1,
+    "restricted_field_leaks": 0,
+    "rollback_failures": 0,
+    "sentinel_leaks": 0,
+    "sentinel_reads": 1000,
+    "transactions_aborted_due_to_conflict": 0,
+    "transactions_attempted": 1000,
+    "transactions_committed": 900,
+    "transactions_quarantined": 50,
+    "transactions_rolled_back": 50,
+    "unauthorized_flows_attempted": 1000,
+    "unauthorized_flows_blocked": 1000,
+    "unauthorized_flows_leaked": 0
+  },
+  "cow": {
+    "copied_nodes": 1000,
+    "copy_amplification": 1.0,
+    "logically_modified_nodes": 1000
+  },
+  "effects": {
+    "discarded": 0,
+    "duplicate": 0,
+    "executed": 50,
+    "failed": 0,
+    "staged": 50
+  },
+  "journal": {
+    "duplicate_logical_commits": 0,
+    "enabled": false,
+    "hash_chain_valid": true,
+    "records": 0,
+    "sequence_monotonic": true
+  },
+  "latency": {
+    "commit": {
+      "p50_us": 78.583,
+      "p90_us": 85.85810000000001,
+      "p95_us": 164.96525,
+      "p99_us": 182.91643000000002
+    },
+    "flow_policy": {
+      "p50_us": 8.125,
+      "p90_us": 8.958,
+      "p95_us": 9.291,
+      "p99_us": 10.044079999999997
+    },
+    "journal_append": {
+      "p50_us": 0.0,
+      "p90_us": 0.0,
+      "p95_us": 0.0,
+      "p99_us": 0.0
+    },
+    "rollback": {
+      "p50_us": 141.77100000000002,
+      "p90_us": 151.63299999999998,
+      "p95_us": 153.26905,
+      "p99_us": 164.88307999999998
+    },
+    "selective_resolution": {
+      "p50_us": 573.333,
+      "p90_us": 591.4080999999999,
+      "p95_us": 593.6375,
+      "p99_us": 652.9574999999998
+    },
+    "shared_state_conflict": {
+      "p50_us": 0.0,
+      "p90_us": 0.0,
+      "p95_us": 0.0,
+      "p99_us": 0.0
+    },
+    "transaction": {
+      "p50_us": 443873.1455,
+      "p90_us": 598371.8500000001,
+      "p95_us": 616819.3527500001,
+      "p99_us": 630968.67041
+    }
+  },
+  "lineage": {
+    "contamination_query_latency": {
+      "p50_us": 36.5005,
+      "p90_us": 38.0286,
+      "p95_us": 38.19605,
+      "p99_us": 46.38323000000001
+    },
+    "edges": 1000,
+    "estimated_bytes": 644000,
+    "nodes": 2000,
+    "root_query_latency": {
+      "p50_us": 11.896,
+      "p90_us": 13.2006,
+      "p95_us": 13.51425,
+      "p99_us": 17.43596000000001
+    }
+  },
+  "provenance": {
+    "average_edges_per_transaction": 1.0,
+    "average_labels_per_transaction": 2.0,
+    "coverage": 1.0,
+    "edges_created": 1000,
+    "labels_issued": 2000,
+    "propagation_latency": {
+      "p50_us": 385.89549999999997,
+      "p90_us": 414.75419999999997,
+      "p95_us": 422.00415,
+      "p99_us": 482.56616999999994
+    },
+    "unknown_lineage_rate": 0.0
+  },
+  "quarantine": {
+    "entries": 50
+  },
+  "resources": {
+    "journal_bytes": 0,
+    "lineage_estimated_bytes": 644000,
+    "quarantine_entries": 50,
+    "session_count": 1000,
+    "state_serialized_bytes": 83903,
+    "tracemalloc_peak_bytes": 12000636
+  },
+  "throughput": {
+    "elapsed_seconds": 0.857530583,
+    "operations_per_second": 8162.974171149765,
+    "transactions_per_second": 1166.1391673071093
+  }
+}

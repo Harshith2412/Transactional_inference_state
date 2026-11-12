@@ -1,0 +1,1466 @@
+{
+  "final_families": {
+    "capability_misuse": 6,
+    "cross_session_attack": 6,
+    "encoded_numeric_evasion": 6,
+    "hard_benign": 60,
+    "indirect_authorization_claim": 9,
+    "multi_field_composition": 6,
+    "multi_turn_memory_effect": 6,
+    "operation_sequence_abuse": 6,
+    "provenance_poisoning": 6,
+    "resource_budget_abuse": 6,
+    "scope_confusion": 6,
+    "security_alias_variation": 6,
+    "semantic_memory_poisoning": 9,
+    "simulated_exfiltration": 6,
+    "trusted_cache_poisoning": 6
+  },
+  "final_only_scenarios": [],
+  "final_records": 150,
+  "final_split": {
+    "benign": 60,
+    "malicious": 90
+  },
+  "final_trials": {
+    "1": 50,
+    "2": 50,
+    "3": 50
+  },
+  "matched_trials": 150,
+  "records": [
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-001:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-001",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-001:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-001",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-001:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-001",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-002:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-002",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-002:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-002",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-002:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-002",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-003:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-003",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-003:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-003",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-003:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-003",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-004:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-004",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-004:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-004",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-004:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-004",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-005:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-005",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-005:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-005",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-005:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-005",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-006:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-006",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-006:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-006",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-006:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-006",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-007:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-007",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-007:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-007",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-007:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-007",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-008:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-008",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-008:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-008",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-008:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-008",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-009:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-009",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-009:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-009",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-009:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-009",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-010:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-010",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-010:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-010",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-010:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-010",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-011:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-011",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-011:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-011",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-011:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-011",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-012:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-012",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-012:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-012",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-012:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-012",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-013:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-013",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-013:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-013",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-013:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-013",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-014:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-014",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-014:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-014",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-014:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-014",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-015:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-015",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-015:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-015",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-015:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-015",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-016:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-016",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-016:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-016",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-016:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-016",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-017:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-017",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-017:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-017",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "multi_field_composition",
+      "generation_id": "llama3.2:3b:s10-mal-017:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-017",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-018:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-018",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-018:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-018",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "operation_sequence_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-018:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-018",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-019:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-019",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-019:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-019",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "provenance_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-019:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-019",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-020:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-020",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-020:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-020",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "trusted_cache_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-020:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-020",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-021:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-021",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-021:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-021",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "scope_confusion",
+      "generation_id": "llama3.2:3b:s10-mal-021:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-021",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-022:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-022",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-022:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-022",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "security_alias_variation",
+      "generation_id": "llama3.2:3b:s10-mal-022:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-022",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-023:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-023",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-023:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-023",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "encoded_numeric_evasion",
+      "generation_id": "llama3.2:3b:s10-mal-023:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-023",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-024:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-024",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-024:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-024",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "cross_session_attack",
+      "generation_id": "llama3.2:3b:s10-mal-024:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-024",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-025:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-025",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-025:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-025",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "simulated_exfiltration",
+      "generation_id": "llama3.2:3b:s10-mal-025:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-025",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-026:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-026",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-026:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-026",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "multi_turn_memory_effect",
+      "generation_id": "llama3.2:3b:s10-mal-026:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-026",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-027:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-027",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-027:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-027",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "capability_misuse",
+      "generation_id": "llama3.2:3b:s10-mal-027:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-027",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-028:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-028",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-028:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-028",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "resource_budget_abuse",
+      "generation_id": "llama3.2:3b:s10-mal-028:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-028",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-029:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-029",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-029:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-029",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "semantic_memory_poisoning",
+      "generation_id": "llama3.2:3b:s10-mal-029:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-029",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-030:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-030",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-030:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-030",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "indirect_authorization_claim",
+      "generation_id": "llama3.2:3b:s10-mal-030:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-mal-030",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-001:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-001",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-001:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-001",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-001:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-001",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-002:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-002",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-002:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-002",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-002:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-002",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-003:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-003",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-003:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-003",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-003:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-003",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-004:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-004",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-004:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-004",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-004:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-004",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-005:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-005",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-005:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-005",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-005:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-005",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-006:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-006",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-006:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-006",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-006:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-006",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-007:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-007",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-007:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-007",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-007:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-007",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-008:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-008",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-008:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-008",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-008:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-008",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-009:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-009",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-009:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-009",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-009:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-009",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-010:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-010",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-010:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-010",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-010:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-010",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-011:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-011",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-011:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-011",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-011:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-011",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-012:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-012",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-012:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-012",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-012:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-012",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-013:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-013",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-013:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-013",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-013:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-013",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-014:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-014",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-014:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-014",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-014:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-014",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-015:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-015",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-015:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-015",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-015:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-015",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-016:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-016",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-016:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-016",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-016:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-016",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-017:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-017",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-017:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-017",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-017:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-017",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-018:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-018",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-018:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-018",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-018:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-018",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-019:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-019",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-019:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-019",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-019:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-019",
+      "trial_number": 3
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-020:1",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-020",
+      "trial_number": 1
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-020:2",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-020",
+      "trial_number": 2
+    },
+    {
+      "attack_family": "hard_benign",
+      "generation_id": "llama3.2:3b:s10-benign-020:3",
+      "generation_mode": "live localhost Ollama",
+      "model": "llama3.2:3b",
+      "prompt_version": "explicit_schema_v2",
+      "scenario_id": "s10-benign-020",
+      "trial_number": 3
+    }
+  ],
+  "scenario_order_identical": true,
+  "shared_scenario_count": 50,
+  "shared_scenarios": [
+    "s10-benign-001",
+    "s10-benign-002",
+    "s10-benign-003",
+    "s10-benign-004",
+    "s10-benign-005",
+    "s10-benign-006",
+    "s10-benign-007",
+    "s10-benign-008",
+    "s10-benign-009",
+    "s10-benign-010",
+    "s10-benign-011",
+    "s10-benign-012",
+    "s10-benign-013",
+    "s10-benign-014",
+    "s10-benign-015",
+    "s10-benign-016",
+    "s10-benign-017",
+    "s10-benign-018",
+    "s10-benign-019",
+    "s10-benign-020",
+    "s10-mal-001",
+    "s10-mal-002",
+    "s10-mal-003",
+    "s10-mal-004",
+    "s10-mal-005",
+    "s10-mal-006",
+    "s10-mal-007",
+    "s10-mal-008",
+    "s10-mal-009",
+    "s10-mal-010",
+    "s10-mal-011",
+    "s10-mal-012",
+    "s10-mal-013",
+    "s10-mal-014",
+    "s10-mal-015",
+    "s10-mal-016",
+    "s10-mal-017",
+    "s10-mal-018",
+    "s10-mal-019",
+    "s10-mal-020",
+    "s10-mal-021",
+    "s10-mal-022",
+    "s10-mal-023",
+    "s10-mal-024",
+    "s10-mal-025",
+    "s10-mal-026",
+    "s10-mal-027",
+    "s10-mal-028",
+    "s10-mal-029",
+    "s10-mal-030"
+  ],
+  "stage11_families": {
+    "capability_misuse": 6,
+    "cross_session_attack": 6,
+    "encoded_numeric_evasion": 6,
+    "hard_benign": 60,
+    "indirect_authorization_claim": 9,
+    "multi_field_composition": 6,
+    "multi_turn_memory_effect": 6,
+    "operation_sequence_abuse": 6,
+    "provenance_poisoning": 6,
+    "resource_budget_abuse": 6,
+    "scope_confusion": 6,
+    "security_alias_variation": 6,
+    "semantic_memory_poisoning": 9,
+    "simulated_exfiltration": 6,
+    "trusted_cache_poisoning": 6
+  },
+  "stage11_only_scenarios": [],
+  "stage11_records": 150,
+  "stage11_split": {
+    "benign": 60,
+    "malicious": 90
+  },
+  "stage11_trials": {
+    "1": 50,
+    "2": 50,
+    "3": 50
+  },
+  "trial_keys_identical": true
+}

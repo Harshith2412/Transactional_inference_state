@@ -1,0 +1,20 @@
+[
+  {
+    "lineage_bytes": 64400,
+    "sessions": 100,
+    "state_bytes": 8303,
+    "tracemalloc_peak_bytes": 1162157
+  },
+  {
+    "lineage_bytes": 322000,
+    "sessions": 500,
+    "state_bytes": 41903,
+    "tracemalloc_peak_bytes": 5976377
+  },
+  {
+    "lineage_bytes": 644000,
+    "sessions": 1000,
+    "state_bytes": 83903,
+    "tracemalloc_peak_bytes": 12012372
+  }
+]

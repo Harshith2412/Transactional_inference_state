@@ -1,0 +1,13 @@
+{
+  "cross_session_leakage_rate": 0.0,
+  "dirty_reads_prevented_by_transaction_isolation": 1,
+  "flow_false_positive_rate": 0.0,
+  "flow_policy_precision": 1.0,
+  "flow_policy_recall": 1.0,
+  "flow_policy_trials": 11,
+  "unauthorized_cross_session_attempts": 10,
+  "unauthorized_flows_allowed": 0,
+  "unauthorized_flows_blocked": 10,
+  "valid_flows": 1,
+  "valid_flows_false_blocked": 0
+}

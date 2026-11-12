@@ -1,0 +1,12 @@
+{
+  "experiments": [],
+  "finding": "native experiment not run on unsupported host",
+  "probe": {
+    "backend": "DMTCP",
+    "executable": null,
+    "reason": "native process checkpointing requires Linux",
+    "status": "HOST_UNSUPPORTED_FOR_NATIVE_CHECKPOINT",
+    "suitability": "UNAVAILABLE",
+    "version": null
+  }
+}

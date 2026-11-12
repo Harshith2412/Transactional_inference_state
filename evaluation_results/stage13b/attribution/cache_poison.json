@@ -1,0 +1,43 @@
+{
+  "automatic_edges": 9,
+  "cache_node": "auto-cache_write-000003",
+  "context_node": "auto-context_build-000005",
+  "correct_origin_session": true,
+  "correct_origin_source": true,
+  "correct_origin_transaction": true,
+  "correct_origin_user": true,
+  "dataflow_calls": 8,
+  "effect_executed": false,
+  "effect_node": "auto-effect_build-000007",
+  "gaps": [],
+  "graph": {
+    "edges": 9,
+    "estimated_bytes": 3481,
+    "nodes": 9,
+    "revision": 18
+  },
+  "persistent_compromise": true,
+  "policy_outcome_preserved": "accepted cache poison",
+  "provenance_coverage": 1.0,
+  "root_attribution": {
+    "sessions": [
+      "SA"
+    ],
+    "sources": [
+      "source-000001",
+      "source-000005"
+    ],
+    "transactions": [
+      "txn-000001",
+      "txn-000002"
+    ],
+    "users": [
+      "A"
+    ]
+  },
+  "source_id": "source-000001",
+  "transaction_ids": {
+    "origin": "txn-000001",
+    "reuse": "txn-000002"
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "case": "checkpoint_command_failure",
+    "rollback_reported_successful": false,
+    "safe_behavior": "STOP_AND_REPORT_FAILURE"
+  },
+  {
+    "case": "incomplete_checkpoint",
+    "rollback_reported_successful": false,
+    "safe_behavior": "STOP_AND_REPORT_FAILURE"
+  },
+  {
+    "case": "restore_failure",
+    "rollback_reported_successful": false,
+    "safe_behavior": "STOP_AND_REPORT_FAILURE"
+  },
+  {
+    "case": "process_killed_during_checkpoint",
+    "rollback_reported_successful": false,
+    "safe_behavior": "STOP_AND_REPORT_FAILURE"
+  },
+  {
+    "case": "process_killed_before_restore",
+    "rollback_reported_successful": false,
+    "safe_behavior": "STOP_AND_REPORT_FAILURE"
+  }
+]

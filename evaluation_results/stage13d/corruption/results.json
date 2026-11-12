@@ -1,0 +1,5 @@
+{
+  "journal_corruption_detected": 1,
+  "message": "JOURNAL_CORRUPTION at record 2",
+  "outcome": "JOURNAL_CORRUPTION"
+}

@@ -1,0 +1,29 @@
+{
+  "external_components": {
+    "checkpoint_ns": 57663084,
+    "health_check_ns": 370541,
+    "reconnect_ns": 465625,
+    "restore_ns": 25601792,
+    "verification_ns": 464083
+  },
+  "external_tool": {
+    "begin_ns": 78592084,
+    "checkpoint_ns": 57663084,
+    "restore_ns": 25601792,
+    "rollback_ns": 29895875
+  },
+  "local": {
+    "begin": {
+      "median_ns": 13979.0,
+      "p95_ns": 16250
+    },
+    "commit": {
+      "median_ns": 12625.0,
+      "p95_ns": 15875
+    },
+    "rollback": {
+      "median_ns": 2209.0,
+      "p95_ns": 2500
+    }
+  }
+}

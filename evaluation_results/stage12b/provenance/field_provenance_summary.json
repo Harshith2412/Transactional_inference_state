@@ -1,0 +1,39 @@
+{
+  "commit": {
+    "committed_after": true,
+    "committed_before": false,
+    "copied_nodes": 2,
+    "copy_amplification": 2.0,
+    "editor_provenance_unchanged": true,
+    "full_materialization_occurred": false,
+    "modified_field_new_provenance": true,
+    "modified_paths": 1,
+    "name_provenance_unchanged": true,
+    "outcome": "commit",
+    "structural_integrity": true,
+    "tentative_provenance_disappeared": false,
+    "tentative_value": true
+  },
+  "container_semantics": "container structure is not assigned the union of child labels",
+  "microbenchmark": {
+    "incremental_provenance_ns": 11958.0,
+    "iterations": 2000,
+    "mutation_with_provenance_median_ns": 18875.0,
+    "mutation_without_provenance_median_ns": 6917.0
+  },
+  "rollback": {
+    "committed_after": false,
+    "committed_before": false,
+    "copied_nodes": 2,
+    "copy_amplification": 2.0,
+    "editor_provenance_unchanged": true,
+    "full_materialization_occurred": false,
+    "modified_field_new_provenance": true,
+    "modified_paths": 1,
+    "name_provenance_unchanged": true,
+    "outcome": "rollback",
+    "structural_integrity": true,
+    "tentative_provenance_disappeared": true,
+    "tentative_value": true
+  }
+}

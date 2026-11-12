@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460"><rect width="100%" height="100%" fill="white"/><text x="380.0" y="25" text-anchor="middle" font-family="sans-serif" font-size="18">Ablation recall percent</text>
+<rect x="65.0" y="226.0" width="55" height="114.0" fill="#7c3aed"/><text x="92.0" y="221.0" text-anchor="middle" font-family="sans-serif" font-size="10">40.0</text><text x="92.0" y="360" transform="rotate(48 92.0 360)" font-family="sans-serif" font-size="9">A_POLICY_V2</text>
+<rect x="227.5" y="55.0" width="55" height="285.0" fill="#7c3aed"/><text x="254.5" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text><text x="254.5" y="360" transform="rotate(48 254.5 360)" font-family="sans-serif" font-size="9">B_PLUS_PROVENANCE</text>
+<rect x="390.0" y="55.0" width="55" height="285.0" fill="#7c3aed"/><text x="417.0" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text><text x="417.0" y="360" transform="rotate(48 417.0 360)" font-family="sans-serif" font-size="9">C_PLUS_SEQUENCE</text>
+<rect x="552.5" y="55.0" width="55" height="285.0" fill="#7c3aed"/><text x="579.5" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text><text x="579.5" y="360" transform="rotate(48 579.5 360)" font-family="sans-serif" font-size="9">D_PLUS_SEMANTIC</text>
+</svg>

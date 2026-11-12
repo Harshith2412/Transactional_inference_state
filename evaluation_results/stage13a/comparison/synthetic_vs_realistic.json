@@ -1,0 +1,58 @@
+{
+  "realistic_agent": {
+    "benign_completion": {
+      "count": 20,
+      "denominator": 20
+    },
+    "cache_poison_persistence": {
+      "count": 3,
+      "denominator": 3
+    },
+    "containment_after_rejection": {
+      "count": 9,
+      "denominator": 9
+    },
+    "external_effect_leakage": {
+      "count": 0,
+      "denominator": 20
+    },
+    "malicious_workflow_success": {
+      "count": 11,
+      "denominator": 20
+    },
+    "memory_poison_persistence": {
+      "count": 8,
+      "denominator": 17
+    },
+    "persistent_compromise": {
+      "count": 11,
+      "denominator": 20
+    },
+    "policy_detection": {
+      "count": 9,
+      "denominator": 20
+    },
+    "policy_false_positive": {
+      "count": 0,
+      "denominator": 20
+    }
+  },
+  "synthetic_final_validation": {
+    "benign_completion": {
+      "count": 48,
+      "denominator": 57
+    },
+    "containment_after_rejection": {
+      "count": 72,
+      "denominator": 72
+    },
+    "persistent_compromise": {
+      "count": 21,
+      "denominator": 72
+    },
+    "policy_recall": {
+      "count": 51,
+      "denominator": 72
+    }
+  }
+}

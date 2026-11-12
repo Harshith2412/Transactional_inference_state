@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180"><rect width="100%" height="100%" fill="white"/>
+<rect x="15" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="72" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">User</text>
+<path d="M130 80 L148 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="150" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="207" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Retrieve</text>
+<path d="M265 80 L283 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="285" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="342" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Context</text>
+<path d="M400 80 L418 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="420" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="477" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Plan</text>
+<path d="M535 80 L553 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="555" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="612" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Memory/Cache</text>
+<path d="M670 80 L688 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="690" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="747" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Tool/Effect</text>
+<path d="M805 80 L823 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="825" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="882" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Validate</text>
+<path d="M940 80 L958 80" stroke="#111" marker-end="url(#a)"/>
+<rect x="960" y="55" width="115" height="50" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="1017" y="84" text-anchor="middle" font-family="sans-serif" font-size="12">Commit/Rollback</text>
+<defs><marker id="a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z"/></marker></defs></svg>

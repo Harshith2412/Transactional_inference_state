@@ -1,0 +1,68 @@
+[
+  {
+    "cow": {
+      "copied_nodes": 100,
+      "copy_amplification": 1.0,
+      "logically_modified_nodes": 100
+    },
+    "provenance": {
+      "average_edges_per_transaction": 1.0,
+      "average_labels_per_transaction": 2.0,
+      "coverage": 1.0,
+      "edges_created": 100,
+      "labels_issued": 200,
+      "propagation_latency": {
+        "p50_us": 364.72900000000004,
+        "p90_us": 383.4458000000001,
+        "p95_us": 449.1252999999999,
+        "p99_us": 509.3306600000001
+      },
+      "unknown_lineage_rate": 0.0
+    },
+    "sessions": 100
+  },
+  {
+    "cow": {
+      "copied_nodes": 100,
+      "copy_amplification": 1.0,
+      "logically_modified_nodes": 100
+    },
+    "provenance": {
+      "average_edges_per_transaction": 1.0,
+      "average_labels_per_transaction": 2.0,
+      "coverage": 1.0,
+      "edges_created": 100,
+      "labels_issued": 200,
+      "propagation_latency": {
+        "p50_us": 355.1045,
+        "p90_us": 371.1455,
+        "p95_us": 444.25385000000006,
+        "p99_us": 527.9832400000096
+      },
+      "unknown_lineage_rate": 0.0
+    },
+    "sessions": 100
+  },
+  {
+    "cow": {
+      "copied_nodes": 100,
+      "copy_amplification": 1.0,
+      "logically_modified_nodes": 100
+    },
+    "provenance": {
+      "average_edges_per_transaction": 1.0,
+      "average_labels_per_transaction": 2.0,
+      "coverage": 1.0,
+      "edges_created": 100,
+      "labels_issued": 200,
+      "propagation_latency": {
+        "p50_us": 352.6875,
+        "p90_us": 360.51220000000006,
+        "p95_us": 365.35179999999997,
+        "p99_us": 455.27458
+      },
+      "unknown_lineage_rate": 0.0
+    },
+    "sessions": 100
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "accepted_commit": {
+    "checkpoint_released": true,
+    "commit_ns": 1520375,
+    "external_preserved": true,
+    "local_committed": true,
+    "status": "committed"
+  },
+  "comparison": {
+    "application_only": {
+      "external_contaminated": true,
+      "local_restored": true,
+      "rollback_ns": 8333
+    },
+    "expanded": {
+      "begin_ns": 40762791,
+      "checkpoint_bytes": 20236149,
+      "checkpoint_ns": 39435917,
+      "digest_match": true,
+      "external_restored": true,
+      "fresh_reconnect": true,
+      "health_check_ns": 519708,
+      "health_pass": true,
+      "initial": {
+        "authorization": "user",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {},
+        "summary_cache": {}
+      },
+      "initial_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+      "kind": "rag",
+      "local_restored": true,
+      "mutated": {
+        "authorization": "admin",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {
+          "poison": "approved disclosure"
+        },
+        "summary_cache": {}
+      },
+      "reconnect_ns": 518750,
+      "restore_ns": 42980209,
+      "restored": {
+        "authorization": "user",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {},
+        "summary_cache": {}
+      },
+      "restored_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+      "rollback_ns": 48728458,
+      "status": "rolled_back",
+      "transaction_id": "txn-000001",
+      "verification_ns": 616917
+    }
+  },
+  "environment": {
+    "platform": "linux",
+    "privileged_linuxkit": true
+  },
+  "performance": {
+    "external_tool": {
+      "begin_ns": 78592084,
+      "checkpoint_ns": 57663084,
+      "restore_ns": 25601792,
+      "rollback_ns": 29895875
+    },
+    "local": {
+      "begin": {
+        "median_ns": 13979.0,
+        "p95_ns": 16250
+      },
+      "commit": {
+        "median_ns": 12625.0,
+        "p95_ns": 15875
+      },
+      "rollback": {
+        "median_ns": 2209.0,
+        "p95_ns": 2500
+      }
+    }
+  },
+  "persistent_client_survival": false,
+  "rag": {
+    "begin_ns": 40762791,
+    "checkpoint_bytes": 20236149,
+    "checkpoint_ns": 39435917,
+    "digest_match": true,
+    "external_restored": true,
+    "fresh_reconnect": true,
+    "health_check_ns": 519708,
+    "health_pass": true,
+    "initial": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "initial_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+    "kind": "rag",
+    "local_restored": true,
+    "mutated": {
+      "authorization": "admin",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {
+        "poison": "approved disclosure"
+      },
+      "summary_cache": {}
+    },
+    "reconnect_ns": 518750,
+    "restore_ns": 42980209,
+    "restored": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "restored_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+    "rollback_ns": 48728458,
+    "status": "rolled_back",
+    "transaction_id": "txn-000001",
+    "verification_ns": 616917
+  },
+  "realistic_agent": {
+    "begin_ns": 40762791,
+    "checkpoint_bytes": 20236149,
+    "checkpoint_ns": 39435917,
+    "digest_match": true,
+    "external_restored": true,
+    "fresh_reconnect": true,
+    "health_check_ns": 519708,
+    "health_pass": true,
+    "initial": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "initial_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+    "kind": "rag",
+    "local_restored": true,
+    "mutated": {
+      "authorization": "admin",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {
+        "poison": "approved disclosure"
+      },
+      "summary_cache": {}
+    },
+    "reconnect_ns": 518750,
+    "restore_ns": 42980209,
+    "restored": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "restored_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+    "rollback_ns": 48728458,
+    "scenario": "Stage 13A-style malicious retrieval/cache persistence",
+    "status": "rolled_back",
+    "transaction_id": "txn-000001",
+    "verification_ns": 616917
+  },
+  "restore_failure": {
+    "checkpoint_retained": true,
+    "error": "CRIU restore failed",
+    "external_rollback": false,
+    "local_rollback": true,
+    "status": "external_rollback_failed"
+  },
+  "scope": "ELIGIBLE_SINGLE_PROCESS",
+  "tool": {
+    "begin_ns": 78592084,
+    "checkpoint_bytes": 20240304,
+    "checkpoint_ns": 57663084,
+    "digest_match": true,
+    "external_restored": true,
+    "fresh_reconnect": true,
+    "health_check_ns": 370541,
+    "health_pass": true,
+    "initial": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "initial_digest": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448",
+    "kind": "tool",
+    "local_restored": true,
+    "mutated": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    },
+    "reconnect_ns": 465625,
+    "restore_ns": 25601792,
+    "restored": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    },
+    "restored_digest": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448",
+    "rollback_ns": 29895875,
+    "status": "rolled_back",
+    "transaction_id": "txn-000001",
+    "verification_ns": 464083
+  }
+}

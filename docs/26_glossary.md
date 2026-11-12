@@ -1,0 +1,26 @@
+# Glossary
+
+- **Inference transaction:** scoped execution whose selected mutations/effects are tentative until validation.
+- **Tentative state:** transaction-visible mutation not yet committed globally.
+- **Committed state:** session/shared state visible outside the transaction.
+- **Rollback:** restore or discard tentative changes after rejection/abort.
+- **Transaction-local state:** private view owned by one transaction/session.
+- **Shared state:** explicit versioned application cache visible across sessions after commit.
+- **Dirty read:** observation of another transaction's uncommitted write.
+- **Optimistic concurrency control:** detect version changes at commit instead of locking throughout.
+- **Read set / write set:** observed versions / tentative replacements tracked by a transaction.
+- **Snapshot:** captured private-state representation used for isolation/restore.
+- **Delta:** key-level replacements/deletions over committed base state.
+- **Pending/deferred effect:** externally visible operation request withheld until commit.
+- **Partial effect failure:** some effects executed before a later effect failed; prior actions remain visible.
+- **Model compromise:** parsed operations match the malicious intent signature.
+- **Runtime containment:** a compromised trial produces no prohibited persistence, effect, or session violation.
+- **Persistent compromise:** prohibited state remains after execution.
+- **Provenance:** metadata describing information/operation origin.
+- **Claimed provenance:** untrusted source label emitted by the model.
+- **Runtime provenance:** source observed and assigned by trusted orchestration.
+- **Trusted computing base:** code assumed correct for containment claims.
+- **Fail-closed parsing:** invalid text yields no executable plan.
+- **Benign completion:** parsed, accepted benign trial with expected state/effect outcomes.
+- **False rejection:** benign trial not accepted.
+- **Rollback integrity:** structural equality plus matching canonical SHA-256 after rollback.

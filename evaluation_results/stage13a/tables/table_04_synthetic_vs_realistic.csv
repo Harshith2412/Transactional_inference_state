@@ -1,0 +1,5 @@
+metric,synthetic_count,synthetic_denominator,realistic_count,realistic_denominator
+policy_recall,51,72,,
+persistent_compromise,21,72,11,20
+containment_after_rejection,72,72,9,9
+benign_completion,48,57,20,20

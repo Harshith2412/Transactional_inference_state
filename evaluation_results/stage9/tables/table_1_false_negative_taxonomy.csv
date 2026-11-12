@@ -1,0 +1,5 @@
+category,count,percentage_of_false_negatives,example_scenarios
+SEMANTIC_MEMORY_POISONING,4,0.3076923076923077,"['semantic-4', 'semantic-5', 'semantic-6']"
+INDIRECT_AUTHORIZATION_CLAIM,1,0.07692307692307693,['paraphrase-3']
+MULTI_FIELD_COMPOSITION,4,0.3076923076923077,"['distributed-0', 'distributed-1', 'distributed-2']"
+OPERATION_SEQUENCE_ABUSE,4,0.3076923076923077,"['split-0', 'split-1', 'split-2']"

@@ -1,0 +1,23 @@
+{
+  "optional": {
+    "services": "Ollama localhost",
+    "stage11_evaluation_modules": 2
+  },
+  "trusted_core": {
+    "modules": {
+      "growth_percent": 0.0,
+      "stage10": 7,
+      "stage11": 7
+    },
+    "python_loc": {
+      "growth_percent": 0.0,
+      "stage10": 1210,
+      "stage11": 1210
+    },
+    "third_party_dependencies": {
+      "growth_percent": 0.0,
+      "stage10": 0,
+      "stage11": 0
+    }
+  }
+}

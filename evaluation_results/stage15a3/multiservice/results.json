@@ -1,0 +1,14 @@
+{
+  "atomic_status": "ATOMIC_MULTI_SERVICE_SNAPSHOT_NOT_ESTABLISHED",
+  "barrier_protocol": [
+    "stop new mutations",
+    "wait for in-flight operations",
+    "checkpoint participant A",
+    "checkpoint participant B",
+    "record checkpoint set",
+    "resume operations"
+  ],
+  "cycles": "20/20",
+  "median_skew_ns": 61262646.0,
+  "status": "MULTI_SERVICE_RESTORE_SUPPORTED_SEQUENTIALLY"
+}

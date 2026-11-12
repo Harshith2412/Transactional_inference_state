@@ -1,0 +1,11 @@
+{
+  "architecture": "arm64",
+  "container_detected": false,
+  "euid": 501,
+  "kernel": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132",
+  "native_checkpoint_supported": false,
+  "os": "Darwin",
+  "os_release": "25.5.0",
+  "python": "3.14.3",
+  "virtualization": "unknown (stdlib-only probe)"
+}

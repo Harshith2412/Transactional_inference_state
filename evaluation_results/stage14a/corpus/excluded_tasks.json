@@ -1,0 +1,22 @@
+[
+  {
+    "reason": "requires AIOS, hosted model APIs, vector DB, and broad tool surface; only memory subset selected",
+    "task_id": "ASB full 400+ tool execution"
+  },
+  {
+    "reason": "financial transfer cannot be faithfully represented by local email/cache tools",
+    "task_id": "AgentDojo banking transfer tasks"
+  },
+  {
+    "reason": "requires unsupported browser action and external environment",
+    "task_id": "AgentDojo browser/web tasks"
+  },
+  {
+    "reason": "requires unsafe credentials or external service",
+    "task_id": "AgentDojo real credential tasks"
+  },
+  {
+    "reason": "paper lifecycle definition is public but no official dataset repository was selected; not claimed as evaluated",
+    "task_id": "MemSecBench full 310 cases"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "authoritative_lineage": 34,
+  "classification": {
+    "ADAPTER_ONLY_TRANSFORM": 6,
+    "PROVENANCE_GAP": 0,
+    "SUPPORTED_TRANSFORM": 34,
+    "UNSUPPORTED_OPERATION": 0
+  },
+  "gap_rate": 0.15,
+  "provenance_coverage": 0.85,
+  "provenance_gaps": 0,
+  "tracked_derived_values": 40,
+  "unknown_unverified_lineage": 6
+}

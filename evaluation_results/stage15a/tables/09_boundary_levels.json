@@ -1,0 +1,6 @@
+{
+  "level_0": "InferenceState only",
+  "level_1": "InferenceState + tool checkpoint",
+  "level_2": "InferenceState + tool + RAG/cache checkpoints",
+  "level_3": "future external/durable services"
+}

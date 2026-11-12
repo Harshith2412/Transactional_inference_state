@@ -1,0 +1,11 @@
+{
+  "ambiguous_effects": 0,
+  "committed_transactions_recovered": 250,
+  "duplicate_effects": 0,
+  "lineage_mismatches": 0,
+  "provenance_mismatches": 0,
+  "repeated_recovery_equal": true,
+  "sessions": 500,
+  "state_mismatches": 0,
+  "uncommitted_discarded": 250
+}

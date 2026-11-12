@@ -1,0 +1,43 @@
+{
+  "begin_ns": 78592084,
+  "checkpoint_bytes": 20240304,
+  "checkpoint_ns": 57663084,
+  "digest_match": true,
+  "external_restored": true,
+  "fresh_reconnect": true,
+  "health_check_ns": 370541,
+  "health_pass": true,
+  "initial": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  },
+  "initial_digest": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448",
+  "kind": "tool",
+  "local_restored": true,
+  "mutated": {
+    "counter": 1,
+    "history": [
+      "unsafe-operation"
+    ],
+    "key_value_store": {
+      "role": "admin"
+    }
+  },
+  "reconnect_ns": 465625,
+  "restore_ns": 25601792,
+  "restored": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  },
+  "restored_digest": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448",
+  "rollback_ns": 29895875,
+  "status": "rolled_back",
+  "transaction_id": "txn-000001",
+  "verification_ns": 464083
+}

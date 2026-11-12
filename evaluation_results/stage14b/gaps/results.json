@@ -1,0 +1,38 @@
+[
+  {
+    "classification": "requires new trusted transform adapter",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-workspace_injection_task_1"
+  },
+  {
+    "classification": "generic state mutation is representable but external side effect is unobservable",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-workspace_injection_task_2"
+  },
+  {
+    "classification": "fundamentally external/unobservable",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-workspace_injection_task_5"
+  },
+  {
+    "classification": "requires new trusted transform adapter",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-travel_injection_task_0"
+  },
+  {
+    "classification": "generic state mutation is representable but external side effect is unobservable",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-travel_injection_task_1"
+  },
+  {
+    "classification": "fundamentally external/unobservable",
+    "decision": "left as gap",
+    "reason": "benchmark sandbox semantics cannot be inferred from local text or benchmark-specific rules",
+    "task_id": "agentdojo-travel_injection_task_2"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "criu_status": "AVAILABLE_AND_SUPPORTED",
+  "dmtcp_status": "AVAILABLE_WITH_LIMITATIONS",
+  "integration_justified": false,
+  "primary_backend": "CRIU",
+  "reasons": [
+    "CRIU restored both individual services exactly",
+    "CRIU completed 20/20 state-size trials",
+    "DMTCP restart did not restore a live participant",
+    "50-cycle and simultaneous multi-service gates remain unmeasured",
+    "Docker/LinuxKit required privileged mode"
+  ],
+  "secondary_comparison_backend": "DMTCP"
+}

@@ -1,0 +1,5 @@
+sessions,runs,total_transactions,completed_transactions,flow_decisions,blocked_flows,declassified_flows_allowed,public_flows_allowed,unauthorized_flows_allowed,false_blocks,conflict_aborts,rollback_integrity,median_run_throughput,median_request_latency_ns,median_run_p95_latency_ns
+10,3,60,33,90,30,30,30,0,0,27,True,4691.998053247353,52208.5,68792
+25,3,150,78,225,75,75,75,0,0,72,True,5387.717785540235,44584,63375
+50,3,300,153,450,150,150,150,0,0,147,True,4688.128243656181,45291.5,82166
+100,3,600,303,900,300,300,300,0,0,297,True,4842.411856717348,44583.0,71250

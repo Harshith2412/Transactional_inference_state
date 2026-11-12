@@ -1,0 +1,37 @@
+INITIAL TOOL STATE
+role=user
+counter=0
+
+INITIAL RAG STATE
+authorization=user
+cache={}
+
+CHECKPOINT
+
+INFERENCE-SIMULATED MUTATION
+
+TOOL STATE
+role=admin
+counter=1
+
+RAG STATE
+authorization=admin
+cache={"poison": "approved disclosure"}
+
+REJECT
+
+RESTORE
+
+FINAL TOOL STATE
+role=user
+counter=0
+
+FINAL RAG STATE
+authorization=user
+cache={}
+
+DIGESTS
+tool: MATCH
+rag: MATCH
+
+NOTE: CI oracle only; no native backend was claimed.

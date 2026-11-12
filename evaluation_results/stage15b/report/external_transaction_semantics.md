@@ -1,0 +1,3 @@
+# External transaction semantics
+
+BEGIN validates eligibility and creates the external checkpoint before local ACTIVE execution. Commit makes local state durable, preserves the participant mutation, then releases the checkpoint. Rollback uses deterministic local-first ordering, then invalidates clients, restores the original CRIU handle, reconnects, checks health, and verifies structural and SHA-256 equality. Local-first prevents tentative application state from remaining visible while external recovery is attempted, but it creates an explicitly recorded partial-failure interval and does not provide atomicity.

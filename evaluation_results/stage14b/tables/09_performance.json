@@ -1,0 +1,54 @@
+[
+  {
+    "correct_attribution": 20,
+    "depth": 1,
+    "edges": 1,
+    "estimated_bytes": 652,
+    "nodes": 2,
+    "propagation_median_ns": 46125.0,
+    "propagation_p95_ns": 51084,
+    "query_median_ns": 2604.5,
+    "query_p95_ns": 4709,
+    "success_rate": 1.0,
+    "trials": 20
+  },
+  {
+    "correct_attribution": 20,
+    "depth": 2,
+    "edges": 2,
+    "estimated_bytes": 1018,
+    "nodes": 3,
+    "propagation_median_ns": 92354.5,
+    "propagation_p95_ns": 94458,
+    "query_median_ns": 3354.5,
+    "query_p95_ns": 3625,
+    "success_rate": 1.0,
+    "trials": 20
+  },
+  {
+    "correct_attribution": 20,
+    "depth": 4,
+    "edges": 4,
+    "estimated_bytes": 1781,
+    "nodes": 5,
+    "propagation_median_ns": 181187.5,
+    "propagation_p95_ns": 188792,
+    "query_median_ns": 4125.0,
+    "query_p95_ns": 4625,
+    "success_rate": 1.0,
+    "trials": 20
+  },
+  {
+    "correct_attribution": 20,
+    "depth": 8,
+    "edges": 8,
+    "estimated_bytes": 3285,
+    "nodes": 9,
+    "propagation_median_ns": 357312.5,
+    "propagation_p95_ns": 364292,
+    "query_median_ns": 5604.5,
+    "query_p95_ns": 6042,
+    "success_rate": 1.0,
+    "trials": 20
+  }
+]

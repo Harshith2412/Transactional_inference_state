@@ -1,0 +1,30 @@
+{
+  "fingerprints": {
+    "HYBRID_DETERMINISTIC": "13cba36c7f4b004fbe6f414784777984bd82f5ba1aa6f614bebc40350856ec9c",
+    "POLICY_V2_BASELINE": "994d02bfda279874b751434fd96840c97c06699df60bc98022c7950afa6801c1",
+    "PROVENANCE_AWARE": "2098e3b676d8032733e7def21ab4c1ae268bd8999257b24c16f3f1c9f7d3f318",
+    "SEMANTIC_RULE": "3623808590f95dfbc16245ea29842fc69a6dd0e5e494a88c72cff51df617f82c",
+    "SEQUENCE_AWARE": "e2dd7bbdc0fe56b5daf12ee18e1c10c21940d80592173715739793e24bf6e413"
+  },
+  "mapping": {
+    "non_intervention": [
+      "ALLOW"
+    ],
+    "security_intervention": [
+      "DENY",
+      "QUARANTINE",
+      "REVIEW"
+    ]
+  },
+  "optional": {
+    "llm_judge": {
+      "advisory": true,
+      "available": false,
+      "reason": "not run: optional advisory judge excluded from deterministic headline"
+    },
+    "ml": {
+      "available": false,
+      "reason": "not implemented: no required third-party evaluation dependency added"
+    }
+  }
+}

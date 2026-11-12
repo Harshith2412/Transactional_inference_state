@@ -1,0 +1,5 @@
+{
+  "paper_limitation": "Native CRIU checkpoint evidence remains limited to the privileged Docker Desktop LinuxKit environment.",
+  "reason": "only Docker Desktop LinuxKit context available",
+  "status": "SECOND_ENVIRONMENT_UNAVAILABLE"
+}

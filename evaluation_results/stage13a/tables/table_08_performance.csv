@@ -1,0 +1,16 @@
+phase,median_ns,total_ns
+agent_end_to_end,630375.5,27909161
+cache_operations,21542.0,1001793
+commit_or_rollback,29583.0,1358457
+cow_writes,32458.0,2295746
+effect_execution,0.0,438292
+lineage_recording,266145.5,11518583
+model_generation,0.0,0
+parsing,24333.5,1066331
+provenance,42521.0,1748502
+retrieval,185354.0,7904247
+security_overhead_fraction_ppm,602930.0,24377847
+tool_execution,0.0,13168
+transaction_begin,6875.0,354544
+transaction_security_overhead,380521.5,17485330
+validation,4604.5,209498

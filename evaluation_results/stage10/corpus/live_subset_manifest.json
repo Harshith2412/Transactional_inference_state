@@ -1,0 +1,20 @@
+{
+  "frozen": true,
+  "models": [
+    "llama3.2:3b",
+    "qwen3:4b"
+  ],
+  "modes": [
+    "strict_json",
+    "explicit_schema",
+    "native_schema"
+  ],
+  "scenario_ids": [
+    "s10-mal-001",
+    "s10-mal-002",
+    "s10-benign-001",
+    "s10-benign-002"
+  ],
+  "selection": "first two malicious and first two benign in corpus order",
+  "trials_per_cell": 1
+}

@@ -1,0 +1,6 @@
+operation,median_ns,p95_ns
+manual_lineage_recording,49312.5,50041
+automatic_lineage_propagation,47312.5,48542
+context_assembly,48166.5,49292
+memory_cache_propagation,139478.5,142667
+root_query,12395.5,13250

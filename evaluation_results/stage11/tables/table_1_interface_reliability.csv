@@ -1,0 +1,4 @@
+attempts,mode,model,normalized_ci95_high,normalized_ci95_low,normalized_count,normalized_denominator,normalized_parse_rate,normalized_parse_success,normalized_rate,qualification,raw_parse_rate,raw_parse_success,timeout_rate
+10,explicit_schema_v2_gate,llama3.2:3b,0.9821237869049271,0.5958499732047615,9,10,0.9,9,0.9,QUALIFIED,0.9,9,0.0
+10,explicit_schema_v2_gate,qwen3:4b,0.2775327998628892,0.0,0,10,0.0,0,0.0,INTERFACE_UNRELIABLE,0.0,0,0.0
+150,explicit_schema_v2_full,llama3.2:3b,0.9011056278741189,0.7879153994391072,128,150,0.8533333333333334,128,0.8533333333333334,QUALIFIED,0.8533333333333334,128,0.0

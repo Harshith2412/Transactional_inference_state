@@ -1,0 +1,23 @@
+{
+  "rag50": {
+    "checkpoint_bytes": 1005355610,
+    "fds": 0,
+    "processes": 0,
+    "rss_kb": 128,
+    "sockets": 497
+  },
+  "tool100": {
+    "checkpoint_bytes": 2010539542,
+    "fds": 0,
+    "processes": 0,
+    "rss_kb": 128,
+    "sockets": 1090
+  },
+  "tool50": {
+    "checkpoint_bytes": 1005144972,
+    "fds": 0,
+    "processes": 0,
+    "rss_kb": 284,
+    "sockets": 550
+  }
+}

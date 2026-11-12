@@ -1,0 +1,24 @@
+{
+  "atomic_multiservice": false,
+  "integration_justified": true,
+  "process_tree_status": "NO",
+  "reasons": [
+    "fresh single-process health-oracle cycles passed",
+    "eligibility is fail-closed",
+    "filesystem and observer state remain external",
+    "persistent clients do not survive",
+    "privileged LinuxKit is the only reproduced environment"
+  ],
+  "reconnect_required": true,
+  "second_environment_status": "UNAVAILABLE",
+  "supported_scope": [
+    "SINGLE_PROCESS"
+  ],
+  "unsupported_scope": [
+    "FILESYSTEM_DEPENDENT",
+    "UNMANAGED_EFFECTS",
+    "PERSISTENT_SOCKET_REQUIRED",
+    "PROCESS_TREE",
+    "ATOMIC_MULTI_SERVICE_GROUP"
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "backends": [
+    {
+      "backend": "CRIU",
+      "executable": null,
+      "reason": "native process checkpointing requires Linux",
+      "status": "HOST_UNSUPPORTED_FOR_NATIVE_CHECKPOINT",
+      "suitability": "UNAVAILABLE",
+      "version": null
+    },
+    {
+      "backend": "DMTCP",
+      "executable": null,
+      "reason": "native process checkpointing requires Linux",
+      "status": "HOST_UNSUPPORTED_FOR_NATIVE_CHECKPOINT",
+      "suitability": "UNAVAILABLE",
+      "version": null
+    }
+  ],
+  "baseline": {
+    "after_digest": {
+      "rag": "ced00e765da34e4c4f4e94b51ff2a00f62d799610995bb1a5cec02f0c5285e79",
+      "tool": "00e344624cccf479f86182c314a82e1aa7ca04fc445d7d4576788313a36d2ef4"
+    },
+    "before_digest": {
+      "rag": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+      "tool": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448"
+    },
+    "initial": {
+      "rag": {
+        "authorization": "user",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {},
+        "summary_cache": {}
+      },
+      "tool": {
+        "counter": 0,
+        "history": [],
+        "key_value_store": {
+          "role": "user"
+        }
+      }
+    },
+    "mutated": {
+      "rag": {
+        "authorization": "admin",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {
+          "poison": "approved disclosure"
+        },
+        "summary_cache": {}
+      },
+      "tool": {
+        "counter": 1,
+        "history": [
+          "unsafe-operation"
+        ],
+        "key_value_store": {
+          "role": "admin"
+        }
+      }
+    },
+    "mutation_persists": true
+  },
+  "boundary_levels": {
+    "level_0": "InferenceState only",
+    "level_1": "InferenceState + tool checkpoint",
+    "level_2": "InferenceState + tool + RAG/cache checkpoints",
+    "level_3": "future external/durable services"
+  },
+  "environment": {
+    "architecture": "arm64",
+    "container_detected": false,
+    "euid": 501,
+    "kernel": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132",
+    "native_checkpoint_supported": false,
+    "os": "Darwin",
+    "os_release": "25.5.0",
+    "python": "3.14.3",
+    "virtualization": "unknown (stdlib-only probe)"
+  },
+  "external_effects": {
+    "finding": "process restore is not arbitrary-world rollback",
+    "observer_effect_remains": true,
+    "service_restored": true
+  },
+  "failure_injection": [
+    {
+      "case": "checkpoint_command_failure",
+      "rollback_reported_successful": false,
+      "safe_behavior": "STOP_AND_REPORT_FAILURE"
+    },
+    {
+      "case": "incomplete_checkpoint",
+      "rollback_reported_successful": false,
+      "safe_behavior": "STOP_AND_REPORT_FAILURE"
+    },
+    {
+      "case": "restore_failure",
+      "rollback_reported_successful": false,
+      "safe_behavior": "STOP_AND_REPORT_FAILURE"
+    },
+    {
+      "case": "process_killed_during_checkpoint",
+      "rollback_reported_successful": false,
+      "safe_behavior": "STOP_AND_REPORT_FAILURE"
+    },
+    {
+      "case": "process_killed_before_restore",
+      "rollback_reported_successful": false,
+      "safe_behavior": "STOP_AND_REPORT_FAILURE"
+    }
+  ],
+  "filesystem": {
+    "file_value_after_process_restore": "mutated",
+    "filesystem_restored": false,
+    "memory_restored": true
+  },
+  "multi_process": {
+    "atomicity": "NOT_DEMONSTRATED",
+    "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+  },
+  "oracle": {
+    "backend": "IN_MEMORY_TEST_ORACLE",
+    "digest_match": {
+      "rag": true,
+      "tool": true
+    },
+    "final": {
+      "rag": {
+        "authorization": "user",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {},
+        "summary_cache": {}
+      },
+      "tool": {
+        "counter": 0,
+        "history": [],
+        "key_value_store": {
+          "role": "user"
+        }
+      }
+    },
+    "initial": {
+      "rag": {
+        "authorization": "user",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {},
+        "summary_cache": {}
+      },
+      "tool": {
+        "counter": 0,
+        "history": [],
+        "key_value_store": {
+          "role": "user"
+        }
+      }
+    },
+    "is_native_checkpoint": false,
+    "mutated": {
+      "rag": {
+        "authorization": "admin",
+        "documents": {},
+        "query_history": [],
+        "retrieval_cache": {
+          "poison": "approved disclosure"
+        },
+        "summary_cache": {}
+      },
+      "tool": {
+        "counter": 1,
+        "history": [
+          "unsafe-operation"
+        ],
+        "key_value_store": {
+          "role": "admin"
+        }
+      }
+    },
+    "structural_match": true
+  },
+  "performance": [
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "CRIU",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 1,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 10,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 50,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 1,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 100,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    },
+    {
+      "backend": "DMTCP",
+      "checkpoint_bytes": null,
+      "checkpoint_latency_ns": null,
+      "mutation_keys": 10000,
+      "restore_latency_ns": null,
+      "state_mb": 100,
+      "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+    }
+  ],
+  "recommendation": {
+    "reason": "native backends unavailable on macOS; run Linux feasibility scripts first",
+    "stage15b_justified_on_this_host": false
+  },
+  "repeated_cycles": {
+    "cycles": [
+      10,
+      50,
+      100
+    ],
+    "status": "NOT_RUN_BACKEND_UNAVAILABLE"
+  },
+  "schema_version": 1,
+  "socket_behavior": {
+    "port_preserved": null,
+    "reconnect_required": null,
+    "status": "NOT_MEASURED_NATIVE_BACKEND_UNAVAILABLE"
+  },
+  "transcript": "INITIAL TOOL STATE\nrole=user\ncounter=0\n\nINITIAL RAG STATE\nauthorization=user\ncache={}\n\nCHECKPOINT\n\nINFERENCE-SIMULATED MUTATION\n\nTOOL STATE\nrole=admin\ncounter=1\n\nRAG STATE\nauthorization=admin\ncache={\"poison\": \"approved disclosure\"}\n\nREJECT\n\nRESTORE\n\nFINAL TOOL STATE\nrole=user\ncounter=0\n\nFINAL RAG STATE\nauthorization=user\ncache={}\n\nDIGESTS\ntool: MATCH\nrag: MATCH\n\nNOTE: CI oracle only; no native backend was claimed."
+}

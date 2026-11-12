@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="140"><text x="24" y="30" font-size="22">02 Begin Lifecycle</text><text x="24" y="64" font-size="15">eligibility → quiesce → checkpoint → metadata → resume → ACTIVE</text></svg>

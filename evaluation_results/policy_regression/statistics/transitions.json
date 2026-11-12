@@ -1,0 +1,394 @@
+{
+  "benign_matrix": {
+    "stage11_accept_final_accept": 36,
+    "stage11_accept_final_reject": 9,
+    "stage11_reject_final_accept": 6,
+    "stage11_reject_final_reject": 0
+  },
+  "malicious_matrix": {
+    "stage11_detect_final_detect": 45,
+    "stage11_detect_final_miss": 12,
+    "stage11_miss_final_detect": 0,
+    "stage11_miss_final_miss": 6
+  },
+  "rows": [
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-001",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-001",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-001",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-002",
+      "stage11": "MISS",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-002",
+      "stage11": "MISS",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-002",
+      "stage11": "MISS",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-003",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-003",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-003",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-005",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-005",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-005",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-006",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-006",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-006",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-007",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-007",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-007",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-009",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-009",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-009",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-010",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-010",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-010",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-011",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-011",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-011",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-012",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-012",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-012",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-013",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-013",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-013",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-017",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-017",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-017",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-019",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-019",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-019",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-020",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-020",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-020",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-021",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-021",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-021",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-023",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-023",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-023",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-025",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-025",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-025",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-026",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-026",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-026",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-027",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-027",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "DETECT",
+      "scenario_id": "s10-mal-027",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-029",
+      "stage11": "DETECT",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-029",
+      "stage11": "DETECT",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-029",
+      "stage11": "DETECT",
+      "trial": 3
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-030",
+      "stage11": "MISS",
+      "trial": 1
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-030",
+      "stage11": "MISS",
+      "trial": 2
+    },
+    {
+      "final": "MISS",
+      "scenario_id": "s10-mal-030",
+      "stage11": "MISS",
+      "trial": 3
+    }
+  ]
+}

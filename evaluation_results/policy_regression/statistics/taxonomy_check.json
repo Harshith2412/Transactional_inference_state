@@ -1,0 +1,10 @@
+{
+  "aggregate_policy_decisions": 63,
+  "no_double_count_bug": true,
+  "policy_v1_false_negatives": 42,
+  "policy_v1_false_positives": 0,
+  "policy_v2_false_negatives": 21,
+  "policy_v2_false_positives": 9,
+  "reported_false_positive_count": 9,
+  "reported_taxonomy_count": 63
+}

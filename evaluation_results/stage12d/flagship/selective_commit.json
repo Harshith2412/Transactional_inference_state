@@ -1,0 +1,38 @@
+{
+  "benign_fields_committed": 2,
+  "benign_fields_false_rejected": 0,
+  "benign_fields_proposed": 2,
+  "benign_fields_quarantined": 0,
+  "blocked_dependent_paths": [
+    "session_memory/k:note"
+  ],
+  "committed_paths": [
+    "session_memory/k:preferences/k:editor",
+    "session_memory/k:profile/k:display_name"
+  ],
+  "committed_provenance_preserved": true,
+  "dependent_fields_correctly_blocked": 1,
+  "external_effect_leakage": 0,
+  "malicious_fields_committed": 0,
+  "malicious_fields_proposed": 2,
+  "malicious_fields_quarantined": 2,
+  "malicious_fields_rejected": 0,
+  "normal_state": {
+    "authorization": {
+      "external_sharing": false
+    },
+    "preferences": {
+      "editor": "Vim"
+    },
+    "profile": {
+      "display_name": "Alice M."
+    }
+  },
+  "quarantine_count": 2,
+  "quarantined_paths": [
+    "session_memory/k:authorization/k:external_sharing",
+    "session_memory/k:note"
+  ],
+  "status": "partially_committed",
+  "transaction_id": "txn-000001"
+}

@@ -1,0 +1,6 @@
+{
+  "contaminated_lineage_found": 10,
+  "post_recovery_reuse_blocked": 10,
+  "root_found": 10,
+  "unrelated_preserved": 10
+}

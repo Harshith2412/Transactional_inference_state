@@ -1,0 +1,7 @@
+{
+  "architecture": "aarch64",
+  "criu": "Version: 4.2.1",
+  "euid": 0,
+  "kernel": "6.12.54-linuxkit",
+  "privileged": true
+}

@@ -1,0 +1,11 @@
+{
+  "all_match": true,
+  "checks": {
+    "evaluation_results/stage12a/summary.json": true,
+    "evaluation_results/stage12b/benchmark/raw_results.json": true,
+    "evaluation_results/stage12b/benchmark/summary.json": true,
+    "stage12c_controlled_results": true,
+    "stage12d_controlled_results": true,
+    "stage12e_controlled_results": true
+  }
+}

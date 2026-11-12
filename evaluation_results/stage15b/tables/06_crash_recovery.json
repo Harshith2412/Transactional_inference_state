@@ -1,0 +1,5 @@
+{
+  "after_restore_before_complete": "EXTERNAL_RESTORE_VERIFICATION_REQUIRED",
+  "automatic_success_claim": false,
+  "during_restore": "EXTERNAL_ROLLBACK_INCOMPLETE"
+}

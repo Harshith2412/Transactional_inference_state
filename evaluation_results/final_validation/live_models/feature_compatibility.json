@@ -1,0 +1,37 @@
+{
+  "flow_policy": {
+    "declassified_allowed": 9,
+    "eligible_plans": 9,
+    "median_validation_ns": 28708,
+    "public_allowed": 9,
+    "unauthorized_blocked": 9
+  },
+  "lineage": {
+    "cross_transaction_ancestry_preserved": 6,
+    "eligible_plans": 6,
+    "median_query_ns": 36125.0,
+    "root_cause_correct": 6,
+    "source_lineage_created": 6
+  },
+  "provenance_and_cow": {
+    "cow_sibling_unchanged": 129,
+    "cow_transaction_local": 129,
+    "denominator": 129,
+    "field_provenance_denominator": 111,
+    "field_provenance_preserved": 111,
+    "model_claimed_provenance_ignored": 129,
+    "origin_session_correct": 129,
+    "origin_transaction_correct": 129,
+    "provenance_issued": 129,
+    "rollback_integrity": 129,
+    "tentative_provenance_removed": 129
+  },
+  "selective_commit": {
+    "dependent_effects_suppressed": 6,
+    "eligible_mixed_pairs": 6,
+    "median_resolution_ns": 102750.0,
+    "safe_fields_committed": 6,
+    "unsafe_fields_not_committed": 6,
+    "unsafe_fields_quarantined": 6
+  }
+}

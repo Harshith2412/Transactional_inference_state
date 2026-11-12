@@ -1,0 +1,35 @@
+{
+  "final": {
+    "composition_plans": 9,
+    "indirect_authorization_plans": 6,
+    "operation_count_distribution": {
+      "1": 63,
+      "2": 9
+    },
+    "operation_type_counts": {
+      "CACHE_WRITE": 15,
+      "EMAIL_SEND": 18,
+      "MEMORY_WRITE": 48
+    },
+    "plans": 72,
+    "plans_with_effect": 18,
+    "single_field_plans": 63
+  },
+  "stage11": {
+    "composition_plans": 42,
+    "indirect_authorization_plans": 6,
+    "operation_count_distribution": {
+      "1": 33,
+      "2": 42
+    },
+    "operation_type_counts": {
+      "CACHE_READ": 3,
+      "CACHE_WRITE": 39,
+      "EMAIL_SEND": 24,
+      "MEMORY_WRITE": 51
+    },
+    "plans": 75,
+    "plans_with_effect": 24,
+    "single_field_plans": 33
+  }
+}

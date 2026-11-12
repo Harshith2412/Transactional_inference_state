@@ -1,0 +1,12 @@
+{
+  "contamination_f1": 1.0,
+  "contamination_precision": 1.0,
+  "contamination_recall": 1.0,
+  "denominators": {
+    "attacks": 25,
+    "contaminated_nodes": 365,
+    "unrelated_nodes": 50
+  },
+  "over_quarantine_rate": 0.0,
+  "under_recovery_rate": 0.0
+}

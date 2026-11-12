@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="170"><text x="24" y="30" font-size="22">01 Expanded Architecture</text><text x="24" y="64" font-size="15">TransactionManager → scoped coordinator → one CRIU participant</text><text x="24" y="94" font-size="15">eligible single process only</text></svg>

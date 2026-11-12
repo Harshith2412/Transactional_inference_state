@@ -1,0 +1,5 @@
+benign_completion_rate,duplicate_operation_id_rate,extra_field_count,extra_field_rate,invalid_type_rate,malformed_output_count,malformed_output_rate,missing_field_count,missing_field_rate,model,other_parse_failure_count,parse_failure_rate,parse_success_rate,prompt_configuration,trials,unavailable_trials,unknown_operation_count,unknown_operation_rate,valid_schema_policy_rejection_rate
+1.0,0.0,4,0.04,0.0,,0.0,,0.0,llama3.2:3b,,0.04,0.96,explicit_schema,100,0,,0.0,0.46
+0.010101010101010102,0.0,34,0.08542713567839195,0.0,2,0.005025125628140704,56,0.1407035175879397,llama3.2:3b,258,0.8844221105527639,0.11557788944723618,strict_json,398,2,2,0.005025125628140704,0.11055276381909548
+0.0,0.0,,0.0,0.0,100,1.0,,0.0,qwen3:4b,,1.0,0.0,explicit_schema,100,0,,0.0,0.0
+0.0,0.0,,0.0,0.0,400,1.0,,0.0,qwen3:4b,,1.0,0.0,strict_json,400,0,,0.0,0.0

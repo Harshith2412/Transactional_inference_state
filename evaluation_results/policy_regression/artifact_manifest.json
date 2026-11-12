@@ -1,0 +1,72 @@
+{
+  "files": {
+    "final_gate": {
+      "available": true,
+      "path": "evaluation_results/final_validation/interface/llama.json",
+      "sha256": "09c2df9348c6cd31b4cd09011c3c2cf7a8296193aab63dd431cdd6cabe79645b"
+    },
+    "final_raw": {
+      "available": true,
+      "path": "evaluation_results/final_validation/live_models/llama_raw.json",
+      "sha256": "32544719433da438e672a30da5b23bab51b8ab4fdaf5b38900f4fa74bbdfd605"
+    },
+    "final_summary": {
+      "available": true,
+      "path": "evaluation_results/final_validation/report/summary.json",
+      "sha256": "bac61f45d43bd290bcfb40831cfdbcbc4289e6b9ef9f12a0a396daf22466e56f"
+    },
+    "stage11_gate": {
+      "available": true,
+      "path": "evaluation_results/stage11/interface/gate_results.json",
+      "sha256": "506b9c04b21252dcd30dc367b571845ffa488e921fdd3f31acb9bff0c8fbc73b"
+    },
+    "stage11_interface_raw": {
+      "available": true,
+      "path": "evaluation_results/stage11/interface/raw_generations.json",
+      "sha256": "e5cda9730f1aba3ff7a1b2d7275d4c05a3b659d57ed68cf7d07a0c0fa819063e"
+    },
+    "stage11_raw": {
+      "available": true,
+      "path": "evaluation_results/stage11/live_models/raw_results.json",
+      "sha256": "173fbd750b7c1385c2c1de8b30e2469134ac00ca6b335c0cb6823a286d516526"
+    },
+    "stage11_summary": {
+      "available": true,
+      "path": "evaluation_results/stage11/live_models/model_summary.json",
+      "sha256": "90e11a9c144a2fca257d4db598a9e652e25f895a6d9347b37b45681224405101"
+    }
+  },
+  "final_fields": {
+    "full_policy_context": false,
+    "ground_truth_embedded": false,
+    "initial_state": false,
+    "normalized_generation": true,
+    "parsed_plan_directly_saved": false,
+    "parsed_plan_reconstructable_from_normalized": true,
+    "policy_decision": true,
+    "policy_reasons": true,
+    "prompt_hash": false,
+    "prompt_version": false,
+    "raw_generation": true,
+    "runtime_provenance_per_row": false,
+    "scenario_id": true,
+    "trial": true
+  },
+  "note": "frozen corpus metadata and harness code permit replay, but missing historical fields are not claimed as directly saved",
+  "stage11_fields": {
+    "full_policy_context": false,
+    "ground_truth_embedded": false,
+    "initial_state": false,
+    "normalized_generation": true,
+    "parsed_plan_directly_saved": false,
+    "parsed_plan_reconstructable_from_normalized": true,
+    "policy_decision": true,
+    "policy_reasons": true,
+    "prompt_hash": true,
+    "prompt_version": true,
+    "raw_generation": true,
+    "runtime_provenance_per_row": false,
+    "scenario_id": true,
+    "trial": true
+  }
+}

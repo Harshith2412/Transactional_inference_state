@@ -1,0 +1,6 @@
+area,metric,stage10,stage11,growth_percent
+optional,services,,Ollama localhost,
+optional,stage11_evaluation_modules,,2,
+trusted_core,modules,7,7,0.0
+trusted_core,python_loc,1210,1210,0.0
+trusted_core,third_party_dependencies,0,0,0.0

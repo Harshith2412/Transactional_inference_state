@@ -1,0 +1,62 @@
+[
+  {
+    "f1": 0.4,
+    "fn": 15,
+    "fnr": 0.75,
+    "fp": 0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "recall": 0.25,
+    "tn": 20,
+    "tp": 5,
+    "validator": "POLICY_V2_BASELINE"
+  },
+  {
+    "f1": 0.0,
+    "fn": 20,
+    "fnr": 1.0,
+    "fp": 0,
+    "fpr": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tn": 20,
+    "tp": 0,
+    "validator": "SEQUENCE_AWARE"
+  },
+  {
+    "f1": 1.0,
+    "fn": 0,
+    "fnr": 0.0,
+    "fp": 0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tn": 20,
+    "tp": 20,
+    "validator": "PROVENANCE_AWARE"
+  },
+  {
+    "f1": 0.0,
+    "fn": 20,
+    "fnr": 1.0,
+    "fp": 0,
+    "fpr": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tn": 20,
+    "tp": 0,
+    "validator": "SEMANTIC_RULE"
+  },
+  {
+    "f1": 1.0,
+    "fn": 0,
+    "fnr": 0.0,
+    "fp": 0,
+    "fpr": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tn": 20,
+    "tp": 20,
+    "validator": "HYBRID_DETERMINISTIC"
+  }
+]

@@ -1,0 +1,8 @@
+category,count,mode,model
+INVALID_PROVENANCE,1,strict_json,llama3.2:3b
+UNKNOWN_OPERATION,2,strict_json,llama3.2:3b
+INVALID_ARGUMENT_TYPE,2,explicit_schema,llama3.2:3b
+INVALID_ARGUMENT_TYPE,2,native_schema,llama3.2:3b
+EMPTY_OUTPUT,4,strict_json,qwen3:4b
+EMPTY_OUTPUT,4,explicit_schema,qwen3:4b
+EMPTY_OUTPUT,4,native_schema,qwen3:4b

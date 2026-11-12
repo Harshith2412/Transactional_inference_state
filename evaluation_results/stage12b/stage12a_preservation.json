@@ -1,0 +1,8 @@
+{
+  "stage12a_summary_path": "evaluation_results/stage12a/summary.json",
+  "stage12a_summary_sha256": "0ce97ef16f7784bcef6c75218d0527469d462cc73049b9f69e332a72ab504400",
+  "stage12_freeze_files_verified": 15,
+  "stage12_freeze_mismatches": 0,
+  "policy_v1_fingerprint": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+  "policy_v2_fingerprint": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e"
+}

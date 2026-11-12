@@ -1,0 +1,7 @@
+metric,count,denominator,rate
+correct_origin_user,2,2,1.0
+correct_origin_session,2,2,1.0
+correct_origin_transaction,2,2,1.0
+correct_origin_source,2,2,1.0
+contamination_precision,7,7,1.0
+contamination_recall,7,7,1.0

@@ -1,0 +1,206 @@
+[
+  {
+    "iterations": 7,
+    "max_latency_ns": 223583,
+    "mean_latency_ns": 177696.14285714287,
+    "mean_memory_overhead_bytes": 2339,
+    "median_latency_ns": 168791,
+    "min_latency_ns": 162750,
+    "mutation_ratio": 0.05,
+    "operation_type": "commit",
+    "phase_metrics": {
+      "begin": {
+        "max_ns": 99833,
+        "mean_ns": 73565.14285714286,
+        "median_ns": 67167,
+        "min_ns": 64875,
+        "stdev_ns": 11871.797341702266
+      },
+      "commit": {
+        "max_ns": 56917,
+        "mean_ns": 52517.857142857145,
+        "median_ns": 51708,
+        "min_ns": 50917,
+        "stdev_ns": 1980.2668960500846
+      },
+      "mutation": {
+        "max_ns": 30625,
+        "mean_ns": 24553.571428571428,
+        "median_ns": 23584,
+        "min_ns": 22250,
+        "stdev_ns": 2709.4392069811292
+      },
+      "total": {
+        "max_ns": 223583,
+        "mean_ns": 177696.14285714287,
+        "median_ns": 168791,
+        "min_ns": 162750,
+        "stdev_ns": 20113.68765243191
+      },
+      "validation": {
+        "max_ns": 11084,
+        "mean_ns": 9803.714285714286,
+        "median_ns": 9584,
+        "min_ns": 9125,
+        "stdev_ns": 602.73678554827
+      }
+    },
+    "rollback_integrity": true,
+    "state_size_bytes": 10263,
+    "stdev_latency_ns": 20113.68765243191,
+    "strategy": "full_copy"
+  },
+  {
+    "iterations": 7,
+    "max_latency_ns": 130958,
+    "mean_latency_ns": 121273.85714285714,
+    "mean_memory_overhead_bytes": 2339,
+    "median_latency_ns": 120334,
+    "min_latency_ns": 117000,
+    "mutation_ratio": 0.05,
+    "operation_type": "rollback",
+    "phase_metrics": {
+      "begin": {
+        "max_ns": 68916,
+        "mean_ns": 64749.857142857145,
+        "median_ns": 64042,
+        "min_ns": 62791,
+        "stdev_ns": 1876.7130405937648
+      },
+      "mutation": {
+        "max_ns": 24500,
+        "mean_ns": 23059.571428571428,
+        "median_ns": 22833,
+        "min_ns": 22292,
+        "stdev_ns": 747.6463749934298
+      },
+      "rollback": {
+        "max_ns": 8583,
+        "mean_ns": 7946.428571428572,
+        "median_ns": 7833,
+        "min_ns": 7708,
+        "stdev_ns": 296.6502785353522
+      },
+      "total": {
+        "max_ns": 130958,
+        "mean_ns": 121273.85714285714,
+        "median_ns": 120334,
+        "min_ns": 117000,
+        "stdev_ns": 4290.73827908343
+      },
+      "validation": {
+        "max_ns": 10167,
+        "mean_ns": 9500,
+        "median_ns": 9375,
+        "min_ns": 9208,
+        "stdev_ns": 305.55710244918686
+      }
+    },
+    "rollback_integrity": true,
+    "state_size_bytes": 10263,
+    "stdev_latency_ns": 4290.73827908343,
+    "strategy": "full_copy"
+  },
+  {
+    "iterations": 7,
+    "max_latency_ns": 104541,
+    "mean_latency_ns": 86749.71428571429,
+    "mean_memory_overhead_bytes": 2359,
+    "median_latency_ns": 84250,
+    "min_latency_ns": 80375,
+    "mutation_ratio": 0.05,
+    "operation_type": "commit",
+    "phase_metrics": {
+      "begin": {
+        "max_ns": 25417,
+        "mean_ns": 19535.85714285714,
+        "median_ns": 18417,
+        "min_ns": 17833,
+        "stdev_ns": 2541.0503131338332
+      },
+      "commit": {
+        "max_ns": 20958,
+        "mean_ns": 16375.142857142857,
+        "median_ns": 15792,
+        "min_ns": 14792,
+        "stdev_ns": 2019.5326495129955
+      },
+      "mutation": {
+        "max_ns": 28792,
+        "mean_ns": 24910.714285714286,
+        "median_ns": 24000,
+        "min_ns": 23125,
+        "stdev_ns": 1854.8441377943873
+      },
+      "total": {
+        "max_ns": 104541,
+        "mean_ns": 86749.71428571429,
+        "median_ns": 84250,
+        "min_ns": 80375,
+        "stdev_ns": 7718.944186023033
+      },
+      "validation": {
+        "max_ns": 10375,
+        "mean_ns": 9619.142857142857,
+        "median_ns": 9667,
+        "min_ns": 9250,
+        "stdev_ns": 358.0085508042784
+      }
+    },
+    "rollback_integrity": true,
+    "state_size_bytes": 10263,
+    "stdev_latency_ns": 7718.944186023033,
+    "strategy": "delta"
+  },
+  {
+    "iterations": 7,
+    "max_latency_ns": 82916,
+    "mean_latency_ns": 75047.42857142857,
+    "mean_memory_overhead_bytes": 2296.1428571428573,
+    "median_latency_ns": 74000,
+    "min_latency_ns": 72125,
+    "mutation_ratio": 0.05,
+    "operation_type": "rollback",
+    "phase_metrics": {
+      "begin": {
+        "max_ns": 20166,
+        "mean_ns": 18249.714285714286,
+        "median_ns": 18208,
+        "min_ns": 17458,
+        "stdev_ns": 846.2194437253114
+      },
+      "mutation": {
+        "max_ns": 25500,
+        "mean_ns": 23398.85714285714,
+        "median_ns": 23000,
+        "min_ns": 22500,
+        "stdev_ns": 928.4322313250792
+      },
+      "rollback": {
+        "max_ns": 8417,
+        "mean_ns": 7958.428571428572,
+        "median_ns": 7916,
+        "min_ns": 7750,
+        "stdev_ns": 217.2798440082395
+      },
+      "total": {
+        "max_ns": 82916,
+        "mean_ns": 75047.42857142857,
+        "median_ns": 74000,
+        "min_ns": 72125,
+        "stdev_ns": 3528.1797353448364
+      },
+      "validation": {
+        "max_ns": 10291,
+        "mean_ns": 9303.42857142857,
+        "median_ns": 9125,
+        "min_ns": 8959,
+        "stdev_ns": 420.40315927277544
+      }
+    },
+    "rollback_integrity": true,
+    "state_size_bytes": 10263,
+    "stdev_latency_ns": 3528.1797353448364,
+    "strategy": "delta"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "added_modules": 1,
+  "baseline_loc": 3087,
+  "baseline_modules": 13,
+  "journal_recovery_loc": 460,
+  "stage13d_trusted_loc": 3547,
+  "stage13d_trusted_modules": 14,
+  "third_party_core_runtime_dependencies": 0
+}

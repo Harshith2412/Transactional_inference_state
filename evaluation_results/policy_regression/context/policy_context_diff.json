@@ -1,0 +1,64 @@
+{
+  "effective_policy_replay": {
+    "final_v1_mismatches": 0,
+    "final_v2_mismatches": 0,
+    "stage11_v1_mismatches": 0,
+    "stage11_v2_mismatches": 0
+  },
+  "inputs": [
+    {
+      "difference": "NO OBSERVED EFFECTIVE DIFFERENCE",
+      "final": "not saved per row; reconstructable from frozen scenario",
+      "input": "runtime provenance/source type",
+      "stage11": "not saved per row; reconstructable from frozen scenario"
+    },
+    {
+      "difference": "UNKNOWN DIRECT EVIDENCE",
+      "final": "not saved",
+      "input": "trust labels",
+      "stage11": "not saved; PolicyV1/V2 consume source types rather than Stage12 trust graph"
+    },
+    {
+      "difference": "NONE IN REPLAY",
+      "final": "same frozen scenario target",
+      "input": "session/resource scope",
+      "stage11": "reconstructable from frozen scenario target"
+    },
+    {
+      "difference": "HISTORICAL PER-ROW VALUE UNKNOWN",
+      "final": "current standard_capabilities harness",
+      "input": "capabilities",
+      "stage11": "not saved per row; selected failure artifacts list standard grants"
+    },
+    {
+      "difference": "NONE",
+      "final": "same fingerprint",
+      "input": "security aliases",
+      "stage11": "policy fingerprint frozen"
+    },
+    {
+      "difference": "UNKNOWN DIRECT EVIDENCE",
+      "final": "default harness budget",
+      "input": "budgets",
+      "stage11": "not saved per row"
+    },
+    {
+      "difference": "frequently different generation output",
+      "final": "saved parsed plan",
+      "input": "operation sequence",
+      "stage11": "saved parsed plan"
+    },
+    {
+      "difference": "NONE",
+      "final": "not consumed by PolicyV1/V2",
+      "input": "lineage metadata",
+      "stage11": "not consumed by PolicyV1/V2"
+    },
+    {
+      "difference": "UNKNOWN BYTE-FOR-BYTE; decisions replay",
+      "final": "not saved; harness code creates fresh sessions",
+      "input": "initial state",
+      "stage11": "not saved; harness code creates fresh sessions"
+    }
+  ]
+}

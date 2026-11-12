@@ -1,0 +1,174 @@
+{
+  "comparison": {
+    "claims": {
+      "arbitrary_service_support": false,
+      "distributed_transaction": false,
+      "redis_copied_into_inference_state": false
+    },
+    "criu": {
+      "mechanism": "external process checkpoint/restore",
+      "prior_measured_performance": {
+        "begin_ns": 78592084,
+        "checkpoint_ns": 57663084,
+        "restore_ns": 25601792,
+        "rollback_ns": 29895875
+      }
+    },
+    "inference_state": {
+      "mechanism": "application-level copy/overlay",
+      "performance": {
+        "commit_ns": {
+          "median_ns": 25583,
+          "p95_ns": 45291,
+          "samples": 25
+        },
+        "read_ns": {
+          "median_ns": 4437.5,
+          "p95_ns": 7959,
+          "samples": 50
+        },
+        "rollback_ns": {
+          "median_ns": 4583,
+          "p95_ns": 7958,
+          "samples": 25
+        },
+        "write_ns": {
+          "median_ns": 10270.5,
+          "p95_ns": 18250,
+          "samples": 50
+        }
+      }
+    },
+    "redis": {
+      "mechanism": "API read set + buffered write set + compare-and-apply",
+      "performance": {
+        "buffered_write_ns": {
+          "median_ns": 13625.0,
+          "p95_ns": 17791,
+          "samples": 50
+        },
+        "commit_ns": {
+          "median_ns": 2969750,
+          "p95_ns": 3914375,
+          "samples": 25
+        },
+        "conflict_abort_ns": {
+          "median_ns": 1152333.5,
+          "p95_ns": 2501042,
+          "samples": 50
+        },
+        "read_ns": {
+          "median_ns": 1426812.5,
+          "p95_ns": 2512083,
+          "samples": 50
+        },
+        "rollback_ns": {
+          "median_ns": 11583,
+          "p95_ns": 16292,
+          "samples": 25
+        }
+      }
+    }
+  },
+  "environment": {
+    "database": 15,
+    "iterations": 50,
+    "redis": "localhost Redis via RESP2"
+  },
+  "performance": {
+    "inference_state": {
+      "commit_ns": {
+        "median_ns": 25583,
+        "p95_ns": 45291,
+        "samples": 25
+      },
+      "read_ns": {
+        "median_ns": 4437.5,
+        "p95_ns": 7959,
+        "samples": 50
+      },
+      "rollback_ns": {
+        "median_ns": 4583,
+        "p95_ns": 7958,
+        "samples": 25
+      },
+      "write_ns": {
+        "median_ns": 10270.5,
+        "p95_ns": 18250,
+        "samples": 50
+      }
+    },
+    "redis": {
+      "buffered_write_ns": {
+        "median_ns": 13625.0,
+        "p95_ns": 17791,
+        "samples": 50
+      },
+      "commit_ns": {
+        "median_ns": 2969750,
+        "p95_ns": 3914375,
+        "samples": 25
+      },
+      "conflict_abort_ns": {
+        "median_ns": 1152333.5,
+        "p95_ns": 2501042,
+        "samples": 50
+      },
+      "read_ns": {
+        "median_ns": 1426812.5,
+        "p95_ns": 2512083,
+        "samples": 50
+      },
+      "rollback_ns": {
+        "median_ns": 11583,
+        "p95_ns": 16292,
+        "samples": 25
+      }
+    }
+  },
+  "scenarios": {
+    "accepted_read_modify_write": {
+      "derived": "11",
+      "derived_redis_write_source_ids": [
+        "source-000001"
+      ],
+      "external_after_commit": "11",
+      "external_before_commit": "10",
+      "provenance_origin_transaction": "txn-000001",
+      "provenance_source_type": "TOOL_RESULT",
+      "read": "10",
+      "runtime_provenance": true,
+      "transaction_status": "committed"
+    },
+    "cross_transaction_isolation": {
+      "external_observed": "A",
+      "t1_tentative": "B",
+      "t2_observed": "A"
+    },
+    "external_conflict": {
+      "conflict_detected": true,
+      "external_after_attempt": "C",
+      "transaction_status": "rolled_back"
+    },
+    "read_your_writes": {
+      "external_after_commit": "B",
+      "external_before_commit": "A",
+      "first": "A",
+      "second": "B",
+      "second_from_write_set": true
+    },
+    "redis_failure_during_commit": {
+      "external_after_attempt": "A",
+      "external_outcome_classification": "UNKNOWN",
+      "failure_observed": true,
+      "local_state_committed": true,
+      "reported_success": false,
+      "transaction_status": "partially_committed"
+    },
+    "rejected_read_modify_write": {
+      "buffer_empty": true,
+      "external_after_rollback": "10",
+      "transaction_status": "rolled_back"
+    }
+  }
+}

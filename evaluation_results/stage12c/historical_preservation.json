@@ -1,0 +1,9 @@
+{
+  "stage12_freeze_files_verified": 15,
+  "stage12_freeze_mismatches": 0,
+  "stage12a_summary_sha256": "0ce97ef16f7784bcef6c75218d0527469d462cc73049b9f69e332a72ab504400",
+  "stage12b_raw_results_sha256": "e9dc2c77f373595b24f8e9c7a3df706fa2ba43653d027f13258951d0baeca7cf",
+  "stage12b_summary_sha256": "1ff1beabbfafb9d83e8321756dcf858f3e0b50a5f74c7d056eb4edd68a22acf3",
+  "policy_v1_fingerprint": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+  "policy_v2_fingerprint": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e"
+}

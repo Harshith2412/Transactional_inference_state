@@ -1,0 +1,42 @@
+[
+  {
+    "checkpoint_median_ns": 36475916,
+    "checkpoint_p95_ns": 67030875,
+    "image_bytes_median": 22196081,
+    "iterations": 5,
+    "restore_median_ns": 22891167,
+    "restore_p95_ns": 30287458,
+    "state_mb": 1,
+    "successes": 5
+  },
+  {
+    "checkpoint_median_ns": 52157417,
+    "checkpoint_p95_ns": 66740292,
+    "image_bytes_median": 41069852,
+    "iterations": 5,
+    "restore_median_ns": 36391583,
+    "restore_p95_ns": 63743875,
+    "state_mb": 10,
+    "successes": 5
+  },
+  {
+    "checkpoint_median_ns": 45154791,
+    "checkpoint_p95_ns": 62055917,
+    "image_bytes_median": 72536952,
+    "iterations": 5,
+    "restore_median_ns": 30761625,
+    "restore_p95_ns": 34634834,
+    "state_mb": 50,
+    "successes": 5
+  },
+  {
+    "checkpoint_median_ns": 60672416,
+    "checkpoint_p95_ns": 156410792,
+    "image_bytes_median": 124974682,
+    "iterations": 5,
+    "restore_median_ns": 46349791,
+    "restore_p95_ns": 50613125,
+    "state_mb": 100,
+    "successes": 5
+  }
+]

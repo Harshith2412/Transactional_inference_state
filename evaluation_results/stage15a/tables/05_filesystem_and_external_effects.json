@@ -1,0 +1,12 @@
+{
+  "effects": {
+    "finding": "process restore is not arbitrary-world rollback",
+    "observer_effect_remains": true,
+    "service_restored": true
+  },
+  "filesystem": {
+    "file_value_after_process_restore": "mutated",
+    "filesystem_restored": false,
+    "memory_restored": true
+  }
+}

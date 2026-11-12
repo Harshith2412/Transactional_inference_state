@@ -1,0 +1,11 @@
+{
+  "contract": [
+    "invalidate old connection",
+    "restore",
+    "health verification",
+    "fresh reconnect",
+    "verify state"
+  ],
+  "fresh_reconnect_after_restore": true,
+  "persistent_client_survival": false
+}

@@ -1,0 +1,30 @@
+{
+  "dependency_audit": {
+    "development": [
+      "pytest"
+    ],
+    "large_agent_frameworks": [],
+    "optional_services": [
+      "Ollama"
+    ],
+    "required": []
+  },
+  "evaluation_reporting": {
+    "modules": 16,
+    "python_loc": 4035
+  },
+  "optional_ollama_adapter": {
+    "modules": 1,
+    "required_dependencies": [],
+    "transport": "stdlib urllib localhost"
+  },
+  "tests": {
+    "files": 10,
+    "python_loc": 1430
+  },
+  "trusted_core": {
+    "external_runtime_dependencies": 0,
+    "modules": 7,
+    "python_loc": 1210
+  }
+}

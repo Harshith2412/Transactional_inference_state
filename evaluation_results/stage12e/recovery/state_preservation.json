@@ -1,0 +1,9 @@
+{
+  "flagship": {
+    "post_recovery_reads_blocked": 3,
+    "unrelated_state_preserved": true
+  },
+  "post_recovery_leakage": 0,
+  "recovery_success": 25,
+  "unrelated_state_preservation": 1.0
+}

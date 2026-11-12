@@ -1,0 +1,14 @@
+{
+  "event_recorded": true,
+  "gap_count": 1,
+  "gaps": [
+    {
+      "gap_id": "gap-000001",
+      "operation": "unknown_transform",
+      "reason": "transformation occurred outside propagation API",
+      "transaction_id": "txn-000001"
+    }
+  ],
+  "unknown_rate": 1.0,
+  "verified": false
+}

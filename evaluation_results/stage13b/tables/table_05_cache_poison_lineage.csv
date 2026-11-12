@@ -1,0 +1,2 @@
+origin_transaction,reuse_transaction,source_id,effect_node,correct_user,correct_session,correct_transaction,correct_source,coverage
+txn-000001,txn-000002,source-000001,auto-effect_build-000007,True,True,True,True,1.0

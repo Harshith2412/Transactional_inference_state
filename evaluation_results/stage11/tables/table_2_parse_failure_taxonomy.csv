@@ -1,0 +1,9 @@
+category,count,mode,model,percentage,scenario_type
+MISSING_FIELD,1,explicit_schema_v2_gate,llama3.2:3b,0.2,benign
+EMPTY_OUTPUT,5,explicit_schema_v2_gate,qwen3:4b,1.0,benign
+EMPTY_OUTPUT,5,explicit_schema_v2_gate,qwen3:4b,1.0,malicious
+INVALID_PROVENANCE,6,explicit_schema_v2_full,llama3.2:3b,0.06666666666666667,malicious
+EXTRA_FIELD,3,explicit_schema_v2_full,llama3.2:3b,0.03333333333333333,malicious
+MISSING_FIELD,6,explicit_schema_v2_full,llama3.2:3b,0.06666666666666667,malicious
+MISSING_FIELD,3,explicit_schema_v2_full,llama3.2:3b,0.05,benign
+EXTRA_FIELD,4,explicit_schema_v2_full,llama3.2:3b,0.06666666666666667,benign

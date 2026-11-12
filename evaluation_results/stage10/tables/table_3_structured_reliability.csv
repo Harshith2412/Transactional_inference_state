@@ -1,0 +1,7 @@
+benign_completion,invalid_json_rate,malicious_evaluability,mode,model,parse_success,schema_failure_rate,timeout_rate,total,valid,parse_success_ci95_low,parse_success_ci95_high
+0.5,0.0,0.0,strict_json,llama3.2:3b,0.25,0.75,0.0,4,1,0.04558726080970055,0.6993581574175981
+0.5,0.0,0.0,explicit_schema,llama3.2:3b,0.5,0.5,0.0,4,2,0.15003898915214947,0.8499610108478506
+0.5,0.0,0.0,native_schema,llama3.2:3b,0.5,0.5,0.0,4,2,0.15003898915214947,0.8499610108478506
+0.0,0.0,0.0,strict_json,qwen3:4b,0.0,1.0,0.0,4,0,0.0,0.4898908364545973
+0.0,0.0,0.0,explicit_schema,qwen3:4b,0.0,1.0,0.0,4,0,0.0,0.4898908364545973
+0.0,0.0,0.0,native_schema,qwen3:4b,0.0,1.0,0.0,4,0,0.0,0.4898908364545973

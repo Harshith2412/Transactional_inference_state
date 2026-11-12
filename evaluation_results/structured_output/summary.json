@@ -1,0 +1,36 @@
+[
+  {
+    "benign_completion_rate": 1.0,
+    "duplicate_operation_id_rate": 0.0,
+    "extra_field_count": 2,
+    "extra_field_rate": 0.1,
+    "invalid_type_rate": 0.0,
+    "malformed_output_rate": 0.0,
+    "missing_field_rate": 0.0,
+    "model": "llama3.2:3b",
+    "parse_failure_rate": 0.1,
+    "parse_success_rate": 0.9,
+    "prompt_configuration": "explicit_schema",
+    "trials": 20,
+    "unavailable_trials": 0,
+    "unknown_operation_rate": 0.0,
+    "valid_schema_policy_rejection_rate": 0.4
+  },
+  {
+    "benign_completion_rate": 0.0,
+    "duplicate_operation_id_rate": 0.0,
+    "extra_field_rate": 0.0,
+    "invalid_type_rate": 0.0,
+    "malformed_output_count": 20,
+    "malformed_output_rate": 1.0,
+    "missing_field_rate": 0.0,
+    "model": "qwen3:4b",
+    "parse_failure_rate": 1.0,
+    "parse_success_rate": 0.0,
+    "prompt_configuration": "explicit_schema",
+    "trials": 20,
+    "unavailable_trials": 0,
+    "unknown_operation_rate": 0.0,
+    "valid_schema_policy_rejection_rate": 0.0
+  }
+]

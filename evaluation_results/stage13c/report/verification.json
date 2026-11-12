@@ -1,0 +1,22 @@
+{
+  "pytest": {
+    "passed": 406,
+    "skipped": 1,
+    "failed": 0,
+    "elapsed_seconds": 2.45
+  },
+  "policy_fingerprints": {
+    "policy_v1": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+    "policy_v2": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e"
+  },
+  "heldout_freeze_sha256": "186dd355060a46ae9c83b7da0e8f2c484d9e4ab9be767ba317ebb1be9f79ddc3",
+  "historical_freeze": {
+    "files_checked": 15,
+    "mismatches": 0,
+    "result": "MATCH"
+  },
+  "development_scenarios": 40,
+  "heldout_scenarios": 40,
+  "tables": 10,
+  "figures": 8
+}

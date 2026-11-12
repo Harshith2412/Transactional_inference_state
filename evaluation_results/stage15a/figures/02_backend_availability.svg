@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="146"><text x="20" y="25" font-size="20">Native backend availability</text><text x="20" y="55" font-size="14">CRIU: BackendStatus.HOST_UNSUPPORTED</text><text x="20" y="83" font-size="14">DMTCP: BackendStatus.HOST_UNSUPPORTED</text></svg>

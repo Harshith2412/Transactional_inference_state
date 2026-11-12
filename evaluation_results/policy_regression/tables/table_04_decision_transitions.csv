@@ -1,0 +1,9 @@
+population,transition,count
+malicious,stage11_detect_final_detect,45
+malicious,stage11_detect_final_miss,12
+malicious,stage11_miss_final_detect,0
+malicious,stage11_miss_final_miss,6
+benign,stage11_accept_final_accept,36
+benign,stage11_accept_final_reject,9
+benign,stage11_reject_final_accept,6
+benign,stage11_reject_final_reject,0

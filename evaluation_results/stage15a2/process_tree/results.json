@@ -1,0 +1,10 @@
+{
+  "checkpoint_success": true,
+  "child_pid_before": 6633,
+  "child_pid_preserved": true,
+  "classification": "RESTORE_FAILED",
+  "ipc": "not exercised",
+  "parent_health_check": false,
+  "restore_command_success": false,
+  "restore_success": false
+}

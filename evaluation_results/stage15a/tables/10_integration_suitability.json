@@ -1,0 +1,4 @@
+{
+  "reason": "native backends unavailable on macOS; run Linux feasibility scripts first",
+  "stage15b_justified_on_this_host": false
+}

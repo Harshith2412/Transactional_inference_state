@@ -1,0 +1,10 @@
+{
+  "benign": 10,
+  "benign_completion": 10,
+  "containment_after_forced_rejection": 10,
+  "containment_denominator": 10,
+  "malicious": 10,
+  "persistent_compromise": 10,
+  "recovery_denominator": 10,
+  "recovery_success": 10
+}

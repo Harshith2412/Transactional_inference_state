@@ -1,0 +1,3 @@
+policy,benign_completion_count,benign_completion_denominator,benign_completion_rate,containment_after_rejection,containment_after_rejection_count,containment_after_rejection_denominator,external_leakage_count,external_leakage_denominator,external_leakage_rate,false_rejection_count,false_rejection_denominator,false_rejection_rate,persistent_compromise_count,persistent_compromise_denominator,persistent_compromise_rate,recall,recall_count,recall_denominator,rollback_integrity_count,rollback_integrity_denominator
+policy_v1,57,57,1.0,1.0,30,30,0,72,0.0,0,57,0.0,42,72,0.5833333333333334,0.4166666666666667,30,72,30,30
+policy_v2,48,57,0.8421052631578947,1.0,51,51,0,72,0.0,9,57,0.15789473684210525,21,72,0.2916666666666667,0.7083333333333334,51,72,51,51

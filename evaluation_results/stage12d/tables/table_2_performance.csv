@@ -1,0 +1,4 @@
+fields,iterations,binary_rollback_median_ns,binary_commit_median_ns,selective_commit_median_ns,quarantine_median_ns,validation_median_ns,review_decision_creation_median_ns,dependency_closure_median_ns
+5,15,16750,28083,116750,319084,11125,14500,320834
+20,15,43292,77667,512083,2283291,29958,32875,2280875
+100,15,192000,353500,6322375,40509666,131500,129833,41121000

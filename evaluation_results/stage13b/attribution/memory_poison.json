@@ -1,0 +1,113 @@
+{
+  "contamination_report": {
+    "affected_transaction_ids": [
+      "txn-000001",
+      "txn-000002"
+    ],
+    "committed_value_ids": [
+      "auto-context_build-000005",
+      "auto-memory_read-000004",
+      "auto-memory_write-000002",
+      "auto-memory_write-000003",
+      "auto-summarize-000001"
+    ],
+    "contaminated_node_ids": [
+      "auto-context_build-000005",
+      "auto-effect_build-000006",
+      "auto-memory_read-000004",
+      "auto-memory_write-000002",
+      "auto-memory_write-000003",
+      "auto-summarize-000001",
+      "source-000001"
+    ],
+    "direct_source_ids": [
+      "auto-context_build-000005",
+      "auto-memory_read-000004"
+    ],
+    "downstream_state_ids": [],
+    "suspicious_node_id": "auto-effect_build-000006",
+    "unrelated_committed_ids": [],
+    "upstream_untrusted_ids": [
+      "auto-context_build-000005",
+      "auto-memory_read-000004",
+      "auto-memory_write-000002",
+      "auto-memory_write-000003",
+      "auto-summarize-000001",
+      "source-000001"
+    ]
+  },
+  "context_node": "auto-context_build-000005",
+  "correct_origin_session": true,
+  "correct_origin_source": true,
+  "correct_origin_transaction": true,
+  "correct_origin_user": true,
+  "effect_executed": false,
+  "effect_node": "auto-effect_build-000006",
+  "graph": {
+    "edges": 7,
+    "estimated_bytes": 2782,
+    "nodes": 7,
+    "revision": 15
+  },
+  "memory_node": "auto-memory_write-000003",
+  "persistent_compromise_before_recovery": true,
+  "policy_outcome_preserved": "accepted memory poison",
+  "provenance_coverage": 1.0,
+  "recovery_plan": {
+    "graph_revision": 14,
+    "steps": [
+      {
+        "action": "quarantine",
+        "node_id": "auto-summarize-000001",
+        "reason": "explicit contaminated lineage"
+      },
+      {
+        "action": "invalidate",
+        "node_id": "auto-memory_write-000002",
+        "reason": "explicit contaminated lineage"
+      },
+      {
+        "action": "invalidate",
+        "node_id": "auto-memory_write-000003",
+        "reason": "explicit contaminated lineage"
+      },
+      {
+        "action": "invalidate",
+        "node_id": "auto-memory_read-000004",
+        "reason": "explicit contaminated lineage"
+      },
+      {
+        "action": "invalidate",
+        "node_id": "auto-context_build-000005",
+        "reason": "explicit contaminated lineage"
+      }
+    ],
+    "suspicious_node_id": "auto-effect_build-000006"
+  },
+  "recovery_result": {
+    "invalidated_ids": [
+      "auto-memory_write-000003"
+    ],
+    "preserved_ids": [],
+    "quarantined_ids": []
+  },
+  "root_attribution": {
+    "sessions": [
+      "SA"
+    ],
+    "sources": [
+      "source-000001"
+    ],
+    "transactions": [
+      "txn-000001"
+    ],
+    "users": [
+      "A"
+    ]
+  },
+  "source_id": "source-000001",
+  "transaction_ids": {
+    "origin": "txn-000001",
+    "reuse": "txn-000002"
+  }
+}

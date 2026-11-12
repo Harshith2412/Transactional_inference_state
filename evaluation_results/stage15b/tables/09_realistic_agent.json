@@ -1,0 +1,44 @@
+{
+  "begin_ns": 40762791,
+  "checkpoint_bytes": 20236149,
+  "checkpoint_ns": 39435917,
+  "digest_match": true,
+  "external_restored": true,
+  "fresh_reconnect": true,
+  "health_check_ns": 519708,
+  "health_pass": true,
+  "initial": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "initial_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+  "kind": "rag",
+  "local_restored": true,
+  "mutated": {
+    "authorization": "admin",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {
+      "poison": "approved disclosure"
+    },
+    "summary_cache": {}
+  },
+  "reconnect_ns": 518750,
+  "restore_ns": 42980209,
+  "restored": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "restored_digest": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+  "rollback_ns": 48728458,
+  "scenario": "Stage 13A-style malicious retrieval/cache persistence",
+  "status": "rolled_back",
+  "transaction_id": "txn-000001",
+  "verification_ns": 616917
+}

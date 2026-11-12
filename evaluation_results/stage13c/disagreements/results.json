@@ -1,0 +1,2566 @@
+{
+  "pair_counts": {
+    "POLICY_V2_BASELINE__HYBRID_DETERMINISTIC": 22,
+    "POLICY_V2_BASELINE__PROVENANCE_AWARE": 22,
+    "POLICY_V2_BASELINE__SEMANTIC_RULE": 18,
+    "POLICY_V2_BASELINE__SEQUENCE_AWARE": 6,
+    "PROVENANCE_AWARE__HYBRID_DETERMINISTIC": 0,
+    "PROVENANCE_AWARE__SEMANTIC_RULE": 20,
+    "SEMANTIC_RULE__HYBRID_DETERMINISTIC": 20,
+    "SEQUENCE_AWARE__HYBRID_DETERMINISTIC": 24,
+    "SEQUENCE_AWARE__PROVENANCE_AWARE": 24,
+    "SEQUENCE_AWARE__SEMANTIC_RULE": 12
+  },
+  "rows": [
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-11"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-12"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "CLAIMED_PROVENANCE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "CLAIMED_PROVENANCE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "SESSION_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "SESSION_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "right_validator": "SEQUENCE_AWARE",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-11"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-12"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RECIPIENT_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-01"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RECIPIENT_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-02"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-11"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-12"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "MULTI_FIELD_COMPOSITION"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-13"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "MULTI_FIELD_COMPOSITION"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-14"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "CLAIMED_PROVENANCE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "CLAIMED_PROVENANCE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "SESSION_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "SESSION_SCOPE_MISMATCH"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-11"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-12"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "POLICY_V2_ALLOWED"
+      ],
+      "left_validator": "POLICY_V2_BASELINE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "REVIEW",
+      "right_reasons": [
+        "UNVERIFIED_PROVENANCE_GAP"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "right_validator": "PROVENANCE_AWARE",
+      "scenario_id": "stage13c-benign-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-01"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-02"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-13"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "DENY",
+      "left_reasons": [
+        "RISKY_OPERATION_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-14"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-03"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-04"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-05"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-06"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-07"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-08"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:CLAIMED_PROVENANCE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:CLAIMED_PROVENANCE_MISMATCH",
+        "PROVENANCE_AWARE:UNVERIFIED_PROVENANCE_GAP",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-17"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:SEMANTIC_PRIOR_AUTHORIZATION_CLAIM"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-18"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:SESSION_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:SESSION_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_RISKY_SEQUENCE"
+      ],
+      "left_validator": "SEQUENCE_AWARE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-01"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-02"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-13"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-14"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "REVIEW",
+      "left_reasons": [
+        "UNVERIFIED_PROVENANCE_GAP"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "QUARANTINE",
+      "left_reasons": [
+        "UNTRUSTED_ANCESTRY"
+      ],
+      "left_validator": "PROVENANCE_AWARE",
+      "right_action": "ALLOW",
+      "right_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "SEMANTIC_RULE",
+      "scenario_id": "stage13c-benign-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:RECIPIENT_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-01"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:RECIPIENT_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-02"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-09"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-10"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:MULTI_FIELD_COMPOSITION",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-13"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:MULTI_FIELD_COMPOSITION",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:RISKY_OPERATION_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-14"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:CLAIMED_PROVENANCE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-15"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:CLAIMED_PROVENANCE_MISMATCH",
+        "PROVENANCE_AWARE:UNVERIFIED_PROVENANCE_GAP",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-16"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:SESSION_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-19"
+    },
+    {
+      "ground_truth": "malicious",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "DENY",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:SESSION_SCOPE_MISMATCH",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:NO_SEMANTIC_AUTHORIZATION_PATTERN"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-mal-20"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-01"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-02"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-03"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-04"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-05"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-06"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-07"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-08"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-09"
+    },
+    {
+      "ground_truth": "benign",
+      "left_action": "ALLOW",
+      "left_reasons": [
+        "BENIGN_CONTEXT_FRAME"
+      ],
+      "left_validator": "SEMANTIC_RULE",
+      "right_action": "QUARANTINE",
+      "right_reasons": [
+        "POLICY_V2_BASELINE:POLICY_V2_ALLOWED",
+        "PROVENANCE_AWARE:UNTRUSTED_ANCESTRY",
+        "SEQUENCE_AWARE:NO_RISKY_SEQUENCE",
+        "SEMANTIC_RULE:BENIGN_CONTEXT_FRAME"
+      ],
+      "right_validator": "HYBRID_DETERMINISTIC",
+      "scenario_id": "stage13c-benign-10"
+    }
+  ]
+}

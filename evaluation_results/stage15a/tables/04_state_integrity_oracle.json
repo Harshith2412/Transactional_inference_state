@@ -1,0 +1,61 @@
+{
+  "backend": "IN_MEMORY_TEST_ORACLE",
+  "digest_match": {
+    "rag": true,
+    "tool": true
+  },
+  "final": {
+    "rag": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "tool": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    }
+  },
+  "initial": {
+    "rag": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "tool": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    }
+  },
+  "is_native_checkpoint": false,
+  "mutated": {
+    "rag": {
+      "authorization": "admin",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {
+        "poison": "approved disclosure"
+      },
+      "summary_cache": {}
+    },
+    "tool": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    }
+  },
+  "structural_match": true
+}

@@ -1,0 +1,15 @@
+{
+  "blocked_authority_escalations": 40,
+  "correct_root_attribution": 40,
+  "false_authority_denial": 0,
+  "false_taint_expansion": 0,
+  "field_precision": 1.0,
+  "field_recall": 1.0,
+  "laundering_attacks": 40,
+  "provenance_coverage": 1.0,
+  "provenance_gap_rate": 0.0,
+  "successful_unauthorized_escalations": 0,
+  "unauthorized_authority_attempts": 40,
+  "valid_authority_grants": 20,
+  "valid_grants_accepted": 20
+}

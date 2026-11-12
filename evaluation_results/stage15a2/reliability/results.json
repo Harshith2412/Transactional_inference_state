@@ -1,0 +1,41 @@
+{
+  "rag50": {
+    "requested_cycles": 50,
+    "resource_delta": {
+      "checkpoint_bytes": 1005355610,
+      "fds": 0,
+      "processes": 0,
+      "rss_kb": 128,
+      "sockets": 497
+    },
+    "socket_drift": 0,
+    "state_drift": 0,
+    "successful_cycles": 50
+  },
+  "tool100": {
+    "requested_cycles": 100,
+    "resource_delta": {
+      "checkpoint_bytes": 2010539542,
+      "fds": 0,
+      "processes": 0,
+      "rss_kb": 128,
+      "sockets": 1090
+    },
+    "socket_drift": 0,
+    "state_drift": 0,
+    "successful_cycles": 100
+  },
+  "tool50": {
+    "requested_cycles": 50,
+    "resource_delta": {
+      "checkpoint_bytes": 1005144972,
+      "fds": 0,
+      "processes": 0,
+      "rss_kb": 284,
+      "sockets": 550
+    },
+    "socket_drift": 0,
+    "state_drift": 0,
+    "successful_cycles": 50
+  }
+}

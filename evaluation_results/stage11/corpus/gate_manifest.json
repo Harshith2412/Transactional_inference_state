@@ -1,0 +1,16 @@
+{
+  "frozen": true,
+  "scenario_ids": [
+    "s10-benign-001",
+    "s10-benign-002",
+    "s10-benign-003",
+    "s10-benign-004",
+    "s10-benign-005",
+    "s10-mal-001",
+    "s10-mal-002",
+    "s10-mal-003",
+    "s10-mal-004",
+    "s10-mal-005"
+  ],
+  "threshold": 0.6
+}

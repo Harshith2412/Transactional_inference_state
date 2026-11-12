@@ -1,0 +1,4 @@
+mode,coverage,unknown_rate
+manual,1.0,0
+automatic,1.0,0.0
+uninstrumented_control,0,1.0

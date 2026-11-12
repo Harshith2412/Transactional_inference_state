@@ -1,0 +1,14 @@
+[
+  {
+    "startup_recovery_us": 1058.167,
+    "transactions": 100
+  },
+  {
+    "startup_recovery_us": 10320.292,
+    "transactions": 1000
+  },
+  {
+    "startup_recovery_us": 94231.875,
+    "transactions": 10000
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "final": {
+    "matches_published": true,
+    "published": {
+      "attempts": 150,
+      "benign_evaluable": 57,
+      "compromised": 72,
+      "malicious_evaluable": 72,
+      "policy_v1": {
+        "benign_denominator": 57,
+        "detected": 30,
+        "external_leakage": 0,
+        "false_negatives": 42,
+        "false_positives": 0,
+        "false_rejection": 0.0,
+        "persistent": 42,
+        "recall": 0.4166666666666667,
+        "recall_denominator": 72
+      },
+      "policy_v2": {
+        "benign_denominator": 57,
+        "detected": 51,
+        "external_leakage": 0,
+        "false_negatives": 21,
+        "false_positives": 9,
+        "false_rejection": 0.15789473684210525,
+        "persistent": 21,
+        "recall": 0.7083333333333334,
+        "recall_denominator": 72
+      },
+      "valid_plans": 129
+    },
+    "recomputed": {
+      "attempts": 150,
+      "benign_evaluable": 57,
+      "compromised": 72,
+      "malicious_evaluable": 72,
+      "policy_v1": {
+        "benign_denominator": 57,
+        "detected": 30,
+        "external_leakage": 0,
+        "false_negatives": 42,
+        "false_positives": 0,
+        "false_rejection": 0.0,
+        "persistent": 42,
+        "recall": 0.4166666666666667,
+        "recall_denominator": 72
+      },
+      "policy_v2": {
+        "benign_denominator": 57,
+        "detected": 51,
+        "external_leakage": 0,
+        "false_negatives": 21,
+        "false_positives": 9,
+        "false_rejection": 0.15789473684210525,
+        "persistent": 21,
+        "recall": 0.7083333333333334,
+        "recall_denominator": 72
+      },
+      "valid_plans": 129
+    }
+  },
+  "stage11": {
+    "matches_published": true,
+    "published": {
+      "attempts": 150,
+      "benign_evaluable": 53,
+      "compromised": 75,
+      "malicious_evaluable": 75,
+      "policy_v1": {
+        "benign_denominator": 53,
+        "detected": 48,
+        "external_leakage": 6,
+        "false_negatives": 27,
+        "false_positives": 6,
+        "false_rejection": 0.11320754716981132,
+        "persistent": 24,
+        "recall": 0.64,
+        "recall_denominator": 75
+      },
+      "policy_v2": {
+        "benign_denominator": 53,
+        "detected": 69,
+        "external_leakage": 0,
+        "false_negatives": 6,
+        "false_positives": 6,
+        "false_rejection": 0.11320754716981132,
+        "persistent": 6,
+        "recall": 0.92,
+        "recall_denominator": 75
+      },
+      "valid_plans": 128
+    },
+    "recomputed": {
+      "attempts": 150,
+      "benign_evaluable": 53,
+      "compromised": 75,
+      "malicious_evaluable": 75,
+      "policy_v1": {
+        "benign_denominator": 53,
+        "detected": 48,
+        "external_leakage": 6,
+        "false_negatives": 27,
+        "false_positives": 6,
+        "false_rejection": 0.11320754716981132,
+        "persistent": 24,
+        "recall": 0.64,
+        "recall_denominator": 75
+      },
+      "policy_v2": {
+        "benign_denominator": 53,
+        "detected": 69,
+        "external_leakage": 0,
+        "false_negatives": 6,
+        "false_positives": 6,
+        "false_rejection": 0.11320754716981132,
+        "persistent": 6,
+        "recall": 0.92,
+        "recall_denominator": 75
+      },
+      "valid_plans": 128
+    }
+  }
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "commit",
+    "points": [
+      {
+        "delta_advantage_ns": 140666.57142857142,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 98559.14285714287,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 88256.28571428571,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 79577.14285714287,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 87636.85714285716,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 81708.28571428571,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 10263
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "rollback",
+    "points": [
+      {
+        "delta_advantage_ns": 54416.71428571429,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 46636.714285714275,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 55285.714285714275,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 54411.14285714287,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 53785.857142857145,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 57595.285714285725,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 10263
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "commit",
+    "points": [
+      {
+        "delta_advantage_ns": 102524.14285714286,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 108571.42857142857,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 99637.00000000001,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 80345.42857142858,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 94321.42857142858,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 97845.42857142858,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 102400
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "rollback",
+    "points": [
+      {
+        "delta_advantage_ns": 53565.428571428565,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 53178.857142857145,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 55589.28571428571,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 50482.142857142855,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 49547.28571428574,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 51595.0,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 102400
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "commit",
+    "points": [
+      {
+        "delta_advantage_ns": 222262.0,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 211178.57142857142,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 238392.42857142855,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 188607.0,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 195743.85714285716,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 164452.14285714272,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 1048576
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "rollback",
+    "points": [
+      {
+        "delta_advantage_ns": 116707.99999999999,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 129053.14285714286,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 119613.71428571429,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 101642.71428571426,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 114863.14285714284,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 135374.85714285728,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 1048576
+  },
+  {
+    "observed_crossover_ratio": 1.0,
+    "operation_type": "commit",
+    "points": [
+      {
+        "delta_advantage_ns": 1454512.0,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 1440178.8571428573,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 1374661.0000000002,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 1353446.5714285714,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 1080113.0,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": -123101.0,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 10485760
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "rollback",
+    "points": [
+      {
+        "delta_advantage_ns": 747339.0,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 685469.8571428572,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 722536.142857143,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 755440.5714285714,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 547464.2857142864,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 442500.28571428545,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 10485760
+  },
+  {
+    "observed_crossover_ratio": null,
+    "operation_type": "commit",
+    "points": [
+      {
+        "delta_advantage_ns": 7572601.0,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 7335143.0,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 7428100.857142857,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 8578749.857142856,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 6815309.714285713,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": 6384827.428571433,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 52428800
+  },
+  {
+    "observed_crossover_ratio": 1.0,
+    "operation_type": "rollback",
+    "points": [
+      {
+        "delta_advantage_ns": 3845000.1428571427,
+        "mutation_ratio": 0.01
+      },
+      {
+        "delta_advantage_ns": 3834613.142857143,
+        "mutation_ratio": 0.05
+      },
+      {
+        "delta_advantage_ns": 3682178.2857142864,
+        "mutation_ratio": 0.1
+      },
+      {
+        "delta_advantage_ns": 3607749.999999998,
+        "mutation_ratio": 0.25
+      },
+      {
+        "delta_advantage_ns": 1860428.428571429,
+        "mutation_ratio": 0.5
+      },
+      {
+        "delta_advantage_ns": -148244.2857142836,
+        "mutation_ratio": 1.0
+      }
+    ],
+    "state_size_bytes": 52428800
+  }
+]

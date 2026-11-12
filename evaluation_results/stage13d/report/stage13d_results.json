@@ -1,0 +1,289 @@
+{
+  "corruption": {
+    "journal_corruption_detected": 1,
+    "message": "JOURNAL_CORRUPTION at record 2",
+    "outcome": "JOURNAL_CORRUPTION"
+  },
+  "crash_matrix": [
+    {
+      "crash_point": "AFTER_TX_BEGIN",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_FIRST_MUTATION",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_PROVENANCE_WRITE",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_LINEAGE_WRITE",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_VALIDATION",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_PREPARE_COMMIT",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "PREPARED",
+      "state": {}
+    },
+    {
+      "crash_point": "DURING_STATE_COMMIT",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 0,
+      "recovery_status": "PREPARED",
+      "state": {}
+    },
+    {
+      "crash_point": "AFTER_STATE_COMMIT",
+      "effects_before_crash": [],
+      "effects_replayed": [
+        "mail-1"
+      ],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    },
+    {
+      "crash_point": "BEFORE_FIRST_EFFECT",
+      "effects_before_crash": [],
+      "effects_replayed": [
+        "mail-1"
+      ],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    },
+    {
+      "crash_point": "AFTER_FIRST_EFFECT",
+      "effects_before_crash": [
+        "mail-1"
+      ],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    },
+    {
+      "crash_point": "DURING_SECOND_EFFECT",
+      "effects_before_crash": [
+        "mail-1",
+        "mail-2"
+      ],
+      "effects_replayed": [],
+      "effects_unknown": [
+        "effect-2"
+      ],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "PARTIAL_EFFECT_EXECUTION",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    },
+    {
+      "crash_point": "AFTER_QUARANTINE_WRITE",
+      "effects_before_crash": [],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 0,
+      "lineage_nodes": 0,
+      "provenance_count": 0,
+      "quarantine_count": 1,
+      "recovery_status": "INCOMPLETE_UNCOMMITTED",
+      "state": {}
+    },
+    {
+      "crash_point": "BEFORE_TX_COMPLETE",
+      "effects_before_crash": [
+        "mail-1"
+      ],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    }
+  ],
+  "effects": {
+    "ambiguous": {
+      "outcome": "EFFECT_OUTCOME_UNKNOWN",
+      "service_calls": [
+        "sent"
+      ],
+      "unknown_effects": [
+        "e1"
+      ]
+    },
+    "pending_replay": {
+      "crash_point": "BEFORE_FIRST_EFFECT",
+      "effects_before_crash": [],
+      "effects_replayed": [
+        "mail-1"
+      ],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    },
+    "receipt_suppression": {
+      "crash_point": "AFTER_FIRST_EFFECT",
+      "effects_before_crash": [
+        "mail-1"
+      ],
+      "effects_replayed": [],
+      "effects_unknown": [],
+      "lineage_edges": 1,
+      "lineage_nodes": 2,
+      "provenance_count": 1,
+      "quarantine_count": 0,
+      "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+      "state": {
+        "session_memory.authorization": "approved"
+      }
+    }
+  },
+  "journal_growth": [
+    {
+      "append_median_us": 50.3125,
+      "append_p95_us": 73.708,
+      "journal_bytes": 31172,
+      "records": 100,
+      "startup_recovery_us": 1058.167,
+      "transactions": 100
+    },
+    {
+      "append_median_us": 47.5,
+      "append_p95_us": 73.208,
+      "journal_bytes": 314673,
+      "records": 1000,
+      "startup_recovery_us": 10320.292,
+      "transactions": 1000
+    },
+    {
+      "append_median_us": 48.75,
+      "append_p95_us": 70.917,
+      "journal_bytes": 3176674,
+      "records": 10000,
+      "startup_recovery_us": 94231.875,
+      "transactions": 10000
+    }
+  ],
+  "metrics": {
+    "ambiguous_effects": 1,
+    "duplicate_effects": 0,
+    "incorrect_state_commits": 0,
+    "journal_corruption_detected": 1,
+    "lineage_mismatches": 0,
+    "lost_committed_state": 0,
+    "lost_effects": 0,
+    "provenance_mismatches": 0,
+    "quarantine_mismatches": 0,
+    "transactions_recovered": 13
+  },
+  "runtime_overhead": [
+    {
+      "mode": "disabled",
+      "throughput_transactions_per_second": 8000000.0,
+      "transaction_median_us": 0.125,
+      "transaction_p95_us": 0.25
+    },
+    {
+      "mode": "enabled_no_fsync",
+      "throughput_transactions_per_second": 3471.2218353738335,
+      "transaction_median_us": 288.08299999999997,
+      "transaction_p95_us": 324.833
+    },
+    {
+      "mode": "enabled_fsync",
+      "throughput_transactions_per_second": 2449.353493145484,
+      "transaction_median_us": 408.271,
+      "transaction_p95_us": 475.417
+    }
+  ]
+}

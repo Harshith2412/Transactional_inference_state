@@ -1,0 +1,51 @@
+{
+  "inference_state": {
+    "commit_ns": {
+      "median_ns": 25583,
+      "p95_ns": 45291,
+      "samples": 25
+    },
+    "read_ns": {
+      "median_ns": 4437.5,
+      "p95_ns": 7959,
+      "samples": 50
+    },
+    "rollback_ns": {
+      "median_ns": 4583,
+      "p95_ns": 7958,
+      "samples": 25
+    },
+    "write_ns": {
+      "median_ns": 10270.5,
+      "p95_ns": 18250,
+      "samples": 50
+    }
+  },
+  "redis": {
+    "buffered_write_ns": {
+      "median_ns": 13625.0,
+      "p95_ns": 17791,
+      "samples": 50
+    },
+    "commit_ns": {
+      "median_ns": 2969750,
+      "p95_ns": 3914375,
+      "samples": 25
+    },
+    "conflict_abort_ns": {
+      "median_ns": 1152333.5,
+      "p95_ns": 2501042,
+      "samples": 50
+    },
+    "read_ns": {
+      "median_ns": 1426812.5,
+      "p95_ns": 2512083,
+      "samples": 50
+    },
+    "rollback_ns": {
+      "median_ns": 11583,
+      "p95_ns": 16292,
+      "samples": 25
+    }
+  }
+}

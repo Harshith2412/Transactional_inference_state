@@ -1,0 +1,32 @@
+{
+  "binary": {
+    "benign_fields_retained": 0,
+    "external_effects_leaked": 0,
+    "latency_ns": 69625,
+    "malicious_fields_persisted": 0
+  },
+  "denominators": {
+    "benign_fields_proposed_per_mode": 2,
+    "malicious_or_dependent_fields_proposed_per_mode": 2,
+    "transactions_per_mode": 1
+  },
+  "malicious_persistence_rate": {
+    "binary": 0.0,
+    "selective": 0.0
+  },
+  "quarantine_rate": {
+    "binary": 0.0,
+    "selective": 1.0
+  },
+  "selective": {
+    "benign_fields_retained": 2,
+    "external_effects_leaked": 0,
+    "latency_ns": 397584,
+    "malicious_fields_persisted": 0,
+    "malicious_fields_quarantined": 2
+  },
+  "useful_state_retention_rate": {
+    "binary": 0.0,
+    "selective": 1.0
+  }
+}

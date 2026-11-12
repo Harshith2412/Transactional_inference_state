@@ -1,0 +1,6556 @@
+{
+  "crossover": [
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "commit",
+      "points": [
+        {
+          "delta_advantage_ns": 140666.57142857142,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 98559.14285714287,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 88256.28571428571,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 79577.14285714287,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 87636.85714285716,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 81708.28571428571,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 10263
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "rollback",
+      "points": [
+        {
+          "delta_advantage_ns": 54416.71428571429,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 46636.714285714275,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 55285.714285714275,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 54411.14285714287,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 53785.857142857145,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 57595.285714285725,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 10263
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "commit",
+      "points": [
+        {
+          "delta_advantage_ns": 102524.14285714286,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 108571.42857142857,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 99637.00000000001,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 80345.42857142858,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 94321.42857142858,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 97845.42857142858,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 102400
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "rollback",
+      "points": [
+        {
+          "delta_advantage_ns": 53565.428571428565,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 53178.857142857145,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 55589.28571428571,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 50482.142857142855,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 49547.28571428574,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 51595.0,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 102400
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "commit",
+      "points": [
+        {
+          "delta_advantage_ns": 222262.0,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 211178.57142857142,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 238392.42857142855,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 188607.0,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 195743.85714285716,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 164452.14285714272,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 1048576
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "rollback",
+      "points": [
+        {
+          "delta_advantage_ns": 116707.99999999999,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 129053.14285714286,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 119613.71428571429,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 101642.71428571426,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 114863.14285714284,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 135374.85714285728,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 1048576
+    },
+    {
+      "observed_crossover_ratio": 1.0,
+      "operation_type": "commit",
+      "points": [
+        {
+          "delta_advantage_ns": 1454512.0,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 1440178.8571428573,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 1374661.0000000002,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 1353446.5714285714,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 1080113.0,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": -123101.0,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 10485760
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "rollback",
+      "points": [
+        {
+          "delta_advantage_ns": 747339.0,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 685469.8571428572,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 722536.142857143,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 755440.5714285714,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 547464.2857142864,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 442500.28571428545,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 10485760
+    },
+    {
+      "observed_crossover_ratio": null,
+      "operation_type": "commit",
+      "points": [
+        {
+          "delta_advantage_ns": 7572601.0,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 7335143.0,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 7428100.857142857,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 8578749.857142856,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 6815309.714285713,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": 6384827.428571433,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 52428800
+    },
+    {
+      "observed_crossover_ratio": 1.0,
+      "operation_type": "rollback",
+      "points": [
+        {
+          "delta_advantage_ns": 3845000.1428571427,
+          "mutation_ratio": 0.01
+        },
+        {
+          "delta_advantage_ns": 3834613.142857143,
+          "mutation_ratio": 0.05
+        },
+        {
+          "delta_advantage_ns": 3682178.2857142864,
+          "mutation_ratio": 0.1
+        },
+        {
+          "delta_advantage_ns": 3607749.999999998,
+          "mutation_ratio": 0.25
+        },
+        {
+          "delta_advantage_ns": 1860428.428571429,
+          "mutation_ratio": 0.5
+        },
+        {
+          "delta_advantage_ns": -148244.2857142836,
+          "mutation_ratio": 1.0
+        }
+      ],
+      "state_size_bytes": 52428800
+    }
+  ],
+  "results": [
+    {
+      "iterations": 7,
+      "max_latency_ns": 354792,
+      "mean_latency_ns": 230404.7142857143,
+      "mean_memory_overhead_bytes": 2881.285714285714,
+      "median_latency_ns": 199041,
+      "min_latency_ns": 172500,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 131958,
+          "mean_ns": 95547.57142857143,
+          "median_ns": 87209,
+          "min_ns": 69916,
+          "stdev_ns": 22305.364485170972
+        },
+        "commit": {
+          "max_ns": 101167,
+          "mean_ns": 63946.42857142857,
+          "median_ns": 57333,
+          "min_ns": 53333,
+          "stdev_ns": 15600.756408924928
+        },
+        "mutation": {
+          "max_ns": 60833,
+          "mean_ns": 34928.57142857143,
+          "median_ns": 28584,
+          "min_ns": 23917,
+          "stdev_ns": 11755.226349612
+        },
+        "total": {
+          "max_ns": 354792,
+          "mean_ns": 230404.7142857143,
+          "median_ns": 199041,
+          "min_ns": 172500,
+          "stdev_ns": 58945.70342688088
+        },
+        "validation": {
+          "max_ns": 15709,
+          "mean_ns": 12577.285714285714,
+          "median_ns": 12583,
+          "min_ns": 10166,
+          "stdev_ns": 1973.051929972282
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 58945.70342688088,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 150250,
+      "mean_latency_ns": 131357,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 129083,
+      "min_latency_ns": 124584,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 81209,
+          "mean_ns": 71381,
+          "median_ns": 69500,
+          "min_ns": 67625,
+          "stdev_ns": 4357.679526668162
+        },
+        "mutation": {
+          "max_ns": 27792,
+          "mean_ns": 24720.285714285714,
+          "median_ns": 24166,
+          "min_ns": 23625,
+          "stdev_ns": 1333.7946633877468
+        },
+        "rollback": {
+          "max_ns": 10958,
+          "mean_ns": 8809.285714285714,
+          "median_ns": 8167,
+          "min_ns": 8041,
+          "stdev_ns": 1053.0875305209797
+        },
+        "total": {
+          "max_ns": 150250,
+          "mean_ns": 131357,
+          "median_ns": 129083,
+          "min_ns": 124584,
+          "stdev_ns": 8360.54649614998
+        },
+        "validation": {
+          "max_ns": 10917,
+          "mean_ns": 10154.714285714286,
+          "median_ns": 10250,
+          "min_ns": 9666,
+          "stdev_ns": 428.43393032422307
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 8360.54649614998,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 113417,
+      "mean_latency_ns": 89738.14285714286,
+      "mean_memory_overhead_bytes": 2383,
+      "median_latency_ns": 85750,
+      "min_latency_ns": 81625,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 30250,
+          "mean_ns": 21166.714285714286,
+          "median_ns": 19542,
+          "min_ns": 18834,
+          "stdev_ns": 3829.826057754198
+        },
+        "commit": {
+          "max_ns": 21458,
+          "mean_ns": 16678.428571428572,
+          "median_ns": 15875,
+          "min_ns": 14708,
+          "stdev_ns": 2115.1430115204203
+        },
+        "mutation": {
+          "max_ns": 31500,
+          "mean_ns": 25863,
+          "median_ns": 24959,
+          "min_ns": 23750,
+          "stdev_ns": 2478.0430643093005
+        },
+        "total": {
+          "max_ns": 113417,
+          "mean_ns": 89738.14285714286,
+          "median_ns": 85750,
+          "min_ns": 81625,
+          "stdev_ns": 10099.23649771282
+        },
+        "validation": {
+          "max_ns": 10625,
+          "mean_ns": 9714.285714285714,
+          "median_ns": 9458,
+          "min_ns": 9250,
+          "stdev_ns": 450.6502331665448
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 10099.23649771282,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 84417,
+      "mean_latency_ns": 76940.28571428571,
+      "mean_memory_overhead_bytes": 2296.1428571428573,
+      "median_latency_ns": 75417,
+      "min_latency_ns": 74083,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20917,
+          "mean_ns": 18827.428571428572,
+          "median_ns": 18583,
+          "min_ns": 18125,
+          "stdev_ns": 885.2153663928113
+        },
+        "mutation": {
+          "max_ns": 26292,
+          "mean_ns": 24386.85714285714,
+          "median_ns": 24125,
+          "min_ns": 23292,
+          "stdev_ns": 898.0150219188077
+        },
+        "rollback": {
+          "max_ns": 8333,
+          "mean_ns": 8047.571428571428,
+          "median_ns": 8042,
+          "min_ns": 7791,
+          "stdev_ns": 159.74609956593812
+        },
+        "total": {
+          "max_ns": 84417,
+          "mean_ns": 76940.28571428571,
+          "median_ns": 75417,
+          "min_ns": 74083,
+          "stdev_ns": 3455.692600179995
+        },
+        "validation": {
+          "max_ns": 10083,
+          "mean_ns": 9595.142857142857,
+          "median_ns": 9541,
+          "min_ns": 9208,
+          "stdev_ns": 283.1715424419968
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 3455.692600179995,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 230583,
+      "mean_latency_ns": 184410.42857142858,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 172292,
+      "min_latency_ns": 167375,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 124583,
+          "mean_ns": 78684.57142857143,
+          "median_ns": 69125,
+          "min_ns": 66834,
+          "stdev_ns": 19445.288197968184
+        },
+        "commit": {
+          "max_ns": 56667,
+          "mean_ns": 54243.857142857145,
+          "median_ns": 53833,
+          "min_ns": 52792,
+          "stdev_ns": 1240.7387693940861
+        },
+        "mutation": {
+          "max_ns": 31584,
+          "mean_ns": 25244.428571428572,
+          "median_ns": 24084,
+          "min_ns": 22875,
+          "stdev_ns": 2925.26808818527
+        },
+        "total": {
+          "max_ns": 230583,
+          "mean_ns": 184410.42857142858,
+          "median_ns": 172292,
+          "min_ns": 167375,
+          "stdev_ns": 21315.25487168516
+        },
+        "validation": {
+          "max_ns": 11334,
+          "mean_ns": 9970.57142857143,
+          "median_ns": 9708,
+          "min_ns": 9334,
+          "stdev_ns": 620.8459337624655
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 21315.25487168516,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 132833,
+      "mean_latency_ns": 124422.42857142857,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 122500,
+      "min_latency_ns": 120583,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 71083,
+          "mean_ns": 67154.57142857143,
+          "median_ns": 66750,
+          "min_ns": 65708,
+          "stdev_ns": 1722.0456155516952
+        },
+        "mutation": {
+          "max_ns": 26416,
+          "mean_ns": 23839.285714285714,
+          "median_ns": 23250,
+          "min_ns": 22875,
+          "stdev_ns": 1226.3017240334236
+        },
+        "rollback": {
+          "max_ns": 8250,
+          "mean_ns": 7952.285714285715,
+          "median_ns": 7958,
+          "min_ns": 7750,
+          "stdev_ns": 143.3484409060806
+        },
+        "total": {
+          "max_ns": 132833,
+          "mean_ns": 124422.42857142857,
+          "median_ns": 122500,
+          "min_ns": 120583,
+          "stdev_ns": 4039.2460349194184
+        },
+        "validation": {
+          "max_ns": 10292,
+          "mean_ns": 9631.142857142857,
+          "median_ns": 9667,
+          "min_ns": 9250,
+          "stdev_ns": 335.1854192922515
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 4039.2460349194184,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 94708,
+      "mean_latency_ns": 85851.28571428571,
+      "mean_memory_overhead_bytes": 2232.1428571428573,
+      "median_latency_ns": 83667,
+      "min_latency_ns": 80250,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21583,
+          "mean_ns": 18881,
+          "median_ns": 18459,
+          "min_ns": 18083,
+          "stdev_ns": 1142.3355774152233
+        },
+        "commit": {
+          "max_ns": 28292,
+          "mean_ns": 17368.85714285714,
+          "median_ns": 15541,
+          "min_ns": 14958,
+          "stdev_ns": 4492.071950465984
+        },
+        "mutation": {
+          "max_ns": 27125,
+          "mean_ns": 24220.285714285714,
+          "median_ns": 23750,
+          "min_ns": 23208,
+          "stdev_ns": 1271.9298851167314
+        },
+        "total": {
+          "max_ns": 94708,
+          "mean_ns": 85851.28571428571,
+          "median_ns": 83667,
+          "min_ns": 80250,
+          "stdev_ns": 5687.199253317821
+        },
+        "validation": {
+          "max_ns": 10375,
+          "mean_ns": 9499.857142857143,
+          "median_ns": 9333,
+          "min_ns": 9250,
+          "stdev_ns": 364.631880344088
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 5687.199253317821,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 90500,
+      "mean_latency_ns": 77785.71428571429,
+      "mean_memory_overhead_bytes": 2172.714285714286,
+      "median_latency_ns": 76375,
+      "min_latency_ns": 72834,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20125,
+          "mean_ns": 19005.85714285714,
+          "median_ns": 18625,
+          "min_ns": 18291,
+          "stdev_ns": 677.2871154353181
+        },
+        "mutation": {
+          "max_ns": 32917,
+          "mean_ns": 25101.14285714286,
+          "median_ns": 23916,
+          "min_ns": 22833,
+          "stdev_ns": 3232.243689034928
+        },
+        "rollback": {
+          "max_ns": 8167,
+          "mean_ns": 7976.285714285715,
+          "median_ns": 8000,
+          "min_ns": 7792,
+          "stdev_ns": 117.48521400671696
+        },
+        "total": {
+          "max_ns": 90500,
+          "mean_ns": 77785.71428571429,
+          "median_ns": 76375,
+          "min_ns": 72834,
+          "stdev_ns": 5502.0088724622265
+        },
+        "validation": {
+          "max_ns": 10416,
+          "mean_ns": 9612.857142857143,
+          "median_ns": 9583,
+          "min_ns": 9167,
+          "stdev_ns": 374.8380330494868
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 5502.0088724622265,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 197417,
+      "mean_latency_ns": 176196.57142857142,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 172250,
+      "min_latency_ns": 167042,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 83000,
+          "mean_ns": 70476.28571428571,
+          "median_ns": 68250,
+          "min_ns": 66625,
+          "stdev_ns": 5340.982352507441
+        },
+        "commit": {
+          "max_ns": 55958,
+          "mean_ns": 53952.28571428572,
+          "median_ns": 53250,
+          "min_ns": 52541,
+          "stdev_ns": 1260.9462109617425
+        },
+        "mutation": {
+          "max_ns": 28833,
+          "mean_ns": 24238,
+          "median_ns": 23042,
+          "min_ns": 22666,
+          "stdev_ns": 2056.13944774459
+        },
+        "total": {
+          "max_ns": 197417,
+          "mean_ns": 176196.57142857142,
+          "median_ns": 172250,
+          "min_ns": 167042,
+          "stdev_ns": 10371.362079676666
+        },
+        "validation": {
+          "max_ns": 11083,
+          "mean_ns": 10041.57142857143,
+          "median_ns": 9750,
+          "min_ns": 9500,
+          "stdev_ns": 529.4015103715453
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 10371.362079676666,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 155875,
+      "mean_latency_ns": 131845.2857142857,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 129542,
+      "min_latency_ns": 120959,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 85458,
+          "mean_ns": 71946.42857142857,
+          "median_ns": 69583,
+          "min_ns": 66333,
+          "stdev_ns": 6165.760012408223
+        },
+        "mutation": {
+          "max_ns": 30667,
+          "mean_ns": 24857,
+          "median_ns": 24041,
+          "min_ns": 22625,
+          "stdev_ns": 2549.718247739766
+        },
+        "rollback": {
+          "max_ns": 14792,
+          "mean_ns": 9000,
+          "median_ns": 8000,
+          "min_ns": 7750,
+          "stdev_ns": 2378.949528078067
+        },
+        "total": {
+          "max_ns": 155875,
+          "mean_ns": 131845.2857142857,
+          "median_ns": 129542,
+          "min_ns": 120959,
+          "stdev_ns": 10635.400613238866
+        },
+        "validation": {
+          "max_ns": 11333,
+          "mean_ns": 9827.285714285714,
+          "median_ns": 9584,
+          "min_ns": 9250,
+          "stdev_ns": 653.1982228752211
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 10635.400613238866,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 113333,
+      "mean_latency_ns": 87940.28571428571,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 84708,
+      "min_latency_ns": 80458,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 24792,
+          "mean_ns": 19708.571428571428,
+          "median_ns": 18792,
+          "min_ns": 18209,
+          "stdev_ns": 2197.2692700026455
+        },
+        "commit": {
+          "max_ns": 18667,
+          "mean_ns": 15875,
+          "median_ns": 15250,
+          "min_ns": 14750,
+          "stdev_ns": 1229.3936949337494
+        },
+        "mutation": {
+          "max_ns": 32875,
+          "mean_ns": 25529.85714285714,
+          "median_ns": 24167,
+          "min_ns": 23417,
+          "stdev_ns": 3074.3981723987836
+        },
+        "total": {
+          "max_ns": 113333,
+          "mean_ns": 87940.28571428571,
+          "median_ns": 84708,
+          "min_ns": 80458,
+          "stdev_ns": 10638.628224061405
+        },
+        "validation": {
+          "max_ns": 10625,
+          "mean_ns": 9666.714285714286,
+          "median_ns": 9541,
+          "min_ns": 9167,
+          "stdev_ns": 444.8783828308632
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 10638.628224061405,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 82333,
+      "mean_latency_ns": 76559.57142857143,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 75041,
+      "min_latency_ns": 73250,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 25541,
+          "mean_ns": 19624.85714285714,
+          "median_ns": 18333,
+          "min_ns": 18042,
+          "stdev_ns": 2518.517161719878
+        },
+        "mutation": {
+          "max_ns": 25833,
+          "mean_ns": 23868.85714285714,
+          "median_ns": 23500,
+          "min_ns": 23250,
+          "stdev_ns": 828.5913051803091
+        },
+        "rollback": {
+          "max_ns": 8166,
+          "mean_ns": 7934.571428571428,
+          "median_ns": 7959,
+          "min_ns": 7667,
+          "stdev_ns": 149.05498232230295
+        },
+        "total": {
+          "max_ns": 82333,
+          "mean_ns": 76559.57142857143,
+          "median_ns": 75041,
+          "min_ns": 73250,
+          "stdev_ns": 3447.1403824513054
+        },
+        "validation": {
+          "max_ns": 9958,
+          "mean_ns": 9392.857142857143,
+          "median_ns": 9375,
+          "min_ns": 9125,
+          "stdev_ns": 285.0240233340885
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 3447.1403824513054,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 180542,
+      "mean_latency_ns": 169976.14285714287,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 169209,
+      "min_latency_ns": 165958,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 71208,
+          "mean_ns": 67613,
+          "median_ns": 67041,
+          "min_ns": 66042,
+          "stdev_ns": 1642.8075272010935
+        },
+        "commit": {
+          "max_ns": 56250,
+          "mean_ns": 53482.142857142855,
+          "median_ns": 53334,
+          "min_ns": 52208,
+          "stdev_ns": 1197.1563245065877
+        },
+        "mutation": {
+          "max_ns": 24458,
+          "mean_ns": 23321.571428571428,
+          "median_ns": 23291,
+          "min_ns": 22709,
+          "stdev_ns": 554.2662735913275
+        },
+        "total": {
+          "max_ns": 180542,
+          "mean_ns": 169976.14285714287,
+          "median_ns": 169209,
+          "min_ns": 165958,
+          "stdev_ns": 4681.182617018647
+        },
+        "validation": {
+          "max_ns": 10208,
+          "mean_ns": 9636.857142857143,
+          "median_ns": 9583,
+          "min_ns": 9291,
+          "stdev_ns": 257.5496781879059
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 4681.182617018647,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 147667,
+      "mean_latency_ns": 130833.57142857143,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 126042,
+      "min_latency_ns": 121625,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 81250,
+          "mean_ns": 71190.42857142857,
+          "median_ns": 68875,
+          "min_ns": 66208,
+          "stdev_ns": 5344.729175475935
+        },
+        "mutation": {
+          "max_ns": 27500,
+          "mean_ns": 24059.428571428572,
+          "median_ns": 23708,
+          "min_ns": 22833,
+          "stdev_ns": 1531.7085564952677
+        },
+        "rollback": {
+          "max_ns": 8500,
+          "mean_ns": 8130.857142857143,
+          "median_ns": 8041,
+          "min_ns": 7875,
+          "stdev_ns": 205.97116897512524
+        },
+        "total": {
+          "max_ns": 147667,
+          "mean_ns": 130833.57142857143,
+          "median_ns": 126042,
+          "min_ns": 121625,
+          "stdev_ns": 9588.887837449329
+        },
+        "validation": {
+          "max_ns": 10917,
+          "mean_ns": 9815.57142857143,
+          "median_ns": 9750,
+          "min_ns": 9292,
+          "stdev_ns": 526.6359157473995
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 9588.887837449329,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 111000,
+      "mean_latency_ns": 90399,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 86291,
+      "min_latency_ns": 82542,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 23125,
+          "mean_ns": 19416.714285714286,
+          "median_ns": 18958,
+          "min_ns": 18250,
+          "stdev_ns": 1563.9414232989047
+        },
+        "commit": {
+          "max_ns": 25292,
+          "mean_ns": 17797.571428571428,
+          "median_ns": 15542,
+          "min_ns": 14917,
+          "stdev_ns": 3934.588555623169
+        },
+        "mutation": {
+          "max_ns": 28333,
+          "mean_ns": 25500.285714285714,
+          "median_ns": 24667,
+          "min_ns": 23959,
+          "stdev_ns": 1708.5778308527922
+        },
+        "total": {
+          "max_ns": 111000,
+          "mean_ns": 90399,
+          "median_ns": 86291,
+          "min_ns": 82542,
+          "stdev_ns": 9334.39978941182
+        },
+        "validation": {
+          "max_ns": 10500,
+          "mean_ns": 9726.142857142857,
+          "median_ns": 9625,
+          "min_ns": 9500,
+          "stdev_ns": 321.10053101857085
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 9334.39978941182,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 83875,
+      "mean_latency_ns": 76422.42857142857,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 74583,
+      "min_latency_ns": 73209,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20375,
+          "mean_ns": 18648.85714285714,
+          "median_ns": 18417,
+          "min_ns": 17750,
+          "stdev_ns": 839.4881822653999
+        },
+        "mutation": {
+          "max_ns": 26292,
+          "mean_ns": 24172.571428571428,
+          "median_ns": 23750,
+          "min_ns": 23208,
+          "stdev_ns": 948.8416783701298
+        },
+        "rollback": {
+          "max_ns": 8375,
+          "mean_ns": 8035.714285714285,
+          "median_ns": 8041,
+          "min_ns": 7834,
+          "stdev_ns": 174.34261366279762
+        },
+        "total": {
+          "max_ns": 83875,
+          "mean_ns": 76422.42857142857,
+          "median_ns": 74583,
+          "min_ns": 73209,
+          "stdev_ns": 3374.286627555217
+        },
+        "validation": {
+          "max_ns": 10250,
+          "mean_ns": 9494.142857142857,
+          "median_ns": 9375,
+          "min_ns": 9125,
+          "stdev_ns": 355.9074633229536
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 3374.286627555217,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 181333,
+      "mean_latency_ns": 171488.14285714287,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 171167,
+      "min_latency_ns": 164625,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 79500,
+          "mean_ns": 68904.57142857143,
+          "median_ns": 66416,
+          "min_ns": 64833,
+          "stdev_ns": 4764.296436055616
+        },
+        "commit": {
+          "max_ns": 55875,
+          "mean_ns": 53130.857142857145,
+          "median_ns": 52542,
+          "min_ns": 51625,
+          "stdev_ns": 1343.0477524295711
+        },
+        "mutation": {
+          "max_ns": 24958,
+          "mean_ns": 23506,
+          "median_ns": 23334,
+          "min_ns": 22708,
+          "stdev_ns": 696.557453275956
+        },
+        "total": {
+          "max_ns": 181333,
+          "mean_ns": 171488.14285714287,
+          "median_ns": 171167,
+          "min_ns": 164625,
+          "stdev_ns": 6436.907962869205
+        },
+        "validation": {
+          "max_ns": 10250,
+          "mean_ns": 9797.42857142857,
+          "median_ns": 9791,
+          "min_ns": 9458,
+          "stdev_ns": 238.26567233289165
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 6436.907962869205,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 141667,
+      "mean_latency_ns": 128654.71428571429,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 124500,
+      "min_latency_ns": 119333,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 78709,
+          "mean_ns": 69458.28571428571,
+          "median_ns": 67583,
+          "min_ns": 64583,
+          "stdev_ns": 4610.759519530245
+        },
+        "mutation": {
+          "max_ns": 25625,
+          "mean_ns": 24047.714285714286,
+          "median_ns": 24041,
+          "min_ns": 22792,
+          "stdev_ns": 838.9579785638363
+        },
+        "rollback": {
+          "max_ns": 16750,
+          "mean_ns": 9244.142857142857,
+          "median_ns": 8042,
+          "min_ns": 7750,
+          "stdev_ns": 3066.313954132245
+        },
+        "total": {
+          "max_ns": 141667,
+          "mean_ns": 128654.71428571429,
+          "median_ns": 124500,
+          "min_ns": 119333,
+          "stdev_ns": 8166.994651195326
+        },
+        "validation": {
+          "max_ns": 10375,
+          "mean_ns": 9993.857142857143,
+          "median_ns": 10041,
+          "min_ns": 9375,
+          "stdev_ns": 293.27141430589444
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 8166.994651195326,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 92666,
+      "mean_latency_ns": 83851.28571428571,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 83459,
+      "min_latency_ns": 80042,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20541,
+          "mean_ns": 18725.85714285714,
+          "median_ns": 18667,
+          "min_ns": 17833,
+          "stdev_ns": 889.8283026310555
+        },
+        "commit": {
+          "max_ns": 16625,
+          "mean_ns": 15351.142857142857,
+          "median_ns": 15083,
+          "min_ns": 14625,
+          "stdev_ns": 626.7502187751464
+        },
+        "mutation": {
+          "max_ns": 26792,
+          "mean_ns": 24446.285714285714,
+          "median_ns": 23833,
+          "min_ns": 23500,
+          "stdev_ns": 1119.6875475245909
+        },
+        "total": {
+          "max_ns": 92666,
+          "mean_ns": 83851.28571428571,
+          "median_ns": 83459,
+          "min_ns": 80042,
+          "stdev_ns": 4026.4671758710942
+        },
+        "validation": {
+          "max_ns": 10166,
+          "mean_ns": 9535.714285714286,
+          "median_ns": 9542,
+          "min_ns": 9125,
+          "stdev_ns": 342.35767190206803
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 4026.4671758710942,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 81625,
+      "mean_latency_ns": 74868.85714285714,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 73917,
+      "min_latency_ns": 71917,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 19959,
+          "mean_ns": 18262.285714285714,
+          "median_ns": 18042,
+          "min_ns": 17625,
+          "stdev_ns": 736.3412862225765
+        },
+        "mutation": {
+          "max_ns": 25458,
+          "mean_ns": 23738,
+          "median_ns": 23708,
+          "min_ns": 22958,
+          "stdev_ns": 777.7529905347291
+        },
+        "rollback": {
+          "max_ns": 8292,
+          "mean_ns": 7881,
+          "median_ns": 7833,
+          "min_ns": 7708,
+          "stdev_ns": 182.98087331740442
+        },
+        "total": {
+          "max_ns": 81625,
+          "mean_ns": 74868.85714285714,
+          "median_ns": 73917,
+          "min_ns": 71917,
+          "stdev_ns": 2957.3825023669365
+        },
+        "validation": {
+          "max_ns": 9792,
+          "mean_ns": 9333.285714285714,
+          "median_ns": 9291,
+          "min_ns": 8959,
+          "stdev_ns": 240.9064514855236
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 2957.3825023669365,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 199375,
+      "mean_latency_ns": 188315.57142857142,
+      "mean_memory_overhead_bytes": 2408.1428571428573,
+      "median_latency_ns": 187000,
+      "min_latency_ns": 183209,
+      "mutated_keys": 2,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 70792,
+          "mean_ns": 67702.28571428571,
+          "median_ns": 67000,
+          "min_ns": 65958,
+          "stdev_ns": 1654.0154356064788
+        },
+        "commit": {
+          "max_ns": 56458,
+          "mean_ns": 53857.142857142855,
+          "median_ns": 53708,
+          "min_ns": 52792,
+          "stdev_ns": 1165.4418449144302
+        },
+        "mutation": {
+          "max_ns": 43709,
+          "mean_ns": 41625.142857142855,
+          "median_ns": 41416,
+          "min_ns": 40667,
+          "stdev_ns": 924.9561269242416
+        },
+        "total": {
+          "max_ns": 199375,
+          "mean_ns": 188315.57142857142,
+          "median_ns": 187000,
+          "min_ns": 183209,
+          "stdev_ns": 5086.034038904769
+        },
+        "validation": {
+          "max_ns": 10209,
+          "mean_ns": 9482.142857142857,
+          "median_ns": 9417,
+          "min_ns": 9167,
+          "stdev_ns": 325.14455184092617
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 5086.034038904769,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 187042,
+      "mean_latency_ns": 153125.14285714287,
+      "mean_memory_overhead_bytes": 2339,
+      "median_latency_ns": 143084,
+      "min_latency_ns": 138542,
+      "mutated_keys": 2,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 80000,
+          "mean_ns": 69256.14285714286,
+          "median_ns": 66709,
+          "min_ns": 65541,
+          "stdev_ns": 4732.804316034792
+        },
+        "mutation": {
+          "max_ns": 69250,
+          "mean_ns": 48595.142857142855,
+          "median_ns": 41875,
+          "min_ns": 41000,
+          "stdev_ns": 11047.106724368687
+        },
+        "rollback": {
+          "max_ns": 9791,
+          "mean_ns": 8690.42857142857,
+          "median_ns": 8500,
+          "min_ns": 7917,
+          "stdev_ns": 706.2441619769544
+        },
+        "total": {
+          "max_ns": 187042,
+          "mean_ns": 153125.14285714287,
+          "median_ns": 143084,
+          "min_ns": 138542,
+          "stdev_ns": 17839.41451976951
+        },
+        "validation": {
+          "max_ns": 14916,
+          "mean_ns": 10624.714285714286,
+          "median_ns": 9541,
+          "min_ns": 9083,
+          "stdev_ns": 1974.8397920038053
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 17839.41451976951,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 119083,
+      "mean_latency_ns": 106607.28571428571,
+      "mean_memory_overhead_bytes": 2440.1428571428573,
+      "median_latency_ns": 104959,
+      "min_latency_ns": 101000,
+      "mutated_keys": 2,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 22333,
+          "mean_ns": 19410.85714285714,
+          "median_ns": 19000,
+          "min_ns": 18167,
+          "stdev_ns": 1354.3976445607977
+        },
+        "commit": {
+          "max_ns": 18417,
+          "mean_ns": 16744.14285714286,
+          "median_ns": 16625,
+          "min_ns": 16000,
+          "stdev_ns": 746.9378303774549
+        },
+        "mutation": {
+          "max_ns": 48875,
+          "mean_ns": 44726.142857142855,
+          "median_ns": 43833,
+          "min_ns": 42333,
+          "stdev_ns": 2583.56190606089
+        },
+        "total": {
+          "max_ns": 119083,
+          "mean_ns": 106607.28571428571,
+          "median_ns": 104959,
+          "min_ns": 101000,
+          "stdev_ns": 6019.117845054461
+        },
+        "validation": {
+          "max_ns": 10375,
+          "mean_ns": 9577.285714285714,
+          "median_ns": 9583,
+          "min_ns": 9250,
+          "stdev_ns": 368.3851688831422
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 6019.117845054461,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 103084,
+      "mean_latency_ns": 95529.85714285714,
+      "mean_memory_overhead_bytes": 2440.1428571428573,
+      "median_latency_ns": 93708,
+      "min_latency_ns": 92500,
+      "mutated_keys": 2,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 19834,
+          "mean_ns": 18565.571428571428,
+          "median_ns": 18500,
+          "min_ns": 17833,
+          "stdev_ns": 671.5801956458167
+        },
+        "mutation": {
+          "max_ns": 45334,
+          "mean_ns": 43166.71428571428,
+          "median_ns": 42667,
+          "min_ns": 42333,
+          "stdev_ns": 973.8669187882932
+        },
+        "rollback": {
+          "max_ns": 9333,
+          "mean_ns": 8541.57142857143,
+          "median_ns": 8333,
+          "min_ns": 8167,
+          "stdev_ns": 419.97273964010606
+        },
+        "total": {
+          "max_ns": 103084,
+          "mean_ns": 95529.85714285714,
+          "median_ns": 93708,
+          "min_ns": 92500,
+          "stdev_ns": 3555.010927392144
+        },
+        "validation": {
+          "max_ns": 10041,
+          "mean_ns": 9392.714285714286,
+          "median_ns": 9333,
+          "min_ns": 9041,
+          "stdev_ns": 301.9019302856543
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10263,
+      "stdev_latency_ns": 3555.010927392144,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 207292,
+      "mean_latency_ns": 188184.7142857143,
+      "mean_memory_overhead_bytes": 2575.5714285714284,
+      "median_latency_ns": 184833,
+      "min_latency_ns": 178417,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 79875,
+          "mean_ns": 75285.85714285714,
+          "median_ns": 74167,
+          "min_ns": 72292,
+          "stdev_ns": 2337.8918115364063
+        },
+        "commit": {
+          "max_ns": 81292,
+          "mean_ns": 62815.57142857143,
+          "median_ns": 59541,
+          "min_ns": 58542,
+          "stdev_ns": 7613.551524507241
+        },
+        "mutation": {
+          "max_ns": 26875,
+          "mean_ns": 24143.14285714286,
+          "median_ns": 23584,
+          "min_ns": 23084,
+          "stdev_ns": 1253.5799511309804
+        },
+        "total": {
+          "max_ns": 207292,
+          "mean_ns": 188184.7142857143,
+          "median_ns": 184833,
+          "min_ns": 178417,
+          "stdev_ns": 9464.881717082751
+        },
+        "validation": {
+          "max_ns": 10375,
+          "mean_ns": 9827.57142857143,
+          "median_ns": 9834,
+          "min_ns": 9500,
+          "stdev_ns": 255.33331557165886
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 9464.881717082751,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 155042,
+      "mean_latency_ns": 134261.85714285713,
+      "mean_memory_overhead_bytes": 2547,
+      "median_latency_ns": 130291,
+      "min_latency_ns": 128041,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 90417,
+          "mean_ns": 75922.42857142857,
+          "median_ns": 73708,
+          "min_ns": 71666,
+          "stdev_ns": 6066.611453736941
+        },
+        "mutation": {
+          "max_ns": 30084,
+          "mean_ns": 24422.714285714286,
+          "median_ns": 23416,
+          "min_ns": 22792,
+          "stdev_ns": 2361.008786471562
+        },
+        "rollback": {
+          "max_ns": 8584,
+          "mean_ns": 8124.857142857143,
+          "median_ns": 8041,
+          "min_ns": 7833,
+          "stdev_ns": 244.24368894986156
+        },
+        "total": {
+          "max_ns": 155042,
+          "mean_ns": 134261.85714285713,
+          "median_ns": 130291,
+          "min_ns": 128041,
+          "stdev_ns": 8967.50364098172
+        },
+        "validation": {
+          "max_ns": 10625,
+          "mean_ns": 9821.142857142857,
+          "median_ns": 9708,
+          "min_ns": 9416,
+          "stdev_ns": 422.53771719099774
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 8967.50364098172,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 95417,
+      "mean_latency_ns": 85660.57142857143,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 85041,
+      "min_latency_ns": 82250,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21500,
+          "mean_ns": 19190.428571428572,
+          "median_ns": 18917,
+          "min_ns": 18416,
+          "stdev_ns": 999.0287936852695
+        },
+        "commit": {
+          "max_ns": 16791,
+          "mean_ns": 15827.42857142857,
+          "median_ns": 15750,
+          "min_ns": 15334,
+          "stdev_ns": 456.33880181375804
+        },
+        "mutation": {
+          "max_ns": 27625,
+          "mean_ns": 24833.14285714286,
+          "median_ns": 24333,
+          "min_ns": 23875,
+          "stdev_ns": 1234.9555721993088
+        },
+        "total": {
+          "max_ns": 95417,
+          "mean_ns": 85660.57142857143,
+          "median_ns": 85041,
+          "min_ns": 82250,
+          "stdev_ns": 4259.349744373894
+        },
+        "validation": {
+          "max_ns": 10708,
+          "mean_ns": 9803.285714285714,
+          "median_ns": 9708,
+          "min_ns": 9416,
+          "stdev_ns": 398.90232040499563
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 4259.349744373894,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 91500,
+      "mean_latency_ns": 80696.42857142857,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 78542,
+      "min_latency_ns": 75250,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 25375,
+          "mean_ns": 20285.714285714286,
+          "median_ns": 20042,
+          "min_ns": 18250,
+          "stdev_ns": 2257.238433781149
+        },
+        "mutation": {
+          "max_ns": 30000,
+          "mean_ns": 25761.85714285714,
+          "median_ns": 25167,
+          "min_ns": 24291,
+          "stdev_ns": 1847.218637269977
+        },
+        "rollback": {
+          "max_ns": 8416,
+          "mean_ns": 8202.285714285714,
+          "median_ns": 8167,
+          "min_ns": 7916,
+          "stdev_ns": 145.17842646276367
+        },
+        "total": {
+          "max_ns": 91500,
+          "mean_ns": 80696.42857142857,
+          "median_ns": 78542,
+          "min_ns": 75250,
+          "stdev_ns": 5566.43188759044
+        },
+        "validation": {
+          "max_ns": 10958,
+          "mean_ns": 9952.142857142857,
+          "median_ns": 9708,
+          "min_ns": 9458,
+          "stdev_ns": 479.90517770892694
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5566.43188759044,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 238292,
+      "mean_latency_ns": 194053.57142857142,
+      "mean_memory_overhead_bytes": 2575.5714285714284,
+      "median_latency_ns": 187083,
+      "min_latency_ns": 180000,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 83125,
+          "mean_ns": 76690.28571428571,
+          "median_ns": 75333,
+          "min_ns": 72708,
+          "stdev_ns": 3262.7578919105367
+        },
+        "commit": {
+          "max_ns": 89708,
+          "mean_ns": 63565.42857142857,
+          "median_ns": 58875,
+          "min_ns": 57666,
+          "stdev_ns": 10777.821100457615
+        },
+        "mutation": {
+          "max_ns": 42958,
+          "mean_ns": 27136.85714285714,
+          "median_ns": 24334,
+          "min_ns": 23417,
+          "stdev_ns": 6520.134144732463
+        },
+        "total": {
+          "max_ns": 238292,
+          "mean_ns": 194053.57142857142,
+          "median_ns": 187083,
+          "min_ns": 180000,
+          "stdev_ns": 19308.81864298681
+        },
+        "validation": {
+          "max_ns": 11000,
+          "mean_ns": 10113.142857142857,
+          "median_ns": 10000,
+          "min_ns": 9500,
+          "stdev_ns": 475.5347151429877
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 19308.81864298681,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 140250,
+      "mean_latency_ns": 130916.71428571429,
+      "mean_memory_overhead_bytes": 2547,
+      "median_latency_ns": 130125,
+      "min_latency_ns": 126625,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 77292,
+          "mean_ns": 73101.14285714286,
+          "median_ns": 72708,
+          "min_ns": 71208,
+          "stdev_ns": 2010.5600093059666
+        },
+        "mutation": {
+          "max_ns": 25500,
+          "mean_ns": 23916.571428571428,
+          "median_ns": 23667,
+          "min_ns": 23083,
+          "stdev_ns": 737.4290972489408
+        },
+        "rollback": {
+          "max_ns": 8250,
+          "mean_ns": 8011.857142857143,
+          "median_ns": 8084,
+          "min_ns": 7750,
+          "stdev_ns": 172.28168675699902
+        },
+        "total": {
+          "max_ns": 140250,
+          "mean_ns": 130916.71428571429,
+          "median_ns": 130125,
+          "min_ns": 126625,
+          "stdev_ns": 4279.3204305051495
+        },
+        "validation": {
+          "max_ns": 10417,
+          "mean_ns": 9756,
+          "median_ns": 9750,
+          "min_ns": 9333,
+          "stdev_ns": 320.957496073412
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 4279.3204305051495,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 97125,
+      "mean_latency_ns": 85482.14285714286,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 83417,
+      "min_latency_ns": 81166,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 22000,
+          "mean_ns": 19059.571428571428,
+          "median_ns": 18750,
+          "min_ns": 18000,
+          "stdev_ns": 1284.4440550729505
+        },
+        "commit": {
+          "max_ns": 17834,
+          "mean_ns": 15869.142857142857,
+          "median_ns": 15500,
+          "min_ns": 15125,
+          "stdev_ns": 870.4060511494339
+        },
+        "mutation": {
+          "max_ns": 27500,
+          "mean_ns": 24648.714285714286,
+          "median_ns": 24083,
+          "min_ns": 23666,
+          "stdev_ns": 1300.7237231947577
+        },
+        "total": {
+          "max_ns": 97125,
+          "mean_ns": 85482.14285714286,
+          "median_ns": 83417,
+          "min_ns": 81166,
+          "stdev_ns": 5059.931378094016
+        },
+        "validation": {
+          "max_ns": 10417,
+          "mean_ns": 9637.285714285714,
+          "median_ns": 9459,
+          "min_ns": 9334,
+          "stdev_ns": 357.44358767132326
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5059.931378094016,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 85042,
+      "mean_latency_ns": 77737.85714285714,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 75666,
+      "min_latency_ns": 74208,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21542,
+          "mean_ns": 19184.571428571428,
+          "median_ns": 18833,
+          "min_ns": 17750,
+          "stdev_ns": 1195.820681390323
+        },
+        "mutation": {
+          "max_ns": 26417,
+          "mean_ns": 24779.714285714286,
+          "median_ns": 24333,
+          "min_ns": 23500,
+          "stdev_ns": 948.1708276293607
+        },
+        "rollback": {
+          "max_ns": 8416,
+          "mean_ns": 8071.285714285715,
+          "median_ns": 7959,
+          "min_ns": 7875,
+          "stdev_ns": 176.15229959629033
+        },
+        "total": {
+          "max_ns": 85042,
+          "mean_ns": 77737.85714285714,
+          "median_ns": 75666,
+          "min_ns": 74208,
+          "stdev_ns": 3995.0733026913977
+        },
+        "validation": {
+          "max_ns": 10375,
+          "mean_ns": 9673,
+          "median_ns": 9542,
+          "min_ns": 9334,
+          "stdev_ns": 366.84757441905333
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 3995.0733026913977,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 196042,
+      "mean_latency_ns": 184232.14285714287,
+      "mean_memory_overhead_bytes": 2575.5714285714284,
+      "median_latency_ns": 180625,
+      "min_latency_ns": 177875,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 81458,
+          "mean_ns": 75023.57142857143,
+          "median_ns": 73541,
+          "min_ns": 72041,
+          "stdev_ns": 3397.5808560605865
+        },
+        "commit": {
+          "max_ns": 62042,
+          "mean_ns": 59583.42857142857,
+          "median_ns": 58792,
+          "min_ns": 58125,
+          "stdev_ns": 1528.5185972178474
+        },
+        "mutation": {
+          "max_ns": 27792,
+          "mean_ns": 24095.428571428572,
+          "median_ns": 23417,
+          "min_ns": 22667,
+          "stdev_ns": 1674.8704732130232
+        },
+        "total": {
+          "max_ns": 196042,
+          "mean_ns": 184232.14285714287,
+          "median_ns": 180625,
+          "min_ns": 177875,
+          "stdev_ns": 7077.542782402286
+        },
+        "validation": {
+          "max_ns": 10208,
+          "mean_ns": 9648.857142857143,
+          "median_ns": 9667,
+          "min_ns": 9375,
+          "stdev_ns": 257.6727872828686
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 7077.542782402286,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 144500,
+      "mean_latency_ns": 131619,
+      "mean_memory_overhead_bytes": 2547,
+      "median_latency_ns": 128792,
+      "min_latency_ns": 126875,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 80375,
+          "mean_ns": 73845.14285714286,
+          "median_ns": 72417,
+          "min_ns": 71708,
+          "stdev_ns": 2989.3918841019645
+        },
+        "mutation": {
+          "max_ns": 25917,
+          "mean_ns": 23898.85714285714,
+          "median_ns": 23583,
+          "min_ns": 23042,
+          "stdev_ns": 899.5250220567088
+        },
+        "rollback": {
+          "max_ns": 8458,
+          "mean_ns": 8000.142857142857,
+          "median_ns": 7958,
+          "min_ns": 7792,
+          "stdev_ns": 203.89102731706504
+        },
+        "total": {
+          "max_ns": 144500,
+          "mean_ns": 131619,
+          "median_ns": 128792,
+          "min_ns": 126875,
+          "stdev_ns": 5604.154657802676
+        },
+        "validation": {
+          "max_ns": 10459,
+          "mean_ns": 9684.857142857143,
+          "median_ns": 9584,
+          "min_ns": 9417,
+          "stdev_ns": 337.79851499776294
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5604.154657802676,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 94625,
+      "mean_latency_ns": 84595.14285714286,
+      "mean_memory_overhead_bytes": 2177.285714285714,
+      "median_latency_ns": 82875,
+      "min_latency_ns": 80333,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21292,
+          "mean_ns": 18720.14285714286,
+          "median_ns": 18333,
+          "min_ns": 18000,
+          "stdev_ns": 1089.3147818135724
+        },
+        "commit": {
+          "max_ns": 16875,
+          "mean_ns": 15666.57142857143,
+          "median_ns": 15458,
+          "min_ns": 14875,
+          "stdev_ns": 598.9077813922983
+        },
+        "mutation": {
+          "max_ns": 26958,
+          "mean_ns": 24410.571428571428,
+          "median_ns": 24042,
+          "min_ns": 23083,
+          "stdev_ns": 1191.0732083944722
+        },
+        "total": {
+          "max_ns": 94625,
+          "mean_ns": 84595.14285714286,
+          "median_ns": 82875,
+          "min_ns": 80333,
+          "stdev_ns": 4343.850281179834
+        },
+        "validation": {
+          "max_ns": 10750,
+          "mean_ns": 9726.285714285714,
+          "median_ns": 9542,
+          "min_ns": 9334,
+          "stdev_ns": 454.64671191273476
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 4343.850281179834,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 82250,
+      "mean_latency_ns": 76029.71428571429,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 75542,
+      "min_latency_ns": 73458,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20125,
+          "mean_ns": 18559.285714285714,
+          "median_ns": 18416,
+          "min_ns": 18083,
+          "stdev_ns": 666.9771283904107
+        },
+        "mutation": {
+          "max_ns": 25792,
+          "mean_ns": 23833.428571428572,
+          "median_ns": 23334,
+          "min_ns": 23000,
+          "stdev_ns": 923.0751179992817
+        },
+        "rollback": {
+          "max_ns": 8208,
+          "mean_ns": 8011.857142857143,
+          "median_ns": 8042,
+          "min_ns": 7750,
+          "stdev_ns": 143.68460358062882
+        },
+        "total": {
+          "max_ns": 82250,
+          "mean_ns": 76029.71428571429,
+          "median_ns": 75542,
+          "min_ns": 73458,
+          "stdev_ns": 2859.8666659372034
+        },
+        "validation": {
+          "max_ns": 10041,
+          "mean_ns": 9589.42857142857,
+          "median_ns": 9459,
+          "min_ns": 9167,
+          "stdev_ns": 296.4016855277201
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 2859.8666659372034,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 211125,
+      "mean_latency_ns": 199285.7142857143,
+      "mean_memory_overhead_bytes": 2824.1428571428573,
+      "median_latency_ns": 198500,
+      "min_latency_ns": 195417,
+      "mutated_keys": 2,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 76792,
+          "mean_ns": 72678.57142857143,
+          "median_ns": 72125,
+          "min_ns": 70833,
+          "stdev_ns": 1809.7699030652534
+        },
+        "commit": {
+          "max_ns": 61750,
+          "mean_ns": 59154.71428571428,
+          "median_ns": 59042,
+          "min_ns": 58083,
+          "stdev_ns": 1144.11022374666
+        },
+        "mutation": {
+          "max_ns": 44000,
+          "mean_ns": 41875,
+          "median_ns": 41584,
+          "min_ns": 40916,
+          "stdev_ns": 971.9438549334303
+        },
+        "total": {
+          "max_ns": 211125,
+          "mean_ns": 199285.7142857143,
+          "median_ns": 198500,
+          "min_ns": 195417,
+          "stdev_ns": 5069.272354498388
+        },
+        "validation": {
+          "max_ns": 10000,
+          "mean_ns": 9577.142857142857,
+          "median_ns": 9458,
+          "min_ns": 9416,
+          "stdev_ns": 196.03092217550676
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5069.272354498388,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 154416,
+      "mean_latency_ns": 147601,
+      "mean_memory_overhead_bytes": 2547,
+      "median_latency_ns": 146291,
+      "min_latency_ns": 144792,
+      "mutated_keys": 2,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 74209,
+          "mean_ns": 71946.71428571429,
+          "median_ns": 71417,
+          "min_ns": 71000,
+          "stdev_ns": 1061.6624045451028
+        },
+        "mutation": {
+          "max_ns": 42875,
+          "mean_ns": 41625.142857142855,
+          "median_ns": 41500,
+          "min_ns": 40917,
+          "stdev_ns": 584.590559664608
+        },
+        "rollback": {
+          "max_ns": 8875,
+          "mean_ns": 8428.57142857143,
+          "median_ns": 8417,
+          "min_ns": 8125,
+          "stdev_ns": 249.73234651914674
+        },
+        "total": {
+          "max_ns": 154416,
+          "mean_ns": 147601,
+          "median_ns": 146291,
+          "min_ns": 144792,
+          "stdev_ns": 2981.2076172488987
+        },
+        "validation": {
+          "max_ns": 9917,
+          "mean_ns": 9702.142857142857,
+          "median_ns": 9666,
+          "min_ns": 9500,
+          "stdev_ns": 148.4428014627939
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 2981.2076172488987,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 167583,
+      "mean_latency_ns": 118940.28571428571,
+      "mean_memory_overhead_bytes": 2457.285714285714,
+      "median_latency_ns": 110125,
+      "min_latency_ns": 103291,
+      "mutated_keys": 2,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 23542,
+          "mean_ns": 20095.285714285714,
+          "median_ns": 19292,
+          "min_ns": 18583,
+          "stdev_ns": 1563.3818393182787
+        },
+        "commit": {
+          "max_ns": 48875,
+          "mean_ns": 21773.85714285714,
+          "median_ns": 17167,
+          "min_ns": 16250,
+          "stdev_ns": 11113.934592323683
+        },
+        "mutation": {
+          "max_ns": 71167,
+          "mean_ns": 49178.42857142857,
+          "median_ns": 44958,
+          "min_ns": 43833,
+          "stdev_ns": 9125.970302339563
+        },
+        "total": {
+          "max_ns": 167583,
+          "mean_ns": 118940.28571428571,
+          "median_ns": 110125,
+          "min_ns": 103291,
+          "stdev_ns": 20956.49541798632
+        },
+        "validation": {
+          "max_ns": 12291,
+          "mean_ns": 10202.285714285714,
+          "median_ns": 9875,
+          "min_ns": 9334,
+          "stdev_ns": 928.089699218733
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 20956.49541798632,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 105416,
+      "mean_latency_ns": 97118.85714285714,
+      "mean_memory_overhead_bytes": 2440.1428571428573,
+      "median_latency_ns": 95041,
+      "min_latency_ns": 94000,
+      "mutated_keys": 2,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 20917,
+          "mean_ns": 18833.428571428572,
+          "median_ns": 18667,
+          "min_ns": 17709,
+          "stdev_ns": 966.1740241271027
+        },
+        "mutation": {
+          "max_ns": 47167,
+          "mean_ns": 44101.28571428572,
+          "median_ns": 43292,
+          "min_ns": 42334,
+          "stdev_ns": 1731.3167337760763
+        },
+        "rollback": {
+          "max_ns": 9292,
+          "mean_ns": 8548,
+          "median_ns": 8417,
+          "min_ns": 8125,
+          "stdev_ns": 362.93250061133955
+        },
+        "total": {
+          "max_ns": 105416,
+          "mean_ns": 97118.85714285714,
+          "median_ns": 95041,
+          "min_ns": 94000,
+          "stdev_ns": 3850.187098554764
+        },
+        "validation": {
+          "max_ns": 10125,
+          "mean_ns": 9506,
+          "median_ns": 9375,
+          "min_ns": 9208,
+          "stdev_ns": 290.72618438268387
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 3850.187098554764,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 260250,
+      "mean_latency_ns": 239232.14285714287,
+      "mean_memory_overhead_bytes": 3416.1428571428573,
+      "median_latency_ns": 235834,
+      "min_latency_ns": 231750,
+      "mutated_keys": 4,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 86834,
+          "mean_ns": 75029.85714285714,
+          "median_ns": 73500,
+          "min_ns": 70917,
+          "stdev_ns": 5053.772323114443
+        },
+        "commit": {
+          "max_ns": 61791,
+          "mean_ns": 59219.857142857145,
+          "median_ns": 58791,
+          "min_ns": 58291,
+          "stdev_ns": 1116.7849810404646
+        },
+        "mutation": {
+          "max_ns": 82334,
+          "mean_ns": 79077.42857142857,
+          "median_ns": 78458,
+          "min_ns": 77792,
+          "stdev_ns": 1438.5077443699233
+        },
+        "total": {
+          "max_ns": 260250,
+          "mean_ns": 239232.14285714287,
+          "median_ns": 235834,
+          "min_ns": 231750,
+          "stdev_ns": 9060.126795526672
+        },
+        "validation": {
+          "max_ns": 10125,
+          "mean_ns": 9619.142857142857,
+          "median_ns": 9542,
+          "min_ns": 9417,
+          "stdev_ns": 215.2045064394255
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 9060.126795526672,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 197875,
+      "mean_latency_ns": 187446.14285714287,
+      "mean_memory_overhead_bytes": 2984.1428571428573,
+      "median_latency_ns": 186250,
+      "min_latency_ns": 181875,
+      "mutated_keys": 4,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 75542,
+          "mean_ns": 72934.71428571429,
+          "median_ns": 73000,
+          "min_ns": 71084,
+          "stdev_ns": 1513.3525426573106
+        },
+        "mutation": {
+          "max_ns": 91500,
+          "mean_ns": 80660.71428571429,
+          "median_ns": 78500,
+          "min_ns": 78041,
+          "stdev_ns": 4517.508975855917
+        },
+        "rollback": {
+          "max_ns": 8209,
+          "mean_ns": 8024,
+          "median_ns": 8000,
+          "min_ns": 7917,
+          "stdev_ns": 99.32054887369193
+        },
+        "total": {
+          "max_ns": 197875,
+          "mean_ns": 187446.14285714287,
+          "median_ns": 186250,
+          "min_ns": 181875,
+          "stdev_ns": 5438.256822301253
+        },
+        "validation": {
+          "max_ns": 10250,
+          "mean_ns": 9654.714285714286,
+          "median_ns": 9542,
+          "min_ns": 9416,
+          "stdev_ns": 282.3795390633547
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5438.256822301253,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 155250,
+      "mean_latency_ns": 144910.7142857143,
+      "mean_memory_overhead_bytes": 3049.285714285714,
+      "median_latency_ns": 144125,
+      "min_latency_ns": 139583,
+      "mutated_keys": 4,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21208,
+          "mean_ns": 18964.14285714286,
+          "median_ns": 18583,
+          "min_ns": 18166,
+          "stdev_ns": 991.5876776407518
+        },
+        "commit": {
+          "max_ns": 20500,
+          "mean_ns": 17720.14285714286,
+          "median_ns": 17208,
+          "min_ns": 16708,
+          "stdev_ns": 1237.2025389761288
+        },
+        "mutation": {
+          "max_ns": 86000,
+          "mean_ns": 82143,
+          "median_ns": 81625,
+          "min_ns": 80084,
+          "stdev_ns": 1710.7049507648678
+        },
+        "total": {
+          "max_ns": 155250,
+          "mean_ns": 144910.7142857143,
+          "median_ns": 144125,
+          "min_ns": 139583,
+          "stdev_ns": 4833.016647847113
+        },
+        "validation": {
+          "max_ns": 10583,
+          "mean_ns": 9714.42857142857,
+          "median_ns": 9500,
+          "min_ns": 9250,
+          "stdev_ns": 419.0795550601195
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 4833.016647847113,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 145584,
+      "mean_latency_ns": 137898.85714285713,
+      "mean_memory_overhead_bytes": 3032.1428571428573,
+      "median_latency_ns": 135542,
+      "min_latency_ns": 133833,
+      "mutated_keys": 4,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 22917,
+          "mean_ns": 19881,
+          "median_ns": 19416,
+          "min_ns": 18417,
+          "stdev_ns": 1436.573701555197
+        },
+        "mutation": {
+          "max_ns": 88250,
+          "mean_ns": 83720.42857142857,
+          "median_ns": 83459,
+          "min_ns": 81959,
+          "stdev_ns": 1999.6767493874645
+        },
+        "rollback": {
+          "max_ns": 8459,
+          "mean_ns": 8166.857142857143,
+          "median_ns": 8167,
+          "min_ns": 7917,
+          "stdev_ns": 165.2681185843421
+        },
+        "total": {
+          "max_ns": 145584,
+          "mean_ns": 137898.85714285713,
+          "median_ns": 135542,
+          "min_ns": 133833,
+          "stdev_ns": 4376.769305209084
+        },
+        "validation": {
+          "max_ns": 10291,
+          "mean_ns": 9857,
+          "median_ns": 9875,
+          "min_ns": 9583,
+          "stdev_ns": 225.5760878918052
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 4376.769305209084,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 310458,
+      "mean_latency_ns": 300690.4285714286,
+      "mean_memory_overhead_bytes": 4320.142857142857,
+      "median_latency_ns": 297458,
+      "min_latency_ns": 294750,
+      "mutated_keys": 7,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 83834,
+          "mean_ns": 77375.14285714286,
+          "median_ns": 76417,
+          "min_ns": 74667,
+          "stdev_ns": 2834.88475092382
+        },
+        "commit": {
+          "max_ns": 61625,
+          "mean_ns": 60898.857142857145,
+          "median_ns": 60792,
+          "min_ns": 60375,
+          "stdev_ns": 370.66327752573824
+        },
+        "mutation": {
+          "max_ns": 141458,
+          "mean_ns": 136095.2857142857,
+          "median_ns": 135584,
+          "min_ns": 134083,
+          "stdev_ns": 2483.824684075849
+        },
+        "total": {
+          "max_ns": 310458,
+          "mean_ns": 300690.4285714286,
+          "median_ns": 297458,
+          "min_ns": 294750,
+          "stdev_ns": 5841.396038060541
+        },
+        "validation": {
+          "max_ns": 10625,
+          "mean_ns": 10125.142857142857,
+          "median_ns": 10167,
+          "min_ns": 9625,
+          "stdev_ns": 278.1743690418597
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5841.396038060541,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 256250,
+      "mean_latency_ns": 246452.2857142857,
+      "mean_memory_overhead_bytes": 3888.1428571428573,
+      "median_latency_ns": 244583,
+      "min_latency_ns": 238792,
+      "mutated_keys": 7,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 82208,
+          "mean_ns": 76750,
+          "median_ns": 75041,
+          "min_ns": 74042,
+          "stdev_ns": 3057.325348358314
+        },
+        "mutation": {
+          "max_ns": 138500,
+          "mean_ns": 135214.42857142858,
+          "median_ns": 134708,
+          "min_ns": 131917,
+          "stdev_ns": 1973.6429592538375
+        },
+        "rollback": {
+          "max_ns": 8291,
+          "mean_ns": 8190.142857142857,
+          "median_ns": 8208,
+          "min_ns": 8000,
+          "stdev_ns": 103.83837519561497
+        },
+        "total": {
+          "max_ns": 256250,
+          "mean_ns": 246452.2857142857,
+          "median_ns": 244583,
+          "min_ns": 238792,
+          "stdev_ns": 5772.354179666231
+        },
+        "validation": {
+          "max_ns": 10750,
+          "mean_ns": 10124.714285714286,
+          "median_ns": 9958,
+          "min_ns": 9791,
+          "stdev_ns": 307.10524686670726
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5772.354179666231,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 216791,
+      "mean_latency_ns": 202845,
+      "mean_memory_overhead_bytes": 4144.142857142857,
+      "median_latency_ns": 200416,
+      "min_latency_ns": 198083,
+      "mutated_keys": 7,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 22209,
+          "mean_ns": 19172.85714285714,
+          "median_ns": 18583,
+          "min_ns": 18209,
+          "stdev_ns": 1301.1974077278016
+        },
+        "commit": {
+          "max_ns": 20875,
+          "mean_ns": 18952.714285714286,
+          "median_ns": 18459,
+          "min_ns": 18167,
+          "stdev_ns": 935.1376849405217
+        },
+        "mutation": {
+          "max_ns": 144167,
+          "mean_ns": 138720.42857142858,
+          "median_ns": 137917,
+          "min_ns": 137000,
+          "stdev_ns": 2324.122252571486
+        },
+        "total": {
+          "max_ns": 216791,
+          "mean_ns": 202845,
+          "median_ns": 200416,
+          "min_ns": 198083,
+          "stdev_ns": 5996.417501904188
+        },
+        "validation": {
+          "max_ns": 10750,
+          "mean_ns": 9952.285714285714,
+          "median_ns": 9834,
+          "min_ns": 9458,
+          "stdev_ns": 370.3190571407751
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5996.417501904188,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 207125,
+      "mean_latency_ns": 194857.2857142857,
+      "mean_memory_overhead_bytes": 4144.142857142857,
+      "median_latency_ns": 194125,
+      "min_latency_ns": 190000,
+      "mutated_keys": 7,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 21917,
+          "mean_ns": 19589.428571428572,
+          "median_ns": 19166,
+          "min_ns": 18917,
+          "stdev_ns": 976.6158562158639
+        },
+        "mutation": {
+          "max_ns": 146833,
+          "mean_ns": 140690.2857142857,
+          "median_ns": 139583,
+          "min_ns": 138125,
+          "stdev_ns": 2759.404889996895
+        },
+        "rollback": {
+          "max_ns": 8375,
+          "mean_ns": 8083.428571428572,
+          "median_ns": 8083,
+          "min_ns": 7834,
+          "stdev_ns": 149.24462865937076
+        },
+        "total": {
+          "max_ns": 207125,
+          "mean_ns": 194857.2857142857,
+          "median_ns": 194125,
+          "min_ns": 190000,
+          "stdev_ns": 5332.694326089787
+        },
+        "validation": {
+          "max_ns": 10625,
+          "mean_ns": 10029.714285714286,
+          "median_ns": 9917,
+          "min_ns": 9708,
+          "stdev_ns": 314.12541366499477
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 102400,
+      "stdev_latency_ns": 5332.694326089787,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 334667,
+      "mean_latency_ns": 316226.14285714284,
+      "mean_memory_overhead_bytes": 5576.142857142857,
+      "median_latency_ns": 314875,
+      "min_latency_ns": 306333,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 145834,
+          "mean_ns": 141309.7142857143,
+          "median_ns": 140250,
+          "min_ns": 135791,
+          "stdev_ns": 3571.5439924206335
+        },
+        "commit": {
+          "max_ns": 126333,
+          "mean_ns": 121898.85714285714,
+          "median_ns": 120958,
+          "min_ns": 119042,
+          "stdev_ns": 2712.3392343969404
+        },
+        "mutation": {
+          "max_ns": 32584,
+          "mean_ns": 26184.428571428572,
+          "median_ns": 24958,
+          "min_ns": 24125,
+          "stdev_ns": 2741.699621827039
+        },
+        "total": {
+          "max_ns": 334667,
+          "mean_ns": 316226.14285714284,
+          "median_ns": 314875,
+          "min_ns": 306333,
+          "stdev_ns": 9328.451447489195
+        },
+        "validation": {
+          "max_ns": 10792,
+          "mean_ns": 10327.285714285714,
+          "median_ns": 10292,
+          "min_ns": 10000,
+          "stdev_ns": 252.46652637285504
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 9328.451447489195,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 217458,
+      "mean_latency_ns": 201505.85714285713,
+      "mean_memory_overhead_bytes": 3859,
+      "median_latency_ns": 197500,
+      "min_latency_ns": 190958,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 160334,
+          "mean_ns": 142279.7142857143,
+          "median_ns": 138041,
+          "min_ns": 134917,
+          "stdev_ns": 8668.767612433001
+        },
+        "mutation": {
+          "max_ns": 26500,
+          "mean_ns": 24785.714285714286,
+          "median_ns": 24333,
+          "min_ns": 23458,
+          "stdev_ns": 1026.8838735689242
+        },
+        "rollback": {
+          "max_ns": 8875,
+          "mean_ns": 8184.571428571428,
+          "median_ns": 8042,
+          "min_ns": 7875,
+          "stdev_ns": 321.9715413967324
+        },
+        "total": {
+          "max_ns": 217458,
+          "mean_ns": 201505.85714285713,
+          "median_ns": 197500,
+          "min_ns": 190958,
+          "stdev_ns": 9569.59510157892
+        },
+        "validation": {
+          "max_ns": 11208,
+          "mean_ns": 10154.857142857143,
+          "median_ns": 9959,
+          "min_ns": 9750,
+          "stdev_ns": 481.07392617868993
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 9569.59510157892,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 106666,
+      "mean_latency_ns": 93964.14285714286,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 92834,
+      "min_latency_ns": 86208,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 24750,
+          "mean_ns": 22059.571428571428,
+          "median_ns": 22709,
+          "min_ns": 19583,
+          "stdev_ns": 1746.4814306928952
+        },
+        "commit": {
+          "max_ns": 21291,
+          "mean_ns": 17160.714285714286,
+          "median_ns": 16417,
+          "min_ns": 15875,
+          "stdev_ns": 1742.1417618458456
+        },
+        "mutation": {
+          "max_ns": 29959,
+          "mean_ns": 27535.85714285714,
+          "median_ns": 27750,
+          "min_ns": 25167,
+          "stdev_ns": 1646.1656251137438
+        },
+        "total": {
+          "max_ns": 106666,
+          "mean_ns": 93964.14285714286,
+          "median_ns": 92834,
+          "min_ns": 86208,
+          "stdev_ns": 6005.611481381902
+        },
+        "validation": {
+          "max_ns": 11375,
+          "mean_ns": 10422.714285714286,
+          "median_ns": 10417,
+          "min_ns": 9708,
+          "stdev_ns": 549.2755525718045
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 6005.611481381902,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 98417,
+      "mean_latency_ns": 84797.85714285714,
+      "mean_memory_overhead_bytes": 2160.1428571428573,
+      "median_latency_ns": 82333,
+      "min_latency_ns": 79209,
+      "mutated_keys": 1,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 24000,
+          "mean_ns": 21482.285714285714,
+          "median_ns": 21542,
+          "min_ns": 20250,
+          "stdev_ns": 1204.833920301966
+        },
+        "mutation": {
+          "max_ns": 27791,
+          "mean_ns": 26666.571428571428,
+          "median_ns": 26875,
+          "min_ns": 25583,
+          "stdev_ns": 804.750335222556
+        },
+        "rollback": {
+          "max_ns": 9667,
+          "mean_ns": 8464.57142857143,
+          "median_ns": 8209,
+          "min_ns": 8042,
+          "stdev_ns": 529.0667949034297
+        },
+        "total": {
+          "max_ns": 98417,
+          "mean_ns": 84797.85714285714,
+          "median_ns": 82333,
+          "min_ns": 79209,
+          "stdev_ns": 6615.874338687679
+        },
+        "validation": {
+          "max_ns": 10875,
+          "mean_ns": 10238,
+          "median_ns": 10166,
+          "min_ns": 9875,
+          "stdev_ns": 312.39443931396363
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 6615.874338687679,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 365208,
+      "mean_latency_ns": 352780,
+      "mean_memory_overhead_bytes": 6168.142857142857,
+      "median_latency_ns": 350500,
+      "min_latency_ns": 343042,
+      "mutated_keys": 3,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 150292,
+          "mean_ns": 142041.57142857142,
+          "median_ns": 141458,
+          "min_ns": 137458,
+          "stdev_ns": 4291.793592997916
+        },
+        "commit": {
+          "max_ns": 124125,
+          "mean_ns": 120005.85714285714,
+          "median_ns": 119334,
+          "min_ns": 118042,
+          "stdev_ns": 1990.1482664487537
+        },
+        "mutation": {
+          "max_ns": 66625,
+          "mean_ns": 63398.71428571428,
+          "median_ns": 62750,
+          "min_ns": 61333,
+          "stdev_ns": 1788.9390083259418
+        },
+        "total": {
+          "max_ns": 365208,
+          "mean_ns": 352780,
+          "median_ns": 350500,
+          "min_ns": 343042,
+          "stdev_ns": 8396.894204747032
+        },
+        "validation": {
+          "max_ns": 11375,
+          "mean_ns": 10666.714285714286,
+          "median_ns": 10542,
+          "min_ns": 10209,
+          "stdev_ns": 367.1752070239237
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 8396.894204747032,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 269958,
+      "mean_latency_ns": 252202,
+      "mean_memory_overhead_bytes": 4016.1428571428573,
+      "median_latency_ns": 255041,
+      "min_latency_ns": 237541,
+      "mutated_keys": 3,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 155583,
+          "mean_ns": 147845.14285714287,
+          "median_ns": 149125,
+          "min_ns": 140542,
+          "stdev_ns": 5446.108949872152
+        },
+        "mutation": {
+          "max_ns": 78042,
+          "mean_ns": 66541.71428571429,
+          "median_ns": 64666,
+          "min_ns": 62459,
+          "stdev_ns": 4988.007867856257
+        },
+        "rollback": {
+          "max_ns": 9375,
+          "mean_ns": 8964.42857142857,
+          "median_ns": 8959,
+          "min_ns": 8667,
+          "stdev_ns": 260.9366957399313
+        },
+        "total": {
+          "max_ns": 269958,
+          "mean_ns": 252202,
+          "median_ns": 255041,
+          "min_ns": 237541,
+          "stdev_ns": 11564.653228078838
+        },
+        "validation": {
+          "max_ns": 12250,
+          "mean_ns": 10970.142857142857,
+          "median_ns": 10958,
+          "min_ns": 10209,
+          "stdev_ns": 633.1920107273777
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 11564.653228078838,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 194667,
+      "mean_latency_ns": 141601.42857142858,
+      "mean_memory_overhead_bytes": 2769.285714285714,
+      "median_latency_ns": 130209,
+      "min_latency_ns": 125750,
+      "mutated_keys": 3,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 32125,
+          "mean_ns": 23077.428571428572,
+          "median_ns": 20750,
+          "min_ns": 19625,
+          "stdev_ns": 4177.437863336906
+        },
+        "commit": {
+          "max_ns": 20833,
+          "mean_ns": 18761.85714285714,
+          "median_ns": 18167,
+          "min_ns": 17916,
+          "stdev_ns": 1064.1070607484446
+        },
+        "mutation": {
+          "max_ns": 108792,
+          "mean_ns": 71863.14285714286,
+          "median_ns": 65083,
+          "min_ns": 62667,
+          "stdev_ns": 15339.001359080634
+        },
+        "total": {
+          "max_ns": 194667,
+          "mean_ns": 141601.42857142858,
+          "median_ns": 130209,
+          "min_ns": 125750,
+          "stdev_ns": 22948.71110515262
+        },
+        "validation": {
+          "max_ns": 14250,
+          "mean_ns": 11238.142857142857,
+          "median_ns": 10666,
+          "min_ns": 10209,
+          "stdev_ns": 1398.4836102590782
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 22948.71110515262,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 127625,
+      "mean_latency_ns": 123148.85714285714,
+      "mean_memory_overhead_bytes": 2752.1428571428573,
+      "median_latency_ns": 123792,
+      "min_latency_ns": 115916,
+      "mutated_keys": 3,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 22875,
+          "mean_ns": 21577.285714285714,
+          "median_ns": 21375,
+          "min_ns": 19583,
+          "stdev_ns": 1029.8333726920118
+        },
+        "mutation": {
+          "max_ns": 69292,
+          "mean_ns": 65750,
+          "median_ns": 65542,
+          "min_ns": 62500,
+          "stdev_ns": 2212.6377923193845
+        },
+        "rollback": {
+          "max_ns": 9375,
+          "mean_ns": 8815.42857142857,
+          "median_ns": 8834,
+          "min_ns": 8167,
+          "stdev_ns": 346.96391625596095
+        },
+        "total": {
+          "max_ns": 127625,
+          "mean_ns": 123148.85714285714,
+          "median_ns": 123792,
+          "min_ns": 115916,
+          "stdev_ns": 4051.300793874602
+        },
+        "validation": {
+          "max_ns": 12083,
+          "mean_ns": 10743.857142857143,
+          "median_ns": 10750,
+          "min_ns": 10041,
+          "stdev_ns": 646.0257466278898
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 4051.300793874602,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 481583,
+      "mean_latency_ns": 438148.71428571426,
+      "mean_memory_overhead_bytes": 7008.142857142857,
+      "median_latency_ns": 432209,
+      "min_latency_ns": 412291,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 165750,
+          "mean_ns": 150309.57142857142,
+          "median_ns": 149250,
+          "min_ns": 137708,
+          "stdev_ns": 9930.574229651185
+        },
+        "commit": {
+          "max_ns": 128458,
+          "mean_ns": 123511.71428571429,
+          "median_ns": 122083,
+          "min_ns": 120167,
+          "stdev_ns": 3215.3695061725784
+        },
+        "mutation": {
+          "max_ns": 151875,
+          "mean_ns": 130589.28571428571,
+          "median_ns": 128041,
+          "min_ns": 118667,
+          "stdev_ns": 10383.55797422452
+        },
+        "total": {
+          "max_ns": 481583,
+          "mean_ns": 438148.71428571426,
+          "median_ns": 432209,
+          "min_ns": 412291,
+          "stdev_ns": 23482.67905569237
+        },
+        "validation": {
+          "max_ns": 48666,
+          "mean_ns": 16357,
+          "median_ns": 11208,
+          "min_ns": 10250,
+          "stdev_ns": 13202.799410947448
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 23482.67905569237,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 317458,
+      "mean_latency_ns": 304666.85714285716,
+      "mean_memory_overhead_bytes": 4856.142857142857,
+      "median_latency_ns": 304292,
+      "min_latency_ns": 295917,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 157459,
+          "mean_ns": 147440.42857142858,
+          "median_ns": 145792,
+          "min_ns": 141375,
+          "stdev_ns": 5640.855351987038
+        },
+        "mutation": {
+          "max_ns": 123625,
+          "mean_ns": 120779.85714285714,
+          "median_ns": 120875,
+          "min_ns": 116917,
+          "stdev_ns": 2155.5059352121243
+        },
+        "rollback": {
+          "max_ns": 10417,
+          "mean_ns": 9166.57142857143,
+          "median_ns": 8791,
+          "min_ns": 8541,
+          "stdev_ns": 708.0126829257181
+        },
+        "total": {
+          "max_ns": 317458,
+          "mean_ns": 304666.85714285716,
+          "median_ns": 304292,
+          "min_ns": 295917,
+          "stdev_ns": 7772.129703141152
+        },
+        "validation": {
+          "max_ns": 10500,
+          "mean_ns": 10333.285714285714,
+          "median_ns": 10416,
+          "min_ns": 10125,
+          "stdev_ns": 170.9801277389646
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 7772.129703141152,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 218084,
+      "mean_latency_ns": 199756.2857142857,
+      "mean_memory_overhead_bytes": 3800.1428571428573,
+      "median_latency_ns": 196292,
+      "min_latency_ns": 184292,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 27000,
+          "mean_ns": 22768,
+          "median_ns": 20958,
+          "min_ns": 19875,
+          "stdev_ns": 2606.5864924949533
+        },
+        "commit": {
+          "max_ns": 35542,
+          "mean_ns": 23131,
+          "median_ns": 20125,
+          "min_ns": 18500,
+          "stdev_ns": 5636.236028718862
+        },
+        "mutation": {
+          "max_ns": 131375,
+          "mean_ns": 127035.71428571429,
+          "median_ns": 129416,
+          "min_ns": 121292,
+          "stdev_ns": 3610.6322245867814
+        },
+        "total": {
+          "max_ns": 218084,
+          "mean_ns": 199756.2857142857,
+          "median_ns": 196292,
+          "min_ns": 184292,
+          "stdev_ns": 12144.365991970877
+        },
+        "validation": {
+          "max_ns": 11291,
+          "mean_ns": 10220,
+          "median_ns": 10083,
+          "min_ns": 9791,
+          "stdev_ns": 491.1871915500822
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 12144.365991970877,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 193083,
+      "mean_latency_ns": 185053.14285714287,
+      "mean_memory_overhead_bytes": 3800.1428571428573,
+      "median_latency_ns": 183083,
+      "min_latency_ns": 180667,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 23959,
+          "mean_ns": 22851.285714285714,
+          "median_ns": 22834,
+          "min_ns": 21916,
+          "stdev_ns": 674.3644021882943
+        },
+        "mutation": {
+          "max_ns": 135375,
+          "mean_ns": 126571.14285714286,
+          "median_ns": 126125,
+          "min_ns": 122333,
+          "stdev_ns": 3877.968187763551
+        },
+        "rollback": {
+          "max_ns": 9791,
+          "mean_ns": 8761.857142857143,
+          "median_ns": 8666,
+          "min_ns": 8375,
+          "stdev_ns": 434.87187885675957
+        },
+        "total": {
+          "max_ns": 193083,
+          "mean_ns": 185053.14285714287,
+          "median_ns": 183083,
+          "min_ns": 180667,
+          "stdev_ns": 4644.951127793686
+        },
+        "validation": {
+          "max_ns": 10458,
+          "mean_ns": 10202.57142857143,
+          "median_ns": 10250,
+          "min_ns": 9959,
+          "stdev_ns": 159.52774693079672
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 4644.951127793686,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 619416,
+      "mean_latency_ns": 589737.8571428572,
+      "mean_memory_overhead_bytes": 9583,
+      "median_latency_ns": 586125,
+      "min_latency_ns": 574083,
+      "mutated_keys": 16,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 152750,
+          "mean_ns": 142940.42857142858,
+          "median_ns": 140750,
+          "min_ns": 136542,
+          "stdev_ns": 5856.326026666569
+        },
+        "commit": {
+          "max_ns": 125416,
+          "mean_ns": 120928.57142857143,
+          "median_ns": 119958,
+          "min_ns": 118708,
+          "stdev_ns": 2110.084755044069
+        },
+        "mutation": {
+          "max_ns": 310708,
+          "mean_ns": 299279.71428571426,
+          "median_ns": 297500,
+          "min_ns": 293709,
+          "stdev_ns": 5714.829999078481
+        },
+        "total": {
+          "max_ns": 619416,
+          "mean_ns": 589737.8571428572,
+          "median_ns": 586125,
+          "min_ns": 574083,
+          "stdev_ns": 13839.88669884023
+        },
+        "validation": {
+          "max_ns": 11459,
+          "mean_ns": 10178.714285714286,
+          "median_ns": 10041,
+          "min_ns": 9791,
+          "stdev_ns": 539.7218104292815
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 13839.88669884023,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 492917,
+      "mean_latency_ns": 480553.5714285714,
+      "mean_memory_overhead_bytes": 6120.142857142857,
+      "median_latency_ns": 482333,
+      "min_latency_ns": 469292,
+      "mutated_keys": 16,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 145958,
+          "mean_ns": 142601.14285714287,
+          "median_ns": 142541,
+          "min_ns": 139167,
+          "stdev_ns": 2455.9085271804306
+        },
+        "mutation": {
+          "max_ns": 315875,
+          "mean_ns": 302655,
+          "median_ns": 301709,
+          "min_ns": 296458,
+          "stdev_ns": 5936.279282032283
+        },
+        "rollback": {
+          "max_ns": 10709,
+          "mean_ns": 8577.57142857143,
+          "median_ns": 8250,
+          "min_ns": 8167,
+          "stdev_ns": 871.1950506783946
+        },
+        "total": {
+          "max_ns": 492917,
+          "mean_ns": 480553.5714285714,
+          "median_ns": 482333,
+          "min_ns": 469292,
+          "stdev_ns": 7613.4809732875965
+        },
+        "validation": {
+          "max_ns": 10666,
+          "mean_ns": 10178.42857142857,
+          "median_ns": 10167,
+          "min_ns": 9916,
+          "stdev_ns": 244.66703738688108
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 7613.4809732875965,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 486042,
+      "mean_latency_ns": 401130.85714285716,
+      "mean_memory_overhead_bytes": 5256.142857142857,
+      "median_latency_ns": 388042,
+      "min_latency_ns": 376333,
+      "mutated_keys": 16,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 32125,
+          "mean_ns": 21678.571428571428,
+          "median_ns": 19792,
+          "min_ns": 19000,
+          "stdev_ns": 4329.159761997466
+        },
+        "commit": {
+          "max_ns": 34417,
+          "mean_ns": 26809.571428571428,
+          "median_ns": 24250,
+          "min_ns": 23584,
+          "stdev_ns": 4513.692465539648
+        },
+        "mutation": {
+          "max_ns": 416625,
+          "mean_ns": 325190.4285714286,
+          "median_ns": 309708,
+          "min_ns": 307125,
+          "stdev_ns": 37440.44587210522
+        },
+        "total": {
+          "max_ns": 486042,
+          "mean_ns": 401130.85714285716,
+          "median_ns": 388042,
+          "min_ns": 376333,
+          "stdev_ns": 36540.391050486156
+        },
+        "validation": {
+          "max_ns": 11333,
+          "mean_ns": 9970.142857142857,
+          "median_ns": 9666,
+          "min_ns": 9458,
+          "stdev_ns": 604.0632484792179
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 36540.391050486156,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 454334,
+      "mean_latency_ns": 378910.85714285716,
+      "mean_memory_overhead_bytes": 5256.142857142857,
+      "median_latency_ns": 365625,
+      "min_latency_ns": 359834,
+      "mutated_keys": 16,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 24375,
+          "mean_ns": 22232.14285714286,
+          "median_ns": 21834,
+          "min_ns": 20500,
+          "stdev_ns": 1500.6112496076323
+        },
+        "mutation": {
+          "max_ns": 393458,
+          "mean_ns": 321732,
+          "median_ns": 308166,
+          "min_ns": 306125,
+          "stdev_ns": 29503.368848803882
+        },
+        "rollback": {
+          "max_ns": 8500,
+          "mean_ns": 8303.714285714286,
+          "median_ns": 8292,
+          "min_ns": 8167,
+          "stdev_ns": 108.31398047965433
+        },
+        "total": {
+          "max_ns": 454334,
+          "mean_ns": 378910.85714285716,
+          "median_ns": 365625,
+          "min_ns": 359834,
+          "stdev_ns": 31222.190485196224
+        },
+        "validation": {
+          "max_ns": 10459,
+          "mean_ns": 10089.42857142857,
+          "median_ns": 10167,
+          "min_ns": 9708,
+          "stdev_ns": 266.77966143449174
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 31222.190485196224,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1030333,
+      "mean_latency_ns": 899279.5714285715,
+      "mean_memory_overhead_bytes": 11456.142857142857,
+      "median_latency_ns": 877292,
+      "min_latency_ns": 865291,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 148333,
+          "mean_ns": 140767.85714285713,
+          "median_ns": 139709,
+          "min_ns": 136042,
+          "stdev_ns": 4251.467156122912
+        },
+        "commit": {
+          "max_ns": 124917,
+          "mean_ns": 121017.85714285714,
+          "median_ns": 119750,
+          "min_ns": 118875,
+          "stdev_ns": 2115.0557864018238
+        },
+        "mutation": {
+          "max_ns": 746333,
+          "mean_ns": 610506,
+          "median_ns": 586959,
+          "min_ns": 580250,
+          "stdev_ns": 55828.07613685839
+        },
+        "total": {
+          "max_ns": 1030333,
+          "mean_ns": 899279.5714285715,
+          "median_ns": 877292,
+          "min_ns": 865291,
+          "stdev_ns": 54732.352166460645
+        },
+        "validation": {
+          "max_ns": 10958,
+          "mean_ns": 10374.857142857143,
+          "median_ns": 10167,
+          "min_ns": 10000,
+          "stdev_ns": 375.2090573729449
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 54732.352166460645,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 816417,
+      "mean_latency_ns": 783291.7142857143,
+      "mean_memory_overhead_bytes": 9064.142857142857,
+      "median_latency_ns": 775333,
+      "min_latency_ns": 766708,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 166625,
+          "mean_ns": 151809.57142857142,
+          "median_ns": 149834,
+          "min_ns": 140292,
+          "stdev_ns": 8487.441880417762
+        },
+        "mutation": {
+          "max_ns": 605542,
+          "mean_ns": 593345.2857142857,
+          "median_ns": 590541,
+          "min_ns": 586833,
+          "stdev_ns": 6478.731086393069
+        },
+        "rollback": {
+          "max_ns": 8875,
+          "mean_ns": 8440.42857142857,
+          "median_ns": 8333,
+          "min_ns": 8125,
+          "stdev_ns": 284.3869884218922
+        },
+        "total": {
+          "max_ns": 816417,
+          "mean_ns": 783291.7142857143,
+          "median_ns": 775333,
+          "min_ns": 766708,
+          "stdev_ns": 17062.32959905941
+        },
+        "validation": {
+          "max_ns": 12916,
+          "mean_ns": 11089.42857142857,
+          "median_ns": 10750,
+          "min_ns": 10042,
+          "stdev_ns": 905.3526317160082
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 17062.32959905941,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 728084,
+      "mean_latency_ns": 703535.7142857143,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 706667,
+      "min_latency_ns": 685333,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 32250,
+          "mean_ns": 26017.85714285714,
+          "median_ns": 24333,
+          "min_ns": 21334,
+          "stdev_ns": 4041.0572318417376
+        },
+        "commit": {
+          "max_ns": 39417,
+          "mean_ns": 34553.71428571428,
+          "median_ns": 33750,
+          "min_ns": 32291,
+          "stdev_ns": 2217.575427242601
+        },
+        "mutation": {
+          "max_ns": 627209,
+          "mean_ns": 614720.1428571428,
+          "median_ns": 615708,
+          "min_ns": 601000,
+          "stdev_ns": 9278.464550137769
+        },
+        "total": {
+          "max_ns": 728084,
+          "mean_ns": 703535.7142857143,
+          "median_ns": 706667,
+          "min_ns": 685333,
+          "stdev_ns": 15965.533141420487
+        },
+        "validation": {
+          "max_ns": 13458,
+          "mean_ns": 10827.42857142857,
+          "median_ns": 10458,
+          "min_ns": 9917,
+          "stdev_ns": 1118.6651301749723
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 15965.533141420487,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 672750,
+      "mean_latency_ns": 668428.5714285715,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 667833,
+      "min_latency_ns": 663292,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 23625,
+          "mean_ns": 22375,
+          "median_ns": 22875,
+          "min_ns": 20958,
+          "stdev_ns": 1044.3271244476718
+        },
+        "mutation": {
+          "max_ns": 614750,
+          "mean_ns": 610732.1428571428,
+          "median_ns": 610167,
+          "min_ns": 608917,
+          "stdev_ns": 1930.5256448195973
+        },
+        "rollback": {
+          "max_ns": 10125,
+          "mean_ns": 8529.714285714286,
+          "median_ns": 8292,
+          "min_ns": 8083,
+          "stdev_ns": 656.8443421358811
+        },
+        "total": {
+          "max_ns": 672750,
+          "mean_ns": 668428.5714285715,
+          "median_ns": 667833,
+          "min_ns": 663292,
+          "stdev_ns": 3354.2382084735236
+        },
+        "validation": {
+          "max_ns": 11375,
+          "mean_ns": 10250,
+          "median_ns": 10125,
+          "min_ns": 9792,
+          "stdev_ns": 499.37675442209246
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 3354.2382084735236,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1583125,
+      "mean_latency_ns": 1484416.857142857,
+      "mean_memory_overhead_bytes": 17696.14285714286,
+      "median_latency_ns": 1464375,
+      "min_latency_ns": 1445959,
+      "mutated_keys": 64,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 157292,
+          "mean_ns": 146303.42857142858,
+          "median_ns": 144583,
+          "min_ns": 140125,
+          "stdev_ns": 5465.987242082829
+        },
+        "commit": {
+          "max_ns": 130458,
+          "mean_ns": 123636.85714285714,
+          "median_ns": 121209,
+          "min_ns": 120458,
+          "stdev_ns": 4142.1577340653685
+        },
+        "mutation": {
+          "max_ns": 1275792,
+          "mean_ns": 1185493.857142857,
+          "median_ns": 1166750,
+          "min_ns": 1155708,
+          "stdev_ns": 39136.770001144054
+        },
+        "total": {
+          "max_ns": 1583125,
+          "mean_ns": 1484416.857142857,
+          "median_ns": 1464375,
+          "min_ns": 1445959,
+          "stdev_ns": 45538.43736709391
+        },
+        "validation": {
+          "max_ns": 19250,
+          "mean_ns": 11660.42857142857,
+          "median_ns": 10416,
+          "min_ns": 9916,
+          "stdev_ns": 3115.334417139233
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 45538.43736709391,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1477333,
+      "mean_latency_ns": 1393732.142857143,
+      "mean_memory_overhead_bytes": 15039,
+      "median_latency_ns": 1403542,
+      "min_latency_ns": 1335041,
+      "mutated_keys": 64,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 159042,
+          "mean_ns": 146190.7142857143,
+          "median_ns": 142583,
+          "min_ns": 138458,
+          "stdev_ns": 7160.927747441782
+        },
+        "mutation": {
+          "max_ns": 1285667,
+          "mean_ns": 1212142.857142857,
+          "median_ns": 1222625,
+          "min_ns": 1154042,
+          "stdev_ns": 43237.07312820651
+        },
+        "rollback": {
+          "max_ns": 8666,
+          "mean_ns": 8303.57142857143,
+          "median_ns": 8292,
+          "min_ns": 8042,
+          "stdev_ns": 208.14133738046993
+        },
+        "total": {
+          "max_ns": 1477333,
+          "mean_ns": 1393732.142857143,
+          "median_ns": 1403542,
+          "min_ns": 1335041,
+          "stdev_ns": 46821.5827993537
+        },
+        "validation": {
+          "max_ns": 11500,
+          "mean_ns": 10482,
+          "median_ns": 10208,
+          "min_ns": 10041,
+          "stdev_ns": 487.3962893346059
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 46821.5827993537,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1396042,
+      "mean_latency_ns": 1319964.7142857143,
+      "mean_memory_overhead_bytes": 15258.42857142857,
+      "median_latency_ns": 1300042,
+      "min_latency_ns": 1283834,
+      "mutated_keys": 64,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 25625,
+          "mean_ns": 22292,
+          "median_ns": 21917,
+          "min_ns": 20084,
+          "stdev_ns": 1822.7269210091315
+        },
+        "commit": {
+          "max_ns": 57041,
+          "mean_ns": 50493.857142857145,
+          "median_ns": 49541,
+          "min_ns": 47417,
+          "stdev_ns": 3101.1947664717604
+        },
+        "mutation": {
+          "max_ns": 1296541,
+          "mean_ns": 1217642.7142857143,
+          "median_ns": 1202458,
+          "min_ns": 1191292,
+          "stdev_ns": 33796.112852196
+        },
+        "total": {
+          "max_ns": 1396042,
+          "mean_ns": 1319964.7142857143,
+          "median_ns": 1300042,
+          "min_ns": 1283834,
+          "stdev_ns": 38021.39363837262
+        },
+        "validation": {
+          "max_ns": 11083,
+          "mean_ns": 10208.285714285714,
+          "median_ns": 10125,
+          "min_ns": 9792,
+          "stdev_ns": 405.74260464546956
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 38021.39363837262,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1270542,
+      "mean_latency_ns": 1258357.2857142857,
+      "mean_memory_overhead_bytes": 15258.42857142857,
+      "median_latency_ns": 1254500,
+      "min_latency_ns": 1248042,
+      "mutated_keys": 64,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 23417,
+          "mean_ns": 21696.285714285714,
+          "median_ns": 21791,
+          "min_ns": 20542,
+          "stdev_ns": 879.7083468458192
+        },
+        "mutation": {
+          "max_ns": 1214625,
+          "mean_ns": 1202000,
+          "median_ns": 1197834,
+          "min_ns": 1193375,
+          "stdev_ns": 8262.061659001514
+        },
+        "rollback": {
+          "max_ns": 8834,
+          "mean_ns": 8291.57142857143,
+          "median_ns": 8167,
+          "min_ns": 8125,
+          "stdev_ns": 230.67407876101922
+        },
+        "total": {
+          "max_ns": 1270542,
+          "mean_ns": 1258357.2857142857,
+          "median_ns": 1254500,
+          "min_ns": 1248042,
+          "stdev_ns": 7977.326614748035
+        },
+        "validation": {
+          "max_ns": 10542,
+          "mean_ns": 10113.142857142857,
+          "median_ns": 10125,
+          "min_ns": 9625,
+          "stdev_ns": 302.78206616613994
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 1048576,
+      "stdev_latency_ns": 7977.326614748035,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1753208,
+      "mean_latency_ns": 1686071.4285714286,
+      "mean_memory_overhead_bytes": 35072.142857142855,
+      "median_latency_ns": 1685125,
+      "min_latency_ns": 1642708,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 862750,
+          "mean_ns": 800255.8571428572,
+          "median_ns": 791417,
+          "min_ns": 763417,
+          "stdev_ns": 31737.710775437256
+        },
+        "commit": {
+          "max_ns": 780542,
+          "mean_ns": 725321.4285714285,
+          "median_ns": 720375,
+          "min_ns": 704125,
+          "stdev_ns": 24412.483252029324
+        },
+        "mutation": {
+          "max_ns": 134125,
+          "mean_ns": 128726.42857142857,
+          "median_ns": 129459,
+          "min_ns": 124667,
+          "stdev_ns": 3211.4391458900636
+        },
+        "total": {
+          "max_ns": 1753208,
+          "mean_ns": 1686071.4285714286,
+          "median_ns": 1685125,
+          "min_ns": 1642708,
+          "stdev_ns": 34313.229222465634
+        },
+        "validation": {
+          "max_ns": 12292,
+          "mean_ns": 11731.857142857143,
+          "median_ns": 11708,
+          "min_ns": 11166,
+          "stdev_ns": 323.7037572364269
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 34313.229222465634,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1032708,
+      "mean_latency_ns": 982862.8571428572,
+      "mean_memory_overhead_bytes": 20691,
+      "median_latency_ns": 977625,
+      "min_latency_ns": 954583,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 846000,
+          "mean_ns": 805024,
+          "median_ns": 800084,
+          "min_ns": 777959,
+          "stdev_ns": 20561.48569534799
+        },
+        "mutation": {
+          "max_ns": 142541,
+          "mean_ns": 134154.85714285713,
+          "median_ns": 134042,
+          "min_ns": 126458,
+          "stdev_ns": 5160.454753731121
+        },
+        "rollback": {
+          "max_ns": 10292,
+          "mean_ns": 9565.42857142857,
+          "median_ns": 9625,
+          "min_ns": 9166,
+          "stdev_ns": 370.17133374497087
+        },
+        "total": {
+          "max_ns": 1032708,
+          "mean_ns": 982862.8571428572,
+          "median_ns": 977625,
+          "min_ns": 954583,
+          "stdev_ns": 25788.71483768805
+        },
+        "validation": {
+          "max_ns": 14334,
+          "mean_ns": 12661,
+          "median_ns": 12625,
+          "min_ns": 11709,
+          "stdev_ns": 848.2439002348996
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 25788.71483768805,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 273625,
+      "mean_latency_ns": 231559.42857142858,
+      "mean_memory_overhead_bytes": 3176.1428571428573,
+      "median_latency_ns": 227583,
+      "min_latency_ns": 206500,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 51458,
+          "mean_ns": 37047.71428571428,
+          "median_ns": 35792,
+          "min_ns": 29625,
+          "stdev_ns": 6413.82352455083
+        },
+        "commit": {
+          "max_ns": 30083,
+          "mean_ns": 24464.428571428572,
+          "median_ns": 23875,
+          "min_ns": 20625,
+          "stdev_ns": 2749.068510144734
+        },
+        "mutation": {
+          "max_ns": 151750,
+          "mean_ns": 138851.14285714287,
+          "median_ns": 138292,
+          "min_ns": 129333,
+          "stdev_ns": 6140.579507984368
+        },
+        "total": {
+          "max_ns": 273625,
+          "mean_ns": 231559.42857142858,
+          "median_ns": 227583,
+          "min_ns": 206500,
+          "stdev_ns": 18868.181416320538
+        },
+        "validation": {
+          "max_ns": 13541,
+          "mean_ns": 11952.42857142857,
+          "median_ns": 11792,
+          "min_ns": 10792,
+          "stdev_ns": 875.2591219817391
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 18868.181416320538,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 344250,
+      "mean_latency_ns": 235523.85714285713,
+      "mean_memory_overhead_bytes": 3176.1428571428573,
+      "median_latency_ns": 215333,
+      "min_latency_ns": 209167,
+      "mutated_keys": 6,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 98417,
+          "mean_ns": 45184.28571428572,
+          "median_ns": 36958,
+          "min_ns": 32833,
+          "stdev_ns": 21832.499194119406
+        },
+        "mutation": {
+          "max_ns": 187250,
+          "mean_ns": 146357.2857142857,
+          "median_ns": 138125,
+          "min_ns": 133084,
+          "stdev_ns": 17756.708597149463
+        },
+        "rollback": {
+          "max_ns": 13083,
+          "mean_ns": 10374.857142857143,
+          "median_ns": 9875,
+          "min_ns": 9000,
+          "stdev_ns": 1430.7202410545765
+        },
+        "total": {
+          "max_ns": 344250,
+          "mean_ns": 235523.85714285713,
+          "median_ns": 215333,
+          "min_ns": 209167,
+          "stdev_ns": 45317.25150671043
+        },
+        "validation": {
+          "max_ns": 14708,
+          "mean_ns": 12255.857142857143,
+          "median_ns": 11708,
+          "min_ns": 11417,
+          "stdev_ns": 1114.4984046096931
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 45317.25150671043,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 2313792,
+      "mean_latency_ns": 2194756,
+      "mean_memory_overhead_bytes": 39904.142857142855,
+      "median_latency_ns": 2184416,
+      "min_latency_ns": 2107417,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 917917,
+          "mean_ns": 815523.7142857143,
+          "median_ns": 792375,
+          "min_ns": 767875,
+          "stdev_ns": 53803.47632612144
+        },
+        "commit": {
+          "max_ns": 731583,
+          "mean_ns": 722083.2857142857,
+          "median_ns": 720583,
+          "min_ns": 712125,
+          "stdev_ns": 6387.530949643458
+        },
+        "mutation": {
+          "max_ns": 683458,
+          "mean_ns": 626517.5714285715,
+          "median_ns": 608541,
+          "min_ns": 593166,
+          "stdev_ns": 30967.34427866667
+        },
+        "total": {
+          "max_ns": 2313792,
+          "mean_ns": 2194756,
+          "median_ns": 2184416,
+          "min_ns": 2107417,
+          "stdev_ns": 64335.13365628013
+        },
+        "validation": {
+          "max_ns": 13125,
+          "mean_ns": 11886.857142857143,
+          "median_ns": 11792,
+          "min_ns": 11125,
+          "stdev_ns": 684.2345939747835
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 64335.13365628013,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1607458,
+      "mean_latency_ns": 1446267.7142857143,
+      "mean_memory_overhead_bytes": 20691,
+      "median_latency_ns": 1419167,
+      "min_latency_ns": 1399666,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 944334,
+          "mean_ns": 803488.2857142857,
+          "median_ns": 782833,
+          "min_ns": 767209,
+          "stdev_ns": 57899.73728219273
+        },
+        "mutation": {
+          "max_ns": 620250,
+          "mean_ns": 602768,
+          "median_ns": 597750,
+          "min_ns": 594667,
+          "stdev_ns": 9219.973117407355
+        },
+        "rollback": {
+          "max_ns": 9584,
+          "mean_ns": 9178.57142857143,
+          "median_ns": 9125,
+          "min_ns": 8625,
+          "stdev_ns": 360.4413394488394
+        },
+        "total": {
+          "max_ns": 1607458,
+          "mean_ns": 1446267.7142857143,
+          "median_ns": 1419167,
+          "min_ns": 1399666,
+          "stdev_ns": 66964.13350809368
+        },
+        "validation": {
+          "max_ns": 12917,
+          "mean_ns": 11934.57142857143,
+          "median_ns": 11875,
+          "min_ns": 11291,
+          "stdev_ns": 517.644074393885
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 66964.13350809368,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 808541,
+      "mean_latency_ns": 754577.1428571428,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 747708,
+      "min_latency_ns": 729000,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 52667,
+          "mean_ns": 38506,
+          "median_ns": 36042,
+          "min_ns": 31958,
+          "stdev_ns": 6505.795482271392
+        },
+        "commit": {
+          "max_ns": 48959,
+          "mean_ns": 40535.71428571428,
+          "median_ns": 38500,
+          "min_ns": 36917,
+          "stdev_ns": 4025.928667109374
+        },
+        "mutation": {
+          "max_ns": 678875,
+          "mean_ns": 641654.8571428572,
+          "median_ns": 637500,
+          "min_ns": 626333,
+          "stdev_ns": 15953.952572760067
+        },
+        "total": {
+          "max_ns": 808541,
+          "mean_ns": 754577.1428571428,
+          "median_ns": 747708,
+          "min_ns": 729000,
+          "stdev_ns": 24164.083432285384
+        },
+        "validation": {
+          "max_ns": 16792,
+          "mean_ns": 13762,
+          "median_ns": 12792,
+          "min_ns": 11625,
+          "stdev_ns": 1901.9556852280834
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 24164.083432285384,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 886167,
+      "mean_latency_ns": 760797.8571428572,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 737500,
+      "min_latency_ns": 724042,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 52792,
+          "mean_ns": 43202.28571428572,
+          "median_ns": 41541,
+          "min_ns": 38000,
+          "stdev_ns": 4587.360701327249
+        },
+        "mutation": {
+          "max_ns": 802458,
+          "mean_ns": 673553.4285714285,
+          "median_ns": 647917,
+          "min_ns": 637750,
+          "stdev_ns": 55345.23940259552
+        },
+        "rollback": {
+          "max_ns": 10083,
+          "mean_ns": 9345.142857142857,
+          "median_ns": 9250,
+          "min_ns": 8792,
+          "stdev_ns": 377.00717256209504
+        },
+        "total": {
+          "max_ns": 886167,
+          "mean_ns": 760797.8571428572,
+          "median_ns": 737500,
+          "min_ns": 724042,
+          "stdev_ns": 53803.62665797744
+        },
+        "validation": {
+          "max_ns": 20084,
+          "mean_ns": 13869.142857142857,
+          "median_ns": 12458,
+          "min_ns": 11750,
+          "stdev_ns": 2818.6565912845494
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 53803.62665797744,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 2856000,
+      "mean_latency_ns": 2755631.285714286,
+      "mean_memory_overhead_bytes": 45972.71428571428,
+      "median_latency_ns": 2752209,
+      "min_latency_ns": 2683250,
+      "mutated_keys": 64,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 830917,
+          "mean_ns": 788672.5714285715,
+          "median_ns": 780583,
+          "min_ns": 764500,
+          "stdev_ns": 20754.855307043857
+        },
+        "commit": {
+          "max_ns": 814208,
+          "mean_ns": 744047.4285714285,
+          "median_ns": 733833,
+          "min_ns": 713542,
+          "stdev_ns": 32930.59176014712
+        },
+        "mutation": {
+          "max_ns": 1212541,
+          "mean_ns": 1190410.5714285714,
+          "median_ns": 1187083,
+          "min_ns": 1169125,
+          "stdev_ns": 15404.961472174595
+        },
+        "total": {
+          "max_ns": 2856000,
+          "mean_ns": 2755631.285714286,
+          "median_ns": 2752209,
+          "min_ns": 2683250,
+          "stdev_ns": 51153.06324499969
+        },
+        "validation": {
+          "max_ns": 13000,
+          "mean_ns": 11756.142857142857,
+          "median_ns": 11500,
+          "min_ns": 11000,
+          "stdev_ns": 612.1651104473201
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 51153.06324499969,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 2215167,
+      "mean_latency_ns": 2069821.7142857143,
+      "mean_memory_overhead_bytes": 26511.571428571428,
+      "median_latency_ns": 2056250,
+      "min_latency_ns": 2007042,
+      "mutated_keys": 64,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 949334,
+          "mean_ns": 831208.4285714285,
+          "median_ns": 825167,
+          "min_ns": 780125,
+          "stdev_ns": 52214.145100064714
+        },
+        "mutation": {
+          "max_ns": 1217041,
+          "mean_ns": 1191749.857142857,
+          "median_ns": 1186584,
+          "min_ns": 1177958,
+          "stdev_ns": 14009.98255763747
+        },
+        "rollback": {
+          "max_ns": 16875,
+          "mean_ns": 10190.285714285714,
+          "median_ns": 8916,
+          "min_ns": 8708,
+          "stdev_ns": 2755.7144634525603
+        },
+        "total": {
+          "max_ns": 2215167,
+          "mean_ns": 2069821.7142857143,
+          "median_ns": 2056250,
+          "min_ns": 2007042,
+          "stdev_ns": 61663.29752712198
+        },
+        "validation": {
+          "max_ns": 16791,
+          "mean_ns": 13166.714285714286,
+          "median_ns": 13042,
+          "min_ns": 11458,
+          "stdev_ns": 1709.7932802606547
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 61663.29752712198,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1508667,
+      "mean_latency_ns": 1380970.2857142857,
+      "mean_memory_overhead_bytes": 15258.42857142857,
+      "median_latency_ns": 1356959,
+      "min_latency_ns": 1319000,
+      "mutated_keys": 64,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 49583,
+          "mean_ns": 36767.857142857145,
+          "median_ns": 34750,
+          "min_ns": 29166,
+          "stdev_ns": 6494.192513943767
+        },
+        "commit": {
+          "max_ns": 61167,
+          "mean_ns": 55416.71428571428,
+          "median_ns": 54250,
+          "min_ns": 51875,
+          "stdev_ns": 2884.802826353783
+        },
+        "mutation": {
+          "max_ns": 1360125,
+          "mean_ns": 1256916.5714285714,
+          "median_ns": 1238291,
+          "min_ns": 1209750,
+          "stdev_ns": 48609.97231861304
+        },
+        "total": {
+          "max_ns": 1508667,
+          "mean_ns": 1380970.2857142857,
+          "median_ns": 1356959,
+          "min_ns": 1319000,
+          "stdev_ns": 61167.74379573947
+        },
+        "validation": {
+          "max_ns": 14083,
+          "mean_ns": 12011.857142857143,
+          "median_ns": 11875,
+          "min_ns": 10125,
+          "stdev_ns": 1208.9835670124398
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 61167.74379573947,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 1429375,
+      "mean_latency_ns": 1347285.5714285714,
+      "mean_memory_overhead_bytes": 15258.42857142857,
+      "median_latency_ns": 1316750,
+      "min_latency_ns": 1312000,
+      "mutated_keys": 64,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 42417,
+          "mean_ns": 36202.42857142857,
+          "median_ns": 35625,
+          "min_ns": 32292,
+          "stdev_ns": 3021.037847076628
+        },
+        "mutation": {
+          "max_ns": 1352916,
+          "mean_ns": 1270321.2857142857,
+          "median_ns": 1242625,
+          "min_ns": 1235167,
+          "stdev_ns": 42689.0102141198
+        },
+        "rollback": {
+          "max_ns": 10333,
+          "mean_ns": 9410.857142857143,
+          "median_ns": 9250,
+          "min_ns": 8834,
+          "stdev_ns": 473.5086146663705
+        },
+        "total": {
+          "max_ns": 1429375,
+          "mean_ns": 1347285.5714285714,
+          "median_ns": 1316750,
+          "min_ns": 1312000,
+          "stdev_ns": 42861.55426438924
+        },
+        "validation": {
+          "max_ns": 13917,
+          "mean_ns": 12047.714285714286,
+          "median_ns": 11750,
+          "min_ns": 11208,
+          "stdev_ns": 843.8768891737898
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 42861.55426438924,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 4920292,
+      "mean_latency_ns": 4661137,
+      "mean_memory_overhead_bytes": 79545.28571428571,
+      "median_latency_ns": 4589333,
+      "min_latency_ns": 4497833,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 1033250,
+          "mean_ns": 855190.5714285715,
+          "median_ns": 838250,
+          "min_ns": 781833,
+          "stdev_ns": 78859.60714524287
+        },
+        "commit": {
+          "max_ns": 883375,
+          "mean_ns": 756250,
+          "median_ns": 736875,
+          "min_ns": 712375,
+          "stdev_ns": 54064.16132443271
+        },
+        "mutation": {
+          "max_ns": 3135584,
+          "mean_ns": 3008768,
+          "median_ns": 2993875,
+          "min_ns": 2933250,
+          "stdev_ns": 71058.05261092611
+        },
+        "total": {
+          "max_ns": 4920292,
+          "mean_ns": 4661137,
+          "median_ns": 4589333,
+          "min_ns": 4497833,
+          "stdev_ns": 139169.3561436158
+        },
+        "validation": {
+          "max_ns": 22375,
+          "mean_ns": 19214.285714285714,
+          "median_ns": 19500,
+          "min_ns": 13958,
+          "stdev_ns": 2875.10634408467
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 139169.3561436158,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 4293958,
+      "mean_latency_ns": 3927511.8571428573,
+      "mean_memory_overhead_bytes": 60155.57142857143,
+      "median_latency_ns": 3884292,
+      "min_latency_ns": 3754333,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 893333,
+          "mean_ns": 822327.4285714285,
+          "median_ns": 793625,
+          "min_ns": 776583,
+          "stdev_ns": 41166.18920861128
+        },
+        "mutation": {
+          "max_ns": 3344291,
+          "mean_ns": 3051964.1428571427,
+          "median_ns": 3001792,
+          "min_ns": 2920833,
+          "stdev_ns": 136910.95510318122
+        },
+        "rollback": {
+          "max_ns": 11000,
+          "mean_ns": 9690.42857142857,
+          "median_ns": 9500,
+          "min_ns": 9208,
+          "stdev_ns": 550.4966217991214
+        },
+        "total": {
+          "max_ns": 4293958,
+          "mean_ns": 3927511.8571428573,
+          "median_ns": 3884292,
+          "min_ns": 3754333,
+          "stdev_ns": 161759.26015041044
+        },
+        "validation": {
+          "max_ns": 25042,
+          "mean_ns": 20357,
+          "median_ns": 20875,
+          "min_ns": 13375,
+          "stdev_ns": 3291.647004160683
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 161759.26015041044,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 3394209,
+      "mean_latency_ns": 3307690.4285714286,
+      "mean_memory_overhead_bytes": 50547.57142857143,
+      "median_latency_ns": 3302416,
+      "min_latency_ns": 3219458,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 53709,
+          "mean_ns": 46529.857142857145,
+          "median_ns": 45250,
+          "min_ns": 40417,
+          "stdev_ns": 4411.259438837699
+        },
+        "commit": {
+          "max_ns": 126334,
+          "mean_ns": 120018.14285714286,
+          "median_ns": 119917,
+          "min_ns": 113542,
+          "stdev_ns": 4818.108859250882
+        },
+        "mutation": {
+          "max_ns": 3191334,
+          "mean_ns": 3098946.5714285714,
+          "median_ns": 3097917,
+          "min_ns": 3018458,
+          "stdev_ns": 57674.7510908175
+        },
+        "total": {
+          "max_ns": 3394209,
+          "mean_ns": 3307690.4285714286,
+          "median_ns": 3302416,
+          "min_ns": 3219458,
+          "stdev_ns": 57359.82502428269
+        },
+        "validation": {
+          "max_ns": 23791,
+          "mean_ns": 20773.85714285714,
+          "median_ns": 21667,
+          "min_ns": 14000,
+          "stdev_ns": 2978.2496023465783
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 57359.82502428269,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 3199375,
+      "mean_latency_ns": 3172071.285714286,
+      "mean_memory_overhead_bytes": 50547.57142857143,
+      "median_latency_ns": 3175833,
+      "min_latency_ns": 3138291,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 61583,
+          "mean_ns": 46898.71428571428,
+          "median_ns": 45833,
+          "min_ns": 36250,
+          "stdev_ns": 7194.741327908197
+        },
+        "mutation": {
+          "max_ns": 3112333,
+          "mean_ns": 3073642.8571428573,
+          "median_ns": 3081083,
+          "min_ns": 3035042,
+          "stdev_ns": 25841.36581656059
+        },
+        "rollback": {
+          "max_ns": 10125,
+          "mean_ns": 9577.42857142857,
+          "median_ns": 9625,
+          "min_ns": 8917,
+          "stdev_ns": 337.2315258703082
+        },
+        "total": {
+          "max_ns": 3199375,
+          "mean_ns": 3172071.285714286,
+          "median_ns": 3175833,
+          "min_ns": 3138291,
+          "stdev_ns": 25000.17130635186
+        },
+        "validation": {
+          "max_ns": 21334,
+          "mean_ns": 19375,
+          "median_ns": 20209,
+          "min_ns": 13458,
+          "stdev_ns": 2465.439746344887
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 25000.17130635186,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 7616000,
+      "mean_latency_ns": 7519952.285714285,
+      "mean_memory_overhead_bytes": 140611.57142857142,
+      "median_latency_ns": 7505583,
+      "min_latency_ns": 7433542,
+      "mutated_keys": 320,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 831750,
+          "mean_ns": 804874.8571428572,
+          "median_ns": 810875,
+          "min_ns": 766666,
+          "stdev_ns": 22459.957317276396
+        },
+        "commit": {
+          "max_ns": 760750,
+          "mean_ns": 728666.2857142857,
+          "median_ns": 730791,
+          "min_ns": 709166,
+          "stdev_ns": 17468.716713961934
+        },
+        "mutation": {
+          "max_ns": 6007625,
+          "mean_ns": 5952089.285714285,
+          "median_ns": 5941375,
+          "min_ns": 5912791,
+          "stdev_ns": 31681.825356477922
+        },
+        "total": {
+          "max_ns": 7616000,
+          "mean_ns": 7519952.285714285,
+          "median_ns": 7505583,
+          "min_ns": 7433542,
+          "stdev_ns": 60275.49803957133
+        },
+        "validation": {
+          "max_ns": 24292,
+          "mean_ns": 14809.57142857143,
+          "median_ns": 13417,
+          "min_ns": 11958,
+          "stdev_ns": 3960.6260276138473
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 60275.49803957133,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 6973458,
+      "mean_latency_ns": 6772273.714285715,
+      "mean_memory_overhead_bytes": 121340.14285714286,
+      "median_latency_ns": 6741083,
+      "min_latency_ns": 6687542,
+      "mutated_keys": 320,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 848917,
+          "mean_ns": 802464.2857142857,
+          "median_ns": 789833,
+          "min_ns": 779750,
+          "stdev_ns": 26573.288713691883
+        },
+        "mutation": {
+          "max_ns": 6089875,
+          "mean_ns": 5926077.428571428,
+          "median_ns": 5892667,
+          "min_ns": 5864125,
+          "stdev_ns": 73946.74276001836
+        },
+        "rollback": {
+          "max_ns": 11083,
+          "mean_ns": 9904.57142857143,
+          "median_ns": 9833,
+          "min_ns": 9250,
+          "stdev_ns": 578.8986728861863
+        },
+        "total": {
+          "max_ns": 6973458,
+          "mean_ns": 6772273.714285715,
+          "median_ns": 6741083,
+          "min_ns": 6687542,
+          "stdev_ns": 90787.6670112573
+        },
+        "validation": {
+          "max_ns": 14500,
+          "mean_ns": 13660.714285714286,
+          "median_ns": 13666,
+          "min_ns": 13042,
+          "stdev_ns": 540.6587818276394
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 90787.6670112573,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 6591875,
+      "mean_latency_ns": 6439839.285714285,
+      "mean_memory_overhead_bytes": 114979.57142857143,
+      "median_latency_ns": 6409375,
+      "min_latency_ns": 6317875,
+      "mutated_keys": 320,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 53250,
+          "mean_ns": 41761.857142857145,
+          "median_ns": 39167,
+          "min_ns": 34583,
+          "stdev_ns": 6459.737509673095
+        },
+        "commit": {
+          "max_ns": 258542,
+          "mean_ns": 211863.14285714287,
+          "median_ns": 204708,
+          "min_ns": 188209,
+          "stdev_ns": 21769.13212672982
+        },
+        "mutation": {
+          "max_ns": 6257834,
+          "mean_ns": 6150708.571428572,
+          "median_ns": 6131250,
+          "min_ns": 6031209,
+          "stdev_ns": 74531.07155476863
+        },
+        "total": {
+          "max_ns": 6591875,
+          "mean_ns": 6439839.285714285,
+          "median_ns": 6409375,
+          "min_ns": 6317875,
+          "stdev_ns": 90791.52715458213
+        },
+        "validation": {
+          "max_ns": 15459,
+          "mean_ns": 14315.42857142857,
+          "median_ns": 14875,
+          "min_ns": 12750,
+          "stdev_ns": 1079.0128897870177
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 90791.52715458213,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 6337958,
+      "mean_latency_ns": 6224809.428571428,
+      "mean_memory_overhead_bytes": 114979.57142857143,
+      "median_latency_ns": 6193334,
+      "min_latency_ns": 6118625,
+      "mutated_keys": 320,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 65250,
+          "mean_ns": 50976,
+          "median_ns": 49666,
+          "min_ns": 39875,
+          "stdev_ns": 8437.454033737225
+        },
+        "mutation": {
+          "max_ns": 6253792,
+          "mean_ns": 6126988,
+          "median_ns": 6083583,
+          "min_ns": 6018583,
+          "stdev_ns": 85371.24268912637
+        },
+        "rollback": {
+          "max_ns": 12875,
+          "mean_ns": 10363.142857142857,
+          "median_ns": 9917,
+          "min_ns": 9208,
+          "stdev_ns": 1102.998436544861
+        },
+        "total": {
+          "max_ns": 6337958,
+          "mean_ns": 6224809.428571428,
+          "median_ns": 6193334,
+          "min_ns": 6118625,
+          "stdev_ns": 83664.52624936457
+        },
+        "validation": {
+          "max_ns": 14791,
+          "mean_ns": 13964.142857142857,
+          "median_ns": 13958,
+          "min_ns": 12750,
+          "stdev_ns": 629.4871900594798
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 83664.52624936457,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 13901875,
+      "mean_latency_ns": 13707869.142857144,
+      "mean_memory_overhead_bytes": 268220.14285714284,
+      "median_latency_ns": 13722834,
+      "min_latency_ns": 13538667,
+      "mutated_keys": 639,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 935458,
+          "mean_ns": 855524,
+          "median_ns": 832459,
+          "min_ns": 781125,
+          "stdev_ns": 51999.70859533734
+        },
+        "commit": {
+          "max_ns": 733375,
+          "mean_ns": 727279.7142857143,
+          "median_ns": 727958,
+          "min_ns": 720084,
+          "stdev_ns": 4263.339493009331
+        },
+        "mutation": {
+          "max_ns": 12313000,
+          "mean_ns": 12090065.42857143,
+          "median_ns": 12055917,
+          "min_ns": 11989875,
+          "stdev_ns": 101269.87940696899
+        },
+        "total": {
+          "max_ns": 13901875,
+          "mean_ns": 13707869.142857144,
+          "median_ns": 13722834,
+          "min_ns": 13538667,
+          "stdev_ns": 102350.60612902882
+        },
+        "validation": {
+          "max_ns": 16292,
+          "mean_ns": 14416.57142857143,
+          "median_ns": 14667,
+          "min_ns": 12792,
+          "stdev_ns": 1148.316638406331
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 102350.60612902882,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 13101875,
+      "mean_latency_ns": 12876910.857142856,
+      "mean_memory_overhead_bytes": 248947.57142857142,
+      "median_latency_ns": 12855833,
+      "min_latency_ns": 12718292,
+      "mutated_keys": 639,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 875000,
+          "mean_ns": 804844.8571428572,
+          "median_ns": 793333,
+          "min_ns": 783458,
+          "stdev_ns": 29477.535472814216
+        },
+        "mutation": {
+          "max_ns": 12177792,
+          "mean_ns": 12027589.142857144,
+          "median_ns": 12015042,
+          "min_ns": 11874666,
+          "stdev_ns": 90992.0813107674
+        },
+        "rollback": {
+          "max_ns": 11750,
+          "mean_ns": 10375,
+          "median_ns": 10250,
+          "min_ns": 9458,
+          "stdev_ns": 708.1246863572625
+        },
+        "total": {
+          "max_ns": 13101875,
+          "mean_ns": 12876910.857142856,
+          "median_ns": 12855833,
+          "min_ns": 12718292,
+          "stdev_ns": 112141.34176046199
+        },
+        "validation": {
+          "max_ns": 14500,
+          "mean_ns": 13744,
+          "median_ns": 13833,
+          "min_ns": 12209,
+          "stdev_ns": 776.8666000580243
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 112141.34176046199,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 19563625,
+      "mean_latency_ns": 13830970.142857144,
+      "mean_memory_overhead_bytes": 249067.57142857142,
+      "median_latency_ns": 12834625,
+      "min_latency_ns": 12785583,
+      "mutated_keys": 639,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 44375,
+          "mean_ns": 36250.142857142855,
+          "median_ns": 36084,
+          "min_ns": 29708,
+          "stdev_ns": 4485.600435315892
+        },
+        "commit": {
+          "max_ns": 448750,
+          "mean_ns": 408417,
+          "median_ns": 400792,
+          "min_ns": 384167,
+          "stdev_ns": 20917.32127755778
+        },
+        "mutation": {
+          "max_ns": 19083292,
+          "mean_ns": 13353035.714285715,
+          "median_ns": 12378250,
+          "min_ns": 12325542,
+          "stdev_ns": 2340114.2096650335
+        },
+        "total": {
+          "max_ns": 19563625,
+          "mean_ns": 13830970.142857144,
+          "median_ns": 12834625,
+          "min_ns": 12785583,
+          "stdev_ns": 2341552.954350438
+        },
+        "validation": {
+          "max_ns": 16416,
+          "mean_ns": 13982.142857142857,
+          "median_ns": 13750,
+          "min_ns": 12375,
+          "stdev_ns": 1494.9308085824507
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 2341552.954350438,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 12652000,
+      "mean_latency_ns": 12434410.57142857,
+      "mean_memory_overhead_bytes": 249067.57142857142,
+      "median_latency_ns": 12406750,
+      "min_latency_ns": 12311333,
+      "mutated_keys": 639,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 53625,
+          "mean_ns": 41601.142857142855,
+          "median_ns": 39208,
+          "min_ns": 35291,
+          "stdev_ns": 6469.309908628396
+        },
+        "mutation": {
+          "max_ns": 12564083,
+          "mean_ns": 12350071.42857143,
+          "median_ns": 12330750,
+          "min_ns": 12236375,
+          "stdev_ns": 102601.61084903262
+        },
+        "rollback": {
+          "max_ns": 11208,
+          "mean_ns": 10035.42857142857,
+          "median_ns": 9916,
+          "min_ns": 9125,
+          "stdev_ns": 696.2505413473879
+        },
+        "total": {
+          "max_ns": 12652000,
+          "mean_ns": 12434410.57142857,
+          "median_ns": 12406750,
+          "min_ns": 12311333,
+          "stdev_ns": 106534.52985884387
+        },
+        "validation": {
+          "max_ns": 16125,
+          "mean_ns": 13142.714285714286,
+          "median_ns": 12500,
+          "min_ns": 11583,
+          "stdev_ns": 1474.1629793872585
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 10485760,
+      "stdev_latency_ns": 106534.52985884387,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 9305792,
+      "mean_latency_ns": 8362452.428571428,
+      "mean_memory_overhead_bytes": 266896.14285714284,
+      "median_latency_ns": 8284667,
+      "min_latency_ns": 7860709,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 5055000,
+          "mean_ns": 4039464.285714286,
+          "median_ns": 3875042,
+          "min_ns": 3741000,
+          "stdev_ns": 426972.9870855714
+        },
+        "commit": {
+          "max_ns": 4029625,
+          "mean_ns": 3660089.4285714286,
+          "median_ns": 3550042,
+          "min_ns": 3470334,
+          "stdev_ns": 199895.91119941624
+        },
+        "mutation": {
+          "max_ns": 670834,
+          "mean_ns": 627839.1428571428,
+          "median_ns": 620166,
+          "min_ns": 605875,
+          "stdev_ns": 21088.047849965842
+        },
+        "total": {
+          "max_ns": 9305792,
+          "mean_ns": 8362452.428571428,
+          "median_ns": 8284667,
+          "min_ns": 7860709,
+          "stdev_ns": 430679.5871051959
+        },
+        "validation": {
+          "max_ns": 18750,
+          "mean_ns": 13458.285714285714,
+          "median_ns": 13417,
+          "min_ns": 11333,
+          "stdev_ns": 2324.7162477715556
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 430679.5871051959,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 5697042,
+      "mean_latency_ns": 4599006.142857143,
+      "mean_memory_overhead_bytes": 156883,
+      "median_latency_ns": 4346917,
+      "min_latency_ns": 4298500,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 5008417,
+          "mean_ns": 3927232.285714286,
+          "median_ns": 3689875,
+          "min_ns": 3633083,
+          "stdev_ns": 461493.46210032806
+        },
+        "mutation": {
+          "max_ns": 653708,
+          "mean_ns": 625845.1428571428,
+          "median_ns": 618750,
+          "min_ns": 611125,
+          "stdev_ns": 14772.559004824465
+        },
+        "rollback": {
+          "max_ns": 10000,
+          "mean_ns": 9238.142857142857,
+          "median_ns": 9209,
+          "min_ns": 8791,
+          "stdev_ns": 399.5166467375398
+        },
+        "total": {
+          "max_ns": 5697042,
+          "mean_ns": 4599006.142857143,
+          "median_ns": 4346917,
+          "min_ns": 4298500,
+          "stdev_ns": 467391.54519935074
+        },
+        "validation": {
+          "max_ns": 16166,
+          "mean_ns": 13154.714285714286,
+          "median_ns": 12708,
+          "min_ns": 12292,
+          "stdev_ns": 1274.8202914568799
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 467391.54519935074,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 829041,
+      "mean_latency_ns": 789851.4285714285,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 787375,
+      "min_latency_ns": 761292,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.01,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 63583,
+          "mean_ns": 55458,
+          "median_ns": 56041,
+          "min_ns": 48416,
+          "stdev_ns": 4760.239609815576
+        },
+        "commit": {
+          "max_ns": 56167,
+          "mean_ns": 47393,
+          "median_ns": 46167,
+          "min_ns": 40958,
+          "stdev_ns": 5634.201781466982
+        },
+        "mutation": {
+          "max_ns": 675375,
+          "mean_ns": 650333.5714285715,
+          "median_ns": 648584,
+          "min_ns": 636250,
+          "stdev_ns": 13475.62011143662
+        },
+        "total": {
+          "max_ns": 829041,
+          "mean_ns": 789851.4285714285,
+          "median_ns": 787375,
+          "min_ns": 761292,
+          "stdev_ns": 21987.993300611928
+        },
+        "validation": {
+          "max_ns": 13458,
+          "mean_ns": 12625,
+          "median_ns": 12417,
+          "min_ns": 11875,
+          "stdev_ns": 531.1787431202957
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 21987.993300611928,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 786375,
+      "mean_latency_ns": 754006,
+      "mean_memory_overhead_bytes": 8568.142857142857,
+      "median_latency_ns": 757167,
+      "min_latency_ns": 730750,
+      "mutated_keys": 32,
+      "mutation_ratio": 0.01,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 60917,
+          "mean_ns": 56012,
+          "median_ns": 56125,
+          "min_ns": 49375,
+          "stdev_ns": 3462.351224240545
+        },
+        "mutation": {
+          "max_ns": 685083,
+          "mean_ns": 651952.4285714285,
+          "median_ns": 649542,
+          "min_ns": 633959,
+          "stdev_ns": 16720.669389002538
+        },
+        "rollback": {
+          "max_ns": 10000,
+          "mean_ns": 9202.42857142857,
+          "median_ns": 9042,
+          "min_ns": 8667,
+          "stdev_ns": 422.8106152008611
+        },
+        "total": {
+          "max_ns": 786375,
+          "mean_ns": 754006,
+          "median_ns": 757167,
+          "min_ns": 730750,
+          "stdev_ns": 18280.11805213522
+        },
+        "validation": {
+          "max_ns": 13500,
+          "mean_ns": 12797.57142857143,
+          "median_ns": 12875,
+          "min_ns": 12041,
+          "stdev_ns": 431.71282026791084
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 18280.11805213522,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 11487167,
+      "mean_latency_ns": 10770565.57142857,
+      "mean_memory_overhead_bytes": 306520.14285714284,
+      "median_latency_ns": 10672958,
+      "min_latency_ns": 10389958,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4790125,
+          "mean_ns": 4101535.714285714,
+          "median_ns": 4017000,
+          "min_ns": 3825875,
+          "stdev_ns": 306898.65967110114
+        },
+        "commit": {
+          "max_ns": 3956750,
+          "mean_ns": 3614851.285714286,
+          "median_ns": 3542250,
+          "min_ns": 3484000,
+          "stdev_ns": 153456.54734131863
+        },
+        "mutation": {
+          "max_ns": 3234208,
+          "mean_ns": 3011934.714285714,
+          "median_ns": 2981750,
+          "min_ns": 2944125,
+          "stdev_ns": 93057.06596294907
+        },
+        "total": {
+          "max_ns": 11487167,
+          "mean_ns": 10770565.57142857,
+          "median_ns": 10672958,
+          "min_ns": 10389958,
+          "stdev_ns": 348513.5973358273
+        },
+        "validation": {
+          "max_ns": 22583,
+          "mean_ns": 18910.571428571428,
+          "median_ns": 20583,
+          "min_ns": 12333,
+          "stdev_ns": 3683.624296692549
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 348513.5973358273,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 8196250,
+      "mean_latency_ns": 7083672.571428572,
+      "mean_memory_overhead_bytes": 156883,
+      "median_latency_ns": 7014750,
+      "min_latency_ns": 6624959,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 5090667,
+          "mean_ns": 3990678.714285714,
+          "median_ns": 3867959,
+          "min_ns": 3616750,
+          "stdev_ns": 467618.7800529445
+        },
+        "mutation": {
+          "max_ns": 3095125,
+          "mean_ns": 3037892.5714285714,
+          "median_ns": 3051958,
+          "min_ns": 2950750,
+          "stdev_ns": 50747.662966195916
+        },
+        "rollback": {
+          "max_ns": 10375,
+          "mean_ns": 9630.857142857143,
+          "median_ns": 9625,
+          "min_ns": 9125,
+          "stdev_ns": 370.28461199130464
+        },
+        "total": {
+          "max_ns": 8196250,
+          "mean_ns": 7083672.571428572,
+          "median_ns": 7014750,
+          "min_ns": 6624959,
+          "stdev_ns": 487426.4913759838
+        },
+        "validation": {
+          "max_ns": 23625,
+          "mean_ns": 19386.85714285714,
+          "median_ns": 19875,
+          "min_ns": 14166,
+          "stdev_ns": 3533.0090949934056
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 487426.4913759838,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 3861333,
+      "mean_latency_ns": 3435422.5714285714,
+      "mean_memory_overhead_bytes": 50547.57142857143,
+      "median_latency_ns": 3343708,
+      "min_latency_ns": 3314625,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.05,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 69916,
+          "mean_ns": 58494,
+          "median_ns": 55042,
+          "min_ns": 52333,
+          "stdev_ns": 7243.407090983793
+        },
+        "commit": {
+          "max_ns": 177666,
+          "mean_ns": 146857,
+          "median_ns": 142667,
+          "min_ns": 128666,
+          "stdev_ns": 16560.13367785935
+        },
+        "mutation": {
+          "max_ns": 3608042,
+          "mean_ns": 3182583.285714286,
+          "median_ns": 3121375,
+          "min_ns": 3074708,
+          "stdev_ns": 176254.95956119467
+        },
+        "total": {
+          "max_ns": 3861333,
+          "mean_ns": 3435422.5714285714,
+          "median_ns": 3343708,
+          "min_ns": 3314625,
+          "stdev_ns": 180730.42102049367
+        },
+        "validation": {
+          "max_ns": 24667,
+          "mean_ns": 21398.85714285714,
+          "median_ns": 21834,
+          "min_ns": 14167,
+          "stdev_ns": 3211.7941327271287
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 180730.42102049367,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 3355000,
+      "mean_latency_ns": 3249059.4285714286,
+      "mean_memory_overhead_bytes": 50547.57142857143,
+      "median_latency_ns": 3253625,
+      "min_latency_ns": 3188792,
+      "mutated_keys": 160,
+      "mutation_ratio": 0.05,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 59625,
+          "mean_ns": 53547.57142857143,
+          "median_ns": 54458,
+          "min_ns": 48625,
+          "stdev_ns": 3929.0335364580746
+        },
+        "mutation": {
+          "max_ns": 3243167,
+          "mean_ns": 3141839.285714286,
+          "median_ns": 3136208,
+          "min_ns": 3088375,
+          "stdev_ns": 52981.70025507267
+        },
+        "rollback": {
+          "max_ns": 10625,
+          "mean_ns": 9821.42857142857,
+          "median_ns": 9667,
+          "min_ns": 9375,
+          "stdev_ns": 391.86836607020297
+        },
+        "total": {
+          "max_ns": 3355000,
+          "mean_ns": 3249059.4285714286,
+          "median_ns": 3253625,
+          "min_ns": 3188792,
+          "stdev_ns": 57210.941275891186
+        },
+        "validation": {
+          "max_ns": 22709,
+          "mean_ns": 20393,
+          "median_ns": 21208,
+          "min_ns": 12667,
+          "stdev_ns": 3224.5627832090886
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 57210.941275891186,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 14846875,
+      "mean_latency_ns": 14026809.285714285,
+      "mean_memory_overhead_bytes": 367211.5714285714,
+      "median_latency_ns": 13950458,
+      "min_latency_ns": 13624167,
+      "mutated_keys": 319,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4738958,
+          "mean_ns": 4028696.4285714286,
+          "median_ns": 3913583,
+          "min_ns": 3749000,
+          "stdev_ns": 307122.52576867526
+        },
+        "commit": {
+          "max_ns": 4009667,
+          "mean_ns": 3889446.4285714286,
+          "median_ns": 3930083,
+          "min_ns": 3705625,
+          "stdev_ns": 103628.60965673406
+        },
+        "mutation": {
+          "max_ns": 6181792,
+          "mean_ns": 6068970.142857143,
+          "median_ns": 6071167,
+          "min_ns": 5959083,
+          "stdev_ns": 76731.82802541881
+        },
+        "total": {
+          "max_ns": 14846875,
+          "mean_ns": 14026809.285714285,
+          "median_ns": 13950458,
+          "min_ns": 13624167,
+          "stdev_ns": 371289.73576198425
+        },
+        "validation": {
+          "max_ns": 32292,
+          "mean_ns": 16892.714285714286,
+          "median_ns": 14333,
+          "min_ns": 12583,
+          "stdev_ns": 6385.876485635775
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 371289.73576198425,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 10464291,
+      "mean_latency_ns": 9979458.142857144,
+      "mean_memory_overhead_bytes": 211747.57142857142,
+      "median_latency_ns": 9878417,
+      "min_latency_ns": 9795291,
+      "mutated_keys": 319,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4310375,
+          "mean_ns": 3857684.4285714286,
+          "median_ns": 3784541,
+          "min_ns": 3697250,
+          "stdev_ns": 194986.42083405057
+        },
+        "mutation": {
+          "max_ns": 6266792,
+          "mean_ns": 6071672.571428572,
+          "median_ns": 6067917,
+          "min_ns": 5903333,
+          "stdev_ns": 99280.90296420433
+        },
+        "rollback": {
+          "max_ns": 11000,
+          "mean_ns": 10464.42857142857,
+          "median_ns": 10375,
+          "min_ns": 9916,
+          "stdev_ns": 358.8516833069686
+        },
+        "total": {
+          "max_ns": 10464291,
+          "mean_ns": 9979458.142857144,
+          "median_ns": 9878417,
+          "min_ns": 9795291,
+          "stdev_ns": 222669.39188750443
+        },
+        "validation": {
+          "max_ns": 17334,
+          "mean_ns": 15684.42857142857,
+          "median_ns": 15333,
+          "min_ns": 14458,
+          "stdev_ns": 941.6509600761021
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 222669.39188750443,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 6780375,
+      "mean_latency_ns": 6598708.428571428,
+      "mean_memory_overhead_bytes": 114587.57142857143,
+      "median_latency_ns": 6584959,
+      "min_latency_ns": 6484916,
+      "mutated_keys": 319,
+      "mutation_ratio": 0.1,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 167583,
+          "mean_ns": 72202.14285714286,
+          "median_ns": 54000,
+          "min_ns": 51250,
+          "stdev_ns": 39246.94209536247
+        },
+        "commit": {
+          "max_ns": 312417,
+          "mean_ns": 277940.5714285714,
+          "median_ns": 274250,
+          "min_ns": 237750,
+          "stdev_ns": 25467.784198064495
+        },
+        "mutation": {
+          "max_ns": 6308875,
+          "mean_ns": 6204803.428571428,
+          "median_ns": 6208833,
+          "min_ns": 6121750,
+          "stdev_ns": 55145.44704650769
+        },
+        "total": {
+          "max_ns": 6780375,
+          "mean_ns": 6598708.428571428,
+          "median_ns": 6584959,
+          "min_ns": 6484916,
+          "stdev_ns": 88199.63984354252
+        },
+        "validation": {
+          "max_ns": 15833,
+          "mean_ns": 14958.142857142857,
+          "median_ns": 14958,
+          "min_ns": 14000,
+          "stdev_ns": 506.85400224506145
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 88199.63984354252,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 6426459,
+      "mean_latency_ns": 6297279.857142857,
+      "mean_memory_overhead_bytes": 114587.57142857143,
+      "median_latency_ns": 6283375,
+      "min_latency_ns": 6207333,
+      "mutated_keys": 319,
+      "mutation_ratio": 0.1,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 64791,
+          "mean_ns": 53303.28571428572,
+          "median_ns": 51292,
+          "min_ns": 45375,
+          "stdev_ns": 6588.717818346444
+        },
+        "mutation": {
+          "max_ns": 6322458,
+          "mean_ns": 6196267.714285715,
+          "median_ns": 6174542,
+          "min_ns": 6097458,
+          "stdev_ns": 68374.78166424119
+        },
+        "rollback": {
+          "max_ns": 11750,
+          "mean_ns": 10470.142857142857,
+          "median_ns": 10166,
+          "min_ns": 10000,
+          "stdev_ns": 562.4805846989434
+        },
+        "total": {
+          "max_ns": 6426459,
+          "mean_ns": 6297279.857142857,
+          "median_ns": 6283375,
+          "min_ns": 6207333,
+          "stdev_ns": 67855.9911818058
+        },
+        "validation": {
+          "max_ns": 16667,
+          "mean_ns": 14589.42857142857,
+          "median_ns": 14333,
+          "min_ns": 13709,
+          "stdev_ns": 947.3630857947393
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 67855.9911818058,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 33023334,
+      "mean_latency_ns": 24757345.57142857,
+      "mean_memory_overhead_bytes": 559043.5714285715,
+      "median_latency_ns": 23422917,
+      "min_latency_ns": 23203667,
+      "mutated_keys": 798,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4236625,
+          "mean_ns": 4180208.4285714286,
+          "median_ns": 4191500,
+          "min_ns": 4115375,
+          "stdev_ns": 43427.724212130874
+        },
+        "commit": {
+          "max_ns": 4106833,
+          "mean_ns": 3945779.8571428573,
+          "median_ns": 4017000,
+          "min_ns": 3545000,
+          "stdev_ns": 183028.32869994163
+        },
+        "mutation": {
+          "max_ns": 25248209,
+          "mean_ns": 16589345.42857143,
+          "median_ns": 15160959,
+          "min_ns": 14986750,
+          "stdev_ns": 3536010.2510457765
+        },
+        "total": {
+          "max_ns": 33023334,
+          "mean_ns": 24757345.57142857,
+          "median_ns": 23422917,
+          "min_ns": 23203667,
+          "stdev_ns": 3375817.0638934574
+        },
+        "validation": {
+          "max_ns": 25208,
+          "mean_ns": 16732,
+          "median_ns": 15500,
+          "min_ns": 13916,
+          "stdev_ns": 3601.181948828944
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 3375817.0638934574,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 20339209,
+      "mean_latency_ns": 19281154.714285713,
+      "mean_memory_overhead_bytes": 403580.14285714284,
+      "median_latency_ns": 19189875,
+      "min_latency_ns": 18793542,
+      "mutated_keys": 798,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4857334,
+          "mean_ns": 3916595.285714286,
+          "median_ns": 3774750,
+          "min_ns": 3658541,
+          "stdev_ns": 387191.2362909184
+        },
+        "mutation": {
+          "max_ns": 15706042,
+          "mean_ns": 15314053.57142857,
+          "median_ns": 15388625,
+          "min_ns": 14991000,
+          "stdev_ns": 241812.70868283705
+        },
+        "rollback": {
+          "max_ns": 11834,
+          "mean_ns": 10661,
+          "median_ns": 10334,
+          "min_ns": 10000,
+          "stdev_ns": 664.7575282977782
+        },
+        "total": {
+          "max_ns": 20339209,
+          "mean_ns": 19281154.714285713,
+          "median_ns": 19189875,
+          "min_ns": 18793542,
+          "stdev_ns": 500792.2869561546
+        },
+        "validation": {
+          "max_ns": 17083,
+          "mean_ns": 15619,
+          "median_ns": 15750,
+          "min_ns": 14000,
+          "stdev_ns": 1128.180583316088
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 500792.2869561546,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 16289334,
+      "mean_latency_ns": 16178595.714285715,
+      "mean_memory_overhead_bytes": 325875.5714285714,
+      "median_latency_ns": 16186000,
+      "min_latency_ns": 16047334,
+      "mutated_keys": 798,
+      "mutation_ratio": 0.25,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 63000,
+          "mean_ns": 52499.857142857145,
+          "median_ns": 51959,
+          "min_ns": 45958,
+          "stdev_ns": 6279.496440879667
+        },
+        "commit": {
+          "max_ns": 713125,
+          "mean_ns": 642881.2857142857,
+          "median_ns": 633125,
+          "min_ns": 585542,
+          "stdev_ns": 35702.284595624114
+        },
+        "mutation": {
+          "max_ns": 15564375,
+          "mean_ns": 15443607,
+          "median_ns": 15448916,
+          "min_ns": 15325375,
+          "stdev_ns": 72732.94579683758
+        },
+        "total": {
+          "max_ns": 16289334,
+          "mean_ns": 16178595.714285715,
+          "median_ns": 16186000,
+          "min_ns": 16047334,
+          "stdev_ns": 84383.01020045324
+        },
+        "validation": {
+          "max_ns": 17208,
+          "mean_ns": 15404.857142857143,
+          "median_ns": 15459,
+          "min_ns": 14291,
+          "stdev_ns": 888.2632216974922
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 84383.01020045324,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 16041250,
+      "mean_latency_ns": 15673404.714285715,
+      "mean_memory_overhead_bytes": 325875.5714285714,
+      "median_latency_ns": 15688042,
+      "min_latency_ns": 15311125,
+      "mutated_keys": 798,
+      "mutation_ratio": 0.25,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 60417,
+          "mean_ns": 51458.28571428572,
+          "median_ns": 50292,
+          "min_ns": 45333,
+          "stdev_ns": 5099.94321296916
+        },
+        "mutation": {
+          "max_ns": 15946042,
+          "mean_ns": 15571529.714285715,
+          "median_ns": 15580708,
+          "min_ns": 15214000,
+          "stdev_ns": 204196.01362466428
+        },
+        "rollback": {
+          "max_ns": 11334,
+          "mean_ns": 10422.714285714286,
+          "median_ns": 10458,
+          "min_ns": 9917,
+          "stdev_ns": 449.630869010733
+        },
+        "total": {
+          "max_ns": 16041250,
+          "mean_ns": 15673404.714285715,
+          "median_ns": 15688042,
+          "min_ns": 15311125,
+          "stdev_ns": 204358.04686293282
+        },
+        "validation": {
+          "max_ns": 15916,
+          "mean_ns": 14952.42857142857,
+          "median_ns": 14750,
+          "min_ns": 13750,
+          "stdev_ns": 801.8400013438479
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 204358.04686293282,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 44087750,
+      "mean_latency_ns": 39741756,
+      "mean_memory_overhead_bytes": 879283.5714285715,
+      "median_latency_ns": 39066417,
+      "min_latency_ns": 38789125,
+      "mutated_keys": 1596,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4669375,
+          "mean_ns": 4410839.285714285,
+          "median_ns": 4428250,
+          "min_ns": 4075708,
+          "stdev_ns": 210721.38260184383
+        },
+        "commit": {
+          "max_ns": 9617875,
+          "mean_ns": 4606970.285714285,
+          "median_ns": 3803083,
+          "min_ns": 3710125,
+          "stdev_ns": 2046043.6477378702
+        },
+        "mutation": {
+          "max_ns": 30843958,
+          "mean_ns": 30684702.285714287,
+          "median_ns": 30710875,
+          "min_ns": 30356667,
+          "stdev_ns": 160252.85941172048
+        },
+        "total": {
+          "max_ns": 44087750,
+          "mean_ns": 39741756,
+          "median_ns": 39066417,
+          "min_ns": 38789125,
+          "stdev_ns": 1777723.0249100754
+        },
+        "validation": {
+          "max_ns": 16667,
+          "mean_ns": 15345,
+          "median_ns": 15291,
+          "min_ns": 14041,
+          "stdev_ns": 779.3687922195206
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 1777723.0249100754,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 35973166,
+      "mean_latency_ns": 34928339.14285714,
+      "mean_memory_overhead_bytes": 723819.5714285715,
+      "median_latency_ns": 35010291,
+      "min_latency_ns": 34373333,
+      "mutated_keys": 1596,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4934917,
+          "mean_ns": 4023321.285714286,
+          "median_ns": 3893208,
+          "min_ns": 3799750,
+          "stdev_ns": 375909.74603552086
+        },
+        "mutation": {
+          "max_ns": 31154916,
+          "mean_ns": 30852618.85714286,
+          "median_ns": 30984500,
+          "min_ns": 30512250,
+          "stdev_ns": 244186.30635317814
+        },
+        "rollback": {
+          "max_ns": 10833,
+          "mean_ns": 10321.42857142857,
+          "median_ns": 10208,
+          "min_ns": 10042,
+          "stdev_ns": 260.2755996152963
+        },
+        "total": {
+          "max_ns": 35973166,
+          "mean_ns": 34928339.14285714,
+          "median_ns": 35010291,
+          "min_ns": 34373333,
+          "stdev_ns": 514294.0219061545
+        },
+        "validation": {
+          "max_ns": 17875,
+          "mean_ns": 16273.714285714286,
+          "median_ns": 16291,
+          "min_ns": 14792,
+          "stdev_ns": 1002.050143354073
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 514294.0219061545,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 33613875,
+      "mean_latency_ns": 32926446.285714287,
+      "mean_memory_overhead_bytes": 672052.1428571428,
+      "median_latency_ns": 32813500,
+      "min_latency_ns": 32433833,
+      "mutated_keys": 1596,
+      "mutation_ratio": 0.5,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 53250,
+          "mean_ns": 49851.28571428572,
+          "median_ns": 49834,
+          "min_ns": 46459,
+          "stdev_ns": 1966.5328237633807
+        },
+        "commit": {
+          "max_ns": 1483084,
+          "mean_ns": 1299738.2857142857,
+          "median_ns": 1348583,
+          "min_ns": 1067917,
+          "stdev_ns": 147532.64939251755
+        },
+        "mutation": {
+          "max_ns": 32073625,
+          "mean_ns": 31536345.285714287,
+          "median_ns": 31448208,
+          "min_ns": 31240708,
+          "stdev_ns": 270788.05052962113
+        },
+        "total": {
+          "max_ns": 33613875,
+          "mean_ns": 32926446.285714287,
+          "median_ns": 32813500,
+          "min_ns": 32433833,
+          "stdev_ns": 339613.6576787193
+        },
+        "validation": {
+          "max_ns": 17833,
+          "mean_ns": 15851.285714285714,
+          "median_ns": 15750,
+          "min_ns": 13875,
+          "stdev_ns": 1123.0155468057185
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 339613.6576787193,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 41201708,
+      "mean_latency_ns": 33067910.714285713,
+      "mean_memory_overhead_bytes": 672051.5714285715,
+      "median_latency_ns": 31772500,
+      "min_latency_ns": 31448250,
+      "mutated_keys": 1596,
+      "mutation_ratio": 0.5,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 67000,
+          "mean_ns": 54904.857142857145,
+          "median_ns": 52833,
+          "min_ns": 49042,
+          "stdev_ns": 5843.321008481672
+        },
+        "mutation": {
+          "max_ns": 41091167,
+          "mean_ns": 32958089.285714287,
+          "median_ns": 31665333,
+          "min_ns": 31338542,
+          "stdev_ns": 3323584.431742191
+        },
+        "rollback": {
+          "max_ns": 11833,
+          "mean_ns": 10756.142857142857,
+          "median_ns": 10667,
+          "min_ns": 10167,
+          "stdev_ns": 522.7978108412545
+        },
+        "total": {
+          "max_ns": 41201708,
+          "mean_ns": 33067910.714285713,
+          "median_ns": 31772500,
+          "min_ns": 31448250,
+          "stdev_ns": 3323948.1480276138
+        },
+        "validation": {
+          "max_ns": 17333,
+          "mean_ns": 15839.142857142857,
+          "median_ns": 16042,
+          "min_ns": 13916,
+          "stdev_ns": 1087.7456935688374
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 3323948.1480276138,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 82344333,
+      "mean_latency_ns": 72054529.71428572,
+      "mean_memory_overhead_bytes": 1516203.5714285714,
+      "median_latency_ns": 70724291,
+      "min_latency_ns": 69429333,
+      "mutated_keys": 3191,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 5198750,
+          "mean_ns": 4359053.571428572,
+          "median_ns": 4300542,
+          "min_ns": 3724833,
+          "stdev_ns": 542119.4104620065
+        },
+        "commit": {
+          "max_ns": 3605166,
+          "mean_ns": 3512035.4285714286,
+          "median_ns": 3523125,
+          "min_ns": 3411250,
+          "stdev_ns": 79863.19922370314
+        },
+        "mutation": {
+          "max_ns": 73514750,
+          "mean_ns": 64141309.571428575,
+          "median_ns": 62490375,
+          "min_ns": 62070750,
+          "stdev_ns": 3846909.0074260496
+        },
+        "total": {
+          "max_ns": 82344333,
+          "mean_ns": 72054529.71428572,
+          "median_ns": 70724291,
+          "min_ns": 69429333,
+          "stdev_ns": 4236364.55162701
+        },
+        "validation": {
+          "max_ns": 17250,
+          "mean_ns": 15976.285714285714,
+          "median_ns": 16250,
+          "min_ns": 14833,
+          "stdev_ns": 887.9290052517414
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 4236364.55162701,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 66478084,
+      "mean_latency_ns": 65878797.71428572,
+      "mean_memory_overhead_bytes": 1360739.5714285714,
+      "median_latency_ns": 65985584,
+      "min_latency_ns": 65049542,
+      "mutated_keys": 3191,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 4469375,
+          "mean_ns": 3907035.5714285714,
+          "median_ns": 3714417,
+          "min_ns": 3677583,
+          "stdev_ns": 300464.98799782083
+        },
+        "mutation": {
+          "max_ns": 62676041,
+          "mean_ns": 61919946.14285714,
+          "median_ns": 61826792,
+          "min_ns": 61307667,
+          "stdev_ns": 424355.29462684534
+        },
+        "rollback": {
+          "max_ns": 11208,
+          "mean_ns": 10648.57142857143,
+          "median_ns": 10875,
+          "min_ns": 9833,
+          "stdev_ns": 498.83202358619883
+        },
+        "total": {
+          "max_ns": 66478084,
+          "mean_ns": 65878797.71428572,
+          "median_ns": 65985584,
+          "min_ns": 65049542,
+          "stdev_ns": 483320.69928205
+        },
+        "validation": {
+          "max_ns": 17417,
+          "mean_ns": 15845.142857142857,
+          "median_ns": 15833,
+          "min_ns": 14750,
+          "stdev_ns": 792.7796358512296
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 483320.69928205,
+      "strategy": "full_copy"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 65980750,
+      "mean_latency_ns": 65669702.28571428,
+      "mean_memory_overhead_bytes": 1360860.7142857143,
+      "median_latency_ns": 65744083,
+      "min_latency_ns": 65048875,
+      "mutated_keys": 3191,
+      "mutation_ratio": 1.0,
+      "operation_type": "commit",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 53791,
+          "mean_ns": 48583.28571428572,
+          "median_ns": 48375,
+          "min_ns": 43458,
+          "stdev_ns": 3744.4811471316675
+        },
+        "commit": {
+          "max_ns": 3041042,
+          "mean_ns": 2767202.4285714286,
+          "median_ns": 2766708,
+          "min_ns": 2482291,
+          "stdev_ns": 186066.63684885827
+        },
+        "mutation": {
+          "max_ns": 63073584,
+          "mean_ns": 62813369.14285714,
+          "median_ns": 62855917,
+          "min_ns": 62480125,
+          "stdev_ns": 187437.9062039545
+        },
+        "total": {
+          "max_ns": 65980750,
+          "mean_ns": 65669702.28571428,
+          "median_ns": 65744083,
+          "min_ns": 65048875,
+          "stdev_ns": 290749.1146537137
+        },
+        "validation": {
+          "max_ns": 16792,
+          "mean_ns": 15583.142857142857,
+          "median_ns": 15500,
+          "min_ns": 14750,
+          "stdev_ns": 560.0348021255793
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 290749.1146537137,
+      "strategy": "delta"
+    },
+    {
+      "iterations": 7,
+      "max_latency_ns": 78254750,
+      "mean_latency_ns": 66027042,
+      "mean_memory_overhead_bytes": 1390611.5714285714,
+      "median_latency_ns": 63236417,
+      "min_latency_ns": 62476792,
+      "mutated_keys": 3191,
+      "mutation_ratio": 1.0,
+      "operation_type": "rollback",
+      "phase_metrics": {
+        "begin": {
+          "max_ns": 69458,
+          "mean_ns": 50618.71428571428,
+          "median_ns": 46916,
+          "min_ns": 43750,
+          "stdev_ns": 8437.553432030363
+        },
+        "mutation": {
+          "max_ns": 78138666,
+          "mean_ns": 65921702.14285714,
+          "median_ns": 63140875,
+          "min_ns": 62371792,
+          "stdev_ns": 5331057.353347656
+        },
+        "rollback": {
+          "max_ns": 22625,
+          "mean_ns": 12571.285714285714,
+          "median_ns": 10583,
+          "min_ns": 10291,
+          "stdev_ns": 4166.651643510331
+        },
+        "total": {
+          "max_ns": 78254750,
+          "mean_ns": 66027042,
+          "median_ns": 63236417,
+          "min_ns": 62476792,
+          "stdev_ns": 5334342.049812409
+        },
+        "validation": {
+          "max_ns": 17167,
+          "mean_ns": 15768,
+          "median_ns": 15459,
+          "min_ns": 14375,
+          "stdev_ns": 928.3004439758253
+        }
+      },
+      "rollback_integrity": true,
+      "state_size_bytes": 52428800,
+      "stdev_latency_ns": 5334342.049812409,
+      "strategy": "delta"
+    }
+  ]
+}

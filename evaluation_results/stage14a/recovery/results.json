@@ -1,0 +1,26 @@
+{
+  "cases_with_causal_ground_truth": 10,
+  "contaminated_state_identified": 10,
+  "external_leakage": 0,
+  "flagship_external_mapping": "asb-memory-01",
+  "origin_correct": 10,
+  "post_recovery_reuse_blocked": 10,
+  "qualitative_chain": [
+    "source-000001",
+    "txn-000001",
+    "memory-M1",
+    "source-000003",
+    "txn-000003",
+    "summary-S1",
+    "source-000005",
+    "txn-000005",
+    "cache-C1",
+    "source-000007",
+    "txn-000007",
+    "context-X1",
+    "txn-000008",
+    "effect-E8"
+  ],
+  "recovery_success": 10,
+  "unrelated_preserved": 10
+}

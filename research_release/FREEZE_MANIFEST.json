@@ -1,0 +1,49 @@
+{
+  "freeze_date": "2026-08-19",
+  "project": {
+    "name": "transactional-inference-state",
+    "release_candidate": "v0.1.0-rc1",
+    "version": "0.1.0"
+  },
+  "environment": {
+    "ollama": "client 0.32.9; service unavailable during freeze audit",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.9 (full-suite runner); host default 3.14.3",
+    "tested_models": ["llama3.2:3b", "qwen3:4b"]
+  },
+  "validation": {
+    "tests": {"passed": 263, "skipped": 1, "failed": 0},
+    "policy_fingerprints": {
+      "PolicyV1": "b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7",
+      "PolicyV2": "ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e"
+    },
+    "trusted_core": {
+      "modules": 7,
+      "python_loc": 1210,
+      "third_party_runtime_dependencies": 0
+    }
+  },
+  "sha256": {
+    "stage10_corpus": {
+      "evaluation_results/stage10/corpus/benign_heldout.json": "9f6e628b70c9726fdbf965bae0daa6a1f41a2646dac6e54f91cf459a0de38010",
+      "evaluation_results/stage10/corpus/live_subset_manifest.json": "20a014ffb62b37bd71e9f8939343c5e9b76e593cb3539af6761d1a48d28305a1",
+      "evaluation_results/stage10/corpus/malicious_heldout.json": "6398dc118436f24430a60a74119b6875564da48db0d37bfbc9c6c2f5029a346b"
+    },
+    "stage11_manifests": {
+      "evaluation_results/stage11/corpus/gate_manifest.json": "2b1c3353c95a77cbbff1dcca0cdc688666c6c54ce786252cd5768e304815c0aa",
+      "evaluation_results/stage11/corpus/live_manifest.json": "5cace8b7cb3af227494d12f471046527a2aa57c4cfa51b855593cbcfee055ed1",
+      "evaluation_results/stage11/corpus/multi_turn_manifest.json": "a888a32841c8efe5930b23066b9c47f22efc04793bb1347e8409137a48a286bd"
+    },
+    "results": {
+      "evaluation_results/stage10/deterministic/raw_results.json": "f0cbecc0816e22ac083559b308b90684f29f5c2561c0bda974766bb4decadcdf",
+      "evaluation_results/stage10/deterministic/summary.json": "66c9a86d53260064284626df105820b5b712e86c3d969aeaeb6380fc57f58fef",
+      "evaluation_results/stage11/interface/gate_results.json": "506b9c04b21252dcd30dc367b571845ffa488e921fdd3f31acb9bff0c8fbc73b",
+      "evaluation_results/stage11/live_models/model_summary.json": "90e11a9c144a2fca257d4db598a9e652e25f895a6d9347b37b45681224405101",
+      "evaluation_results/stage11/live_models/paired_enforcement.json": "ec280a201eb715ac543998f171460c84b4cc332164b66fcb455b1137116b1585",
+      "evaluation_results/stage11/live_models/policy_failures.json": "d1a1c93367602e57ff7bee530c10cd101f1d9d305aacb903524f819873ee3e34",
+      "evaluation_results/stage11/live_models/raw_results.json": "173fbd750b7c1385c2c1de8b30e2469134ac00ca6b335c0cb6823a286d516526",
+      "evaluation_results/stage11/performance/raw_timings.json": "8394dc7ad467dc530e8d40f75ffd8fbdb76e7186a770e7a956590b099516cc53",
+      "evaluation_results/stage11/performance/summary.json": "4515036518377b08d689af5c139dabd26ee8309b198c981cfa5403a492476318"
+    }
+  }
+}

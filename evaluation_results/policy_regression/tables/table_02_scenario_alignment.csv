@@ -1,0 +1,6 @@
+measure,stage11,final,equal
+records,150,150,True
+shared scenarios,50,50,True
+malicious attempts,90,90,True
+benign attempts,60,60,True
+scenario order identical,True,True,True

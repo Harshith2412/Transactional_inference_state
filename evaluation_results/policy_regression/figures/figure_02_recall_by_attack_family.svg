@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="560.0" y="28" text-anchor="middle" font-family="sans-serif" font-size="18">Final PolicyV2 recall by attack family</text>
+<text x="18" y="192.5" transform="rotate(-90 18 192.5)" text-anchor="middle" font-family="sans-serif" font-size="12">Percent</text>
+<line x1="80" y1="330" x2="1100" y2="330" stroke="#333"/>
+<rect x="92.0" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="122.0" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="122.0" y="345" transform="rotate(55 122.0 345)" text-anchor="start" font-family="sans-serif" font-size="9">capability_misuse</text>
+<rect x="164.14285714285714" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="194.14285714285714" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="194.14285714285714" y="345" transform="rotate(55 194.14285714285714 345)" text-anchor="start" font-family="sans-serif" font-size="9">cross_session_attack</text>
+<rect x="236.28571428571428" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="266.2857142857143" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="266.2857142857143" y="345" transform="rotate(55 266.2857142857143 345)" text-anchor="start" font-family="sans-serif" font-size="9">encoded_numeric_evasion</text>
+<rect x="308.42857142857144" y="330.0" width="60" height="0.0" fill="#3b82f6"/>
+<text x="338.42857142857144" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10">0.0</text>
+<text x="338.42857142857144" y="345" transform="rotate(55 338.42857142857144 345)" text-anchor="start" font-family="sans-serif" font-size="9">indirect_authorization_claim</text>
+<rect x="380.57142857142856" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="410.57142857142856" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="410.57142857142856" y="345" transform="rotate(55 410.57142857142856 345)" text-anchor="start" font-family="sans-serif" font-size="9">multi_field_composition</text>
+<rect x="452.71428571428567" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="482.71428571428567" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="482.71428571428567" y="345" transform="rotate(55 482.71428571428567 345)" text-anchor="start" font-family="sans-serif" font-size="9">multi_turn_memory_effect</text>
+<rect x="524.8571428571429" y="330.0" width="60" height="0.0" fill="#3b82f6"/>
+<text x="554.8571428571429" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10">0.0</text>
+<text x="554.8571428571429" y="345" transform="rotate(55 554.8571428571429 345)" text-anchor="start" font-family="sans-serif" font-size="9">operation_sequence_abuse</text>
+<rect x="597.0" y="330.0" width="60" height="0.0" fill="#3b82f6"/>
+<text x="627.0" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10">0.0</text>
+<text x="627.0" y="345" transform="rotate(55 627.0 345)" text-anchor="start" font-family="sans-serif" font-size="9">provenance_poisoning</text>
+<rect x="669.1428571428571" y="330.0" width="60" height="0.0" fill="#3b82f6"/>
+<text x="699.1428571428571" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10">0.0</text>
+<text x="699.1428571428571" y="345" transform="rotate(55 699.1428571428571 345)" text-anchor="start" font-family="sans-serif" font-size="9">resource_budget_abuse</text>
+<rect x="741.2857142857142" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="771.2857142857142" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="771.2857142857142" y="345" transform="rotate(55 771.2857142857142 345)" text-anchor="start" font-family="sans-serif" font-size="9">scope_confusion</text>
+<rect x="813.4285714285713" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="843.4285714285713" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="843.4285714285713" y="345" transform="rotate(55 843.4285714285713 345)" text-anchor="start" font-family="sans-serif" font-size="9">security_alias_variation</text>
+<rect x="885.5714285714286" y="330.0" width="60" height="0.0" fill="#3b82f6"/>
+<text x="915.5714285714286" y="325.0" text-anchor="middle" font-family="sans-serif" font-size="10">0.0</text>
+<text x="915.5714285714286" y="345" transform="rotate(55 915.5714285714286 345)" text-anchor="start" font-family="sans-serif" font-size="9">semantic_memory_poisoning</text>
+<rect x="957.7142857142857" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="987.7142857142857" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="987.7142857142857" y="345" transform="rotate(55 987.7142857142857 345)" text-anchor="start" font-family="sans-serif" font-size="9">simulated_exfiltration</text>
+<rect x="1029.8571428571427" y="55.0" width="60" height="275.0" fill="#3b82f6"/>
+<text x="1059.8571428571427" y="50.0" text-anchor="middle" font-family="sans-serif" font-size="10">100.0</text>
+<text x="1059.8571428571427" y="345" transform="rotate(55 1059.8571428571427 345)" text-anchor="start" font-family="sans-serif" font-size="9">trusted_cache_poisoning</text>
+</svg>

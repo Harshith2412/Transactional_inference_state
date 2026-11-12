@@ -1,0 +1,2 @@
+model,pairs,mean_model_generation_ns,mean_baseline_runtime_ns,mean_transaction_runtime_ns,absolute_transaction_overhead_ns,mean_end_to_end_ns,transaction_overhead_fraction
+llama3.2:3b,9,2692871597.3333335,7430.777777777777,200458.0,193027.22222222222,2693223254.6666665,7.443051728172092e-05

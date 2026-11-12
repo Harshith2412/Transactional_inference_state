@@ -1,0 +1,12 @@
+{
+  "barrier_checkpoint_skew_ns": {
+    "median": 61262646.0
+  },
+  "eligibility_check_ns": {
+    "median": 1375.0,
+    "p95": 2416
+  },
+  "fresh_reconnect": "included in per-cycle health oracle; standalone latency not isolated",
+  "health_check": "included in per-cycle health oracle; standalone latency not isolated",
+  "quiesce": "harness barrier; standalone latency not isolated"
+}

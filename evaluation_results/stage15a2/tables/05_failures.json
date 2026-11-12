@@ -1,0 +1,36 @@
+[
+  {
+    "case": "service killed before checkpoint",
+    "detected": true,
+    "rollback_success": false
+  },
+  {
+    "case": "missing images",
+    "detected": true,
+    "rollback_success": false
+  },
+  {
+    "case": "bad checkpoint directory",
+    "detected": true,
+    "rollback_success": false,
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "case": "corrupted image",
+    "detected": true,
+    "rollback_success": false,
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "case": "killed during restore",
+    "detected": true,
+    "rollback_success": false,
+    "status": "FAIL_CLOSED"
+  },
+  {
+    "case": "health check failure",
+    "detected": true,
+    "rollback_success": false,
+    "status": "FAIL_CLOSED"
+  }
+]

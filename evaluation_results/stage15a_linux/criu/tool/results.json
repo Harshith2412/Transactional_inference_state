@@ -1,0 +1,42 @@
+{
+  "backend": "CRIU",
+  "checkpoint_ns": 32098417,
+  "existing_socket_survived": false,
+  "image_bytes": 20093441,
+  "initial": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  },
+  "kind": "tool",
+  "mutated": {
+    "counter": 1,
+    "history": [
+      "unsafe-operation"
+    ],
+    "key_value_store": {
+      "role": "admin"
+    }
+  },
+  "mutated_digest": "0312813031b1ed86440450dd7b008d61968edf5ff76e1a7a373666c6a0e33b9b",
+  "mutation_keys": 1,
+  "new_connection_works": true,
+  "pid_after": 60,
+  "pid_before": 60,
+  "port_preserved": true,
+  "pre_digest": "9d86ac4c910b9db58e48e8e6cad3f0d5fb95fb7ed39fd2fd1036af5145e66aa0",
+  "reconnect_required": true,
+  "restore_ns": 21820208,
+  "restored": {
+    "counter": 0,
+    "history": [],
+    "key_value_store": {
+      "role": "user"
+    }
+  },
+  "restored_digest": "9d86ac4c910b9db58e48e8e6cad3f0d5fb95fb7ed39fd2fd1036af5145e66aa0",
+  "size_mb": 0,
+  "success": true
+}

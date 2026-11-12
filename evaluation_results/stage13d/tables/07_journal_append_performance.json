@@ -1,0 +1,26 @@
+[
+  {
+    "append_median_us": 50.3125,
+    "append_p95_us": 73.708,
+    "journal_bytes": 31172,
+    "records": 100,
+    "startup_recovery_us": 1058.167,
+    "transactions": 100
+  },
+  {
+    "append_median_us": 47.5,
+    "append_p95_us": 73.208,
+    "journal_bytes": 314673,
+    "records": 1000,
+    "startup_recovery_us": 10320.292,
+    "transactions": 1000
+  },
+  {
+    "append_median_us": 48.75,
+    "append_p95_us": 70.917,
+    "journal_bytes": 3176674,
+    "records": 10000,
+    "startup_recovery_us": 94231.875,
+    "transactions": 10000
+  }
+]

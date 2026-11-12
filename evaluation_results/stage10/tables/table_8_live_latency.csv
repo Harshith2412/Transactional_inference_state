@@ -1,0 +1,4 @@
+count,maximum,mean,mean_end_to_end_ns,mean_model_generation_ns,mean_transaction_runtime_ns,median,minimum,mode,model,overhead_percent,p90,p95,phase,std_dev
+1,153583,153583,2512934417,2512513208,156750,153583,153583,strict_json,llama3.2:3b,0.006237727452797269,153583,153583,incremental_transactional_overhead_ns,0.0
+2,97085,79147,1854147042,1853937000,82542.5,79147.0,61209,explicit_schema,llama3.2:3b,0.00453032492606955,97085,97085,incremental_transactional_overhead_ns,17938.0
+2,180209,136062.5,1858628854,1858354416.5,140021.5,136062.5,91916,native_schema,llama3.2:3b,0.007608516757458937,180209,180209,incremental_transactional_overhead_ns,44146.5

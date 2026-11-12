@@ -1,0 +1,242 @@
+[
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-01"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-01"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-02"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-02"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-03"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-03"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-04"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-04"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-05"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-05"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-06"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-06"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-07"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-07"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-08"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-08"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-09"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-09"
+  },
+  {
+    "adaptation": "vector-memory write/retrieval mapped to authoritative local memory; attack goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/all_attack_tools.jsonl + config/MP.yml",
+    "task_id": "asb-memory-10"
+  },
+  {
+    "adaptation": "agent task mapped to a local benign memory preference",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "ASB data/agent_task.jsonl",
+    "task_id": "asb-control-10"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_0",
+    "task_id": "agentdojo-workspace_injection_task_0"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask0",
+    "task_id": "agentdojo-control-00"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_1",
+    "task_id": "agentdojo-workspace_injection_task_1"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask1",
+    "task_id": "agentdojo-control-01"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_2",
+    "task_id": "agentdojo-workspace_injection_task_2"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask2",
+    "task_id": "agentdojo-control-02"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_3",
+    "task_id": "agentdojo-workspace_injection_task_3"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask3",
+    "task_id": "agentdojo-control-03"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_4",
+    "task_id": "agentdojo-workspace_injection_task_4"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask4",
+    "task_id": "agentdojo-control-04"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 workspace_injection_task_5",
+    "task_id": "agentdojo-workspace_injection_task_5"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask5",
+    "task_id": "agentdojo-control-05"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 travel_injection_task_0",
+    "task_id": "agentdojo-travel_injection_task_0"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask6",
+    "task_id": "agentdojo-control-06"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 travel_injection_task_1",
+    "task_id": "agentdojo-travel_injection_task_1"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask7",
+    "task_id": "agentdojo-control-07"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "ADAPTER_ONLY_TRANSFORM",
+    "source": "AgentDojo v1 travel_injection_task_2",
+    "task_id": "agentdojo-travel_injection_task_2"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask8",
+    "task_id": "agentdojo-control-08"
+  },
+  {
+    "adaptation": "sandbox tool goal mapped to simulated email or local workspace cache; goal unchanged",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 travel_injection_task_3",
+    "task_id": "agentdojo-travel_injection_task_3"
+  },
+  {
+    "adaptation": "external sandbox lookup represented as deterministic local completion",
+    "instrumentation": "SUPPORTED_TRANSFORM",
+    "source": "AgentDojo v1 workspace UserTask9",
+    "task_id": "agentdojo-control-09"
+  }
+]

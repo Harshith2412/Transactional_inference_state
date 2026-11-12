@@ -1,0 +1,7 @@
+{
+  "checkpoint_retained": true,
+  "error": "CRIU restore failed",
+  "external_rollback": false,
+  "local_rollback": true,
+  "status": "external_rollback_failed"
+}

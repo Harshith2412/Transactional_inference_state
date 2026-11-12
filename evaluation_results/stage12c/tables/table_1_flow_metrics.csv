@@ -1,0 +1,2 @@
+flow_policy_trials,unauthorized_cross_session_attempts,unauthorized_flows_blocked,unauthorized_flows_allowed,valid_flows,valid_flows_false_blocked,cross_session_leakage_rate,flow_policy_recall,flow_policy_precision,flow_false_positive_rate,dirty_reads_prevented_by_transaction_isolation
+11,10,10,0,1,0,0.0,1.0,1.0,0.0,1

@@ -1,0 +1,71 @@
+{
+  "claims": {
+    "arbitrary_service_support": false,
+    "distributed_transaction": false,
+    "redis_copied_into_inference_state": false
+  },
+  "criu": {
+    "mechanism": "external process checkpoint/restore",
+    "prior_measured_performance": {
+      "begin_ns": 78592084,
+      "checkpoint_ns": 57663084,
+      "restore_ns": 25601792,
+      "rollback_ns": 29895875
+    }
+  },
+  "inference_state": {
+    "mechanism": "application-level copy/overlay",
+    "performance": {
+      "commit_ns": {
+        "median_ns": 25583,
+        "p95_ns": 45291,
+        "samples": 25
+      },
+      "read_ns": {
+        "median_ns": 4437.5,
+        "p95_ns": 7959,
+        "samples": 50
+      },
+      "rollback_ns": {
+        "median_ns": 4583,
+        "p95_ns": 7958,
+        "samples": 25
+      },
+      "write_ns": {
+        "median_ns": 10270.5,
+        "p95_ns": 18250,
+        "samples": 50
+      }
+    }
+  },
+  "redis": {
+    "mechanism": "API read set + buffered write set + compare-and-apply",
+    "performance": {
+      "buffered_write_ns": {
+        "median_ns": 13625.0,
+        "p95_ns": 17791,
+        "samples": 50
+      },
+      "commit_ns": {
+        "median_ns": 2969750,
+        "p95_ns": 3914375,
+        "samples": 25
+      },
+      "conflict_abort_ns": {
+        "median_ns": 1152333.5,
+        "p95_ns": 2501042,
+        "samples": 50
+      },
+      "read_ns": {
+        "median_ns": 1426812.5,
+        "p95_ns": 2512083,
+        "samples": 50
+      },
+      "rollback_ns": {
+        "median_ns": 11583,
+        "p95_ns": 16292,
+        "samples": 25
+      }
+    }
+  }
+}

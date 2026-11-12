@@ -1,0 +1,7 @@
+strategy,outcome,records,median_total_ns,median_begin_ns,median_read_ns,median_mutation_ns,median_validation_ns,median_closure_ns,median_peak_traced_bytes,median_copy_amplification,rollback_integrity_rate,provenance_integrity_rate,full_materialization_rate
+full_copy,commit,30,3105271.0,902833.5,241354.5,779624.5,13000.0,869708.0,94477.5,43.54,1.0,1.0,0.0
+full_copy,rollback,30,2009250.0,887979.5,243000.0,747375.0,11979.0,12562.5,45995.0,21.77,1.0,1.0,0.0
+delta,commit,30,1361437.5,34375.0,272020.5,800083.5,11604.0,180770.5,8405.5,9.0,1.0,1.0,0.0
+delta,rollback,30,1116333.0,29125.0,257562.5,759521.0,11583.0,11874.5,8033.5,6.0,1.0,1.0,0.0
+fine_grained_cow,commit,30,707771.0,38875.0,121208.0,476271.0,11417.0,28500.0,12874.5,2.0,1.0,1.0,0.0
+fine_grained_cow,rollback,30,719979.0,29750.5,123187.5,497562.5,11062.0,11792.0,12878.5,2.0,1.0,1.0,0.0

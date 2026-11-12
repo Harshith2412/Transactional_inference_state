@@ -1,0 +1,32 @@
+[
+  {
+    "attempts": 10,
+    "model": "llama3.2:3b",
+    "model_metadata": {
+      "family": "llama3.2",
+      "id": "a80c4f17acd5",
+      "name": "llama3.2:3b",
+      "size": "2.0 GB",
+      "tag": "3b"
+    },
+    "normalized_parse_successes": 9,
+    "qualification": "QUALIFIED",
+    "raw_parse_successes": 9,
+    "threshold": 0.6
+  },
+  {
+    "attempts": 10,
+    "model": "qwen3:4b",
+    "model_metadata": {
+      "family": "qwen3",
+      "id": "359d7dd4bcda",
+      "name": "qwen3:4b",
+      "size": "2.5 GB",
+      "tag": "4b"
+    },
+    "normalized_parse_successes": 0,
+    "qualification": "INTERFACE_UNRELIABLE",
+    "raw_parse_successes": 0,
+    "threshold": 0.6
+  }
+]

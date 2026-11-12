@@ -1,0 +1,81 @@
+{
+  "rows": [
+    {
+      "difference": false,
+      "evidence": "saved",
+      "final": "llama3.2:3b",
+      "setting": "model tag",
+      "stage11": "llama3.2:3b"
+    },
+    {
+      "difference": false,
+      "evidence": "mixed saved/code",
+      "final": "explicit_schema_v2 (runner code; not saved per row)",
+      "setting": "prompt version",
+      "stage11": "explicit_schema_v2"
+    },
+    {
+      "difference": false,
+      "evidence": "mixed saved/code",
+      "final": "e510f0338e0b6805037c40b8a5f6297f2b62289a20f7cf50a621b5de95b68c8f (instruction code; not saved per row)",
+      "setting": "prompt hash",
+      "stage11": "e510f0338e0b6805037c40b8a5f6297f2b62289a20f7cf50a621b5de95b68c8f"
+    },
+    {
+      "difference": "UNKNOWN",
+      "evidence": "insufficient historical evidence",
+      "final": "reconstructable from final runner",
+      "setting": "full rendered prompt",
+      "stage11": "UNKNOWN (not saved)"
+    },
+    {
+      "difference": false,
+      "evidence": "Stage11 gate artifact/final adapter default",
+      "final": 0,
+      "setting": "temperature",
+      "stage11": 0
+    },
+    {
+      "difference": false,
+      "evidence": "Stage11 gate artifact/final adapter default",
+      "final": 0,
+      "setting": "seed",
+      "stage11": 0
+    },
+    {
+      "difference": false,
+      "evidence": "Stage11 gate artifact/final adapter default",
+      "final": 0.9,
+      "setting": "top_p",
+      "stage11": 0.9
+    },
+    {
+      "difference": false,
+      "evidence": "Stage11 gate artifact/final runner",
+      "final": 1024,
+      "setting": "num_predict",
+      "stage11": 1024
+    },
+    {
+      "difference": true,
+      "evidence": "saved Stage11 gate/final runner; no final timeouts",
+      "final": 45,
+      "setting": "timeout seconds",
+      "stage11": 30
+    },
+    {
+      "difference": false,
+      "evidence": "adapter and artifacts",
+      "final": "Ollama format=json + explicit schema v2 prompt",
+      "setting": "structured output mode",
+      "stage11": "Ollama format=json + explicit schema v2 prompt"
+    },
+    {
+      "difference": false,
+      "evidence": "saved/reported",
+      "final": "0.32.9",
+      "setting": "Ollama version",
+      "stage11": "0.32.9"
+    }
+  ]
+}

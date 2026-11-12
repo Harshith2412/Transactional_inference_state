@@ -1,0 +1,132 @@
+{
+  "comparison": {
+    "binary": {
+      "benign_fields_retained": 0,
+      "external_effects_leaked": 0,
+      "latency_ns": 69625,
+      "malicious_fields_persisted": 0
+    },
+    "denominators": {
+      "benign_fields_proposed_per_mode": 2,
+      "malicious_or_dependent_fields_proposed_per_mode": 2,
+      "transactions_per_mode": 1
+    },
+    "malicious_persistence_rate": {
+      "binary": 0.0,
+      "selective": 0.0
+    },
+    "quarantine_rate": {
+      "binary": 0.0,
+      "selective": 1.0
+    },
+    "selective": {
+      "benign_fields_retained": 2,
+      "external_effects_leaked": 0,
+      "latency_ns": 397584,
+      "malicious_fields_persisted": 0,
+      "malicious_fields_quarantined": 2
+    },
+    "useful_state_retention_rate": {
+      "binary": 0.0,
+      "selective": 1.0
+    }
+  },
+  "complexity": {
+    "modules": 11,
+    "python_loc": 2642,
+    "stage12c_modules": 10,
+    "stage12c_python_loc": 2220,
+    "third_party_runtime_dependencies": 0
+  },
+  "flagship": {
+    "benign_fields_committed": 2,
+    "benign_fields_false_rejected": 0,
+    "benign_fields_proposed": 2,
+    "benign_fields_quarantined": 0,
+    "blocked_dependent_paths": [
+      "session_memory/k:note"
+    ],
+    "committed_paths": [
+      "session_memory/k:preferences/k:editor",
+      "session_memory/k:profile/k:display_name"
+    ],
+    "committed_provenance_preserved": true,
+    "dependent_fields_correctly_blocked": 1,
+    "external_effect_leakage": 0,
+    "malicious_fields_committed": 0,
+    "malicious_fields_proposed": 2,
+    "malicious_fields_quarantined": 2,
+    "malicious_fields_rejected": 0,
+    "normal_state": {
+      "authorization": {
+        "external_sharing": false
+      },
+      "preferences": {
+        "editor": "Vim"
+      },
+      "profile": {
+        "display_name": "Alice M."
+      }
+    },
+    "quarantine_count": 2,
+    "quarantined_paths": [
+      "session_memory/k:authorization/k:external_sharing",
+      "session_memory/k:note"
+    ],
+    "status": "partially_committed",
+    "transaction_id": "txn-000001"
+  },
+  "performance": {
+    "rows": [
+      {
+        "binary_commit_median_ns": 28083,
+        "binary_rollback_median_ns": 16750,
+        "dependency_closure_median_ns": 320834,
+        "fields": 5,
+        "iterations": 15,
+        "quarantine_median_ns": 319084,
+        "review_decision_creation_median_ns": 14500,
+        "selective_commit_median_ns": 116750,
+        "validation_median_ns": 11125
+      },
+      {
+        "binary_commit_median_ns": 77667,
+        "binary_rollback_median_ns": 43292,
+        "dependency_closure_median_ns": 2280875,
+        "fields": 20,
+        "iterations": 15,
+        "quarantine_median_ns": 2283291,
+        "review_decision_creation_median_ns": 32875,
+        "selective_commit_median_ns": 512083,
+        "validation_median_ns": 29958
+      },
+      {
+        "binary_commit_median_ns": 353500,
+        "binary_rollback_median_ns": 192000,
+        "dependency_closure_median_ns": 41121000,
+        "fields": 100,
+        "iterations": 15,
+        "quarantine_median_ns": 40509666,
+        "review_decision_creation_median_ns": 129833,
+        "selective_commit_median_ns": 6322375,
+        "validation_median_ns": 131500
+      }
+    ],
+    "timing_scope": "local in-memory validation/resolution after proposals are staged; medians; not production capacity"
+  },
+  "quarantine_dependency": {
+    "dependent_paths_blocked": [
+      "session_memory/k:d",
+      "session_memory/k:c"
+    ],
+    "normal_state_contains_branch": false,
+    "quarantine_count": 3,
+    "source_quarantined": true
+  },
+  "validator_disagreement": {
+    "composition": "deny_overrides",
+    "disagreements": 1,
+    "rate": 1.0,
+    "trials": 1
+  }
+}

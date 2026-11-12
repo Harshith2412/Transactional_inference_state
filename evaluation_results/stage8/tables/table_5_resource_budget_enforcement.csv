@@ -1,0 +1,7 @@
+attack,rejected,budget_name
+operation_flood,True,max_operations_per_tx
+large_value_write,True,max_state_write_bytes
+nested_object_bomb,True,max_nested_depth
+effect_flood,True,max_pending_effects
+oversized_plan,True,max_plan_bytes
+repeated_delta_materialization,True,max_delta_bytes

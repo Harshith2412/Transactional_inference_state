@@ -1,0 +1,17 @@
+{
+  "CRIU": {
+    "multi_service": "NOT_RUN",
+    "rag_restore": true,
+    "reconnect_required": true,
+    "root_required": true,
+    "suitability": "PARTIALLY_SUITABLE",
+    "tool_restore": true
+  },
+  "DMTCP": {
+    "checkpoint_created": true,
+    "rag_restore": false,
+    "root_required": false,
+    "suitability": "NOT_SUITABLE",
+    "tool_restore": false
+  }
+}

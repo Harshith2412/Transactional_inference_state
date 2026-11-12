@@ -1,0 +1,2 @@
+private_allowed,public_allowed,restricted_fields_leaked,declassified_allowed
+False,True,0,True

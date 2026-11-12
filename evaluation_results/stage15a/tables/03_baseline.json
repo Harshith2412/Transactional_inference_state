@@ -1,0 +1,47 @@
+{
+  "after_digest": {
+    "rag": "ced00e765da34e4c4f4e94b51ff2a00f62d799610995bb1a5cec02f0c5285e79",
+    "tool": "00e344624cccf479f86182c314a82e1aa7ca04fc445d7d4576788313a36d2ef4"
+  },
+  "before_digest": {
+    "rag": "5705224d0d1367741e9c4ea60f8c0982da51de122a500b6d714e7a1487233ed9",
+    "tool": "19aa2a54fe2438d0c538b515da22e8c5a18abb18e9f4f231c804d116956d3448"
+  },
+  "initial": {
+    "rag": {
+      "authorization": "user",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {},
+      "summary_cache": {}
+    },
+    "tool": {
+      "counter": 0,
+      "history": [],
+      "key_value_store": {
+        "role": "user"
+      }
+    }
+  },
+  "mutated": {
+    "rag": {
+      "authorization": "admin",
+      "documents": {},
+      "query_history": [],
+      "retrieval_cache": {
+        "poison": "approved disclosure"
+      },
+      "summary_cache": {}
+    },
+    "tool": {
+      "counter": 1,
+      "history": [
+        "unsafe-operation"
+      ],
+      "key_value_store": {
+        "role": "admin"
+      }
+    }
+  },
+  "mutation_persists": true
+}

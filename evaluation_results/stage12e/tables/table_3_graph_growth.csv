@@ -1,0 +1,4 @@
+nodes,edges,estimated_bytes,node_creation_median_ns,node_creation_p95_ns,edge_creation_median_ns,edge_creation_p95_ns,ancestor_query_median_ns,ancestor_query_p95_ns,descendant_query_median_ns,descendant_query_p95_ns,root_cause_query_median_ns,root_cause_query_p95_ns,contamination_median_ns,contamination_p95_ns,recovery_planning_median_ns,recovery_planning_p95_ns,estimated_commit_overhead_per_node_ns
+100,99,29827,16125.0,18875,16000,16584,45000,52083,44625,46916,787500,800416,952375,982166,117375,127291,32125.0
+1000,999,301626,16208.0,19291,16083,16959,375416,411250,356625,393209,7891000,9205041,9418500,10793833,1259416,1393000,32291.0
+10000,9999,3046625,16375.0,19875,16250,17459,4077208,5109917,3920416,4181459,85092000,97873709,99848584,159804375,13808917,19748833,32625.0

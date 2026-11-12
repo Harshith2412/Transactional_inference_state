@@ -1,0 +1,37 @@
+[
+  {
+    "enrolled": true,
+    "participant": "simple_tool",
+    "status": "ELIGIBLE_SINGLE_PROCESS"
+  },
+  {
+    "enrolled": true,
+    "participant": "simple_rag",
+    "status": "ELIGIBLE_SINGLE_PROCESS"
+  },
+  {
+    "enrolled": false,
+    "participant": "filesystem_tool",
+    "status": "INELIGIBLE_FILESYSTEM_DEPENDENT"
+  },
+  {
+    "enrolled": false,
+    "participant": "observer_tool",
+    "status": "INELIGIBLE_UNMANAGED_EFFECTS"
+  },
+  {
+    "enrolled": false,
+    "participant": "persistent_socket_tool",
+    "status": "INELIGIBLE_PERSISTENT_SOCKET_REQUIRED"
+  },
+  {
+    "enrolled": false,
+    "participant": "parent_child_tool",
+    "status": "PROCESS_TREE_NOT_ESTABLISHED"
+  },
+  {
+    "enrolled": false,
+    "participant": "multi_service_group",
+    "status": "MULTI_SERVICE_ATOMICITY_NOT_ESTABLISHED"
+  }
+]

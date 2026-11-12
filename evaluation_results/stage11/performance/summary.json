@@ -1,0 +1,18 @@
+[
+  {
+    "count": 84,
+    "maximum": 219291,
+    "mean": 101805.51190476191,
+    "mean_interface_overhead_ns": 226220.2857142857,
+    "median": 93415.0,
+    "median_generation_ns": 2298026187.0,
+    "minimum": 54000,
+    "model": "llama3.2:3b",
+    "overhead_fraction": 4.608917637271266e-05,
+    "overhead_percent": 0.004608917637271266,
+    "p90": 141753,
+    "p95": 182499,
+    "std_dev": 35437.30700812286,
+    "timing_fixture_errors": 44
+  }
+]

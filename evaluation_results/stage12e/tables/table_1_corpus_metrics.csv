@@ -1,0 +1,2 @@
+delayed_attack_count,harm_detected,root_cause_found,correct_origin_user,correct_origin_session,correct_origin_transaction,correct_origin_source,contaminated_nodes_identified,unrelated_nodes_incorrectly_marked,contamination_precision,contamination_recall,contamination_f1,recovery_success,unrelated_state_preservation,post_recovery_leakage,over_quarantine_rate,under_recovery_rate,denominators
+25,25,25,25,25,25,25,365,0,1.0,1.0,1.0,25,1.0,0,0.0,0.0,"{'attacks': 25, 'contaminated_nodes': 365, 'unrelated_nodes': 50}"

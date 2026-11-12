@@ -1,0 +1,79 @@
+[
+  {
+    "category": "MISSING_FIELD",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "llama3.2:3b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "benign"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "malicious"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "malicious"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "malicious"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "malicious"
+  },
+  {
+    "category": "EMPTY_OUTPUT",
+    "count": 1,
+    "mode": "explicit_schema_v2",
+    "model": "qwen3:4b",
+    "scenario_type": "malicious"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "graph_revision": 42,
+  "steps": [
+    {
+      "action": "quarantine",
+      "node_id": "memory-M1",
+      "reason": "explicit contaminated lineage"
+    },
+    {
+      "action": "invalidate",
+      "node_id": "summary-S1",
+      "reason": "explicit contaminated lineage"
+    },
+    {
+      "action": "invalidate",
+      "node_id": "cache-C1",
+      "reason": "explicit contaminated lineage"
+    },
+    {
+      "action": "invalidate",
+      "node_id": "context-X1",
+      "reason": "explicit contaminated lineage"
+    },
+    {
+      "action": "preserve",
+      "node_id": "unrelated-C2",
+      "reason": "outside contaminated lineage"
+    },
+    {
+      "action": "preserve",
+      "node_id": "unrelated-N1",
+      "reason": "outside contaminated lineage"
+    },
+    {
+      "action": "preserve",
+      "node_id": "unrelated-P1",
+      "reason": "outside contaminated lineage"
+    }
+  ],
+  "suspicious_node_id": "effect-E8"
+}

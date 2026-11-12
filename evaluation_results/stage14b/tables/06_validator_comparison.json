@@ -1,0 +1,42 @@
+{
+  "HYBRID_DETERMINISTIC": {
+    "fn": 0,
+    "fp": 0,
+    "fpr": 0.0,
+    "recall": 1.0,
+    "tn": 20,
+    "tp": 40
+  },
+  "POLICY_V2_BASELINE": {
+    "fn": 40,
+    "fp": 0,
+    "fpr": 0.0,
+    "recall": 0.0,
+    "tn": 20,
+    "tp": 0
+  },
+  "PROVENANCE_AWARE": {
+    "fn": 0,
+    "fp": 0,
+    "fpr": 0.0,
+    "recall": 1.0,
+    "tn": 20,
+    "tp": 40
+  },
+  "SEMANTIC_RULE": {
+    "fn": 40,
+    "fp": 0,
+    "fpr": 0.0,
+    "recall": 0.0,
+    "tn": 20,
+    "tp": 0
+  },
+  "SEQUENCE_AWARE": {
+    "fn": 40,
+    "fp": 0,
+    "fpr": 0.0,
+    "recall": 0.0,
+    "tn": 20,
+    "tp": 0
+  }
+}

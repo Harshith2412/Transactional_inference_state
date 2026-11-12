@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="298">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="30" font-family="sans-serif" font-size="18">PolicyV1 vs PolicyV2</text>
+<text x="20" y="69" font-family="sans-serif" font-size="12">V1 precision</text>
+<rect x="250" y="52" width="200.00" height="22" fill="#3569a8"/>
+<text x="460.00" y="68" font-family="sans-serif" font-size="12">0.333</text>
+<text x="20" y="107" font-family="sans-serif" font-size="12">V1 recall</text>
+<rect x="250" y="90" width="50.00" height="22" fill="#3569a8"/>
+<text x="310.00" y="106" font-family="sans-serif" font-size="12">0.083</text>
+<text x="20" y="145" font-family="sans-serif" font-size="12">V1 F1</text>
+<rect x="250" y="128" width="80.00" height="22" fill="#3569a8"/>
+<text x="340.00" y="144" font-family="sans-serif" font-size="12">0.133</text>
+<text x="20" y="183" font-family="sans-serif" font-size="12">V2 precision</text>
+<rect x="250" y="166" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="182" font-family="sans-serif" font-size="12">1.000</text>
+<text x="20" y="221" font-family="sans-serif" font-size="12">V2 recall</text>
+<rect x="250" y="204" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="220" font-family="sans-serif" font-size="12">1.000</text>
+<text x="20" y="259" font-family="sans-serif" font-size="12">V2 F1</text>
+<rect x="250" y="242" width="600.00" height="22" fill="#3569a8"/>
+<text x="860.00" y="258" font-family="sans-serif" font-size="12">1.000</text>
+</svg>

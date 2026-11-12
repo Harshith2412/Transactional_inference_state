@@ -1,0 +1,42 @@
+{
+  "backend": "CRIU",
+  "checkpoint_ns": 27981833,
+  "existing_socket_survived": false,
+  "image_bytes": 20097543,
+  "initial": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "kind": "rag",
+  "mutated": {
+    "authorization": "admin",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {
+      "poison": "approved disclosure"
+    },
+    "summary_cache": {}
+  },
+  "mutated_digest": "b5e7c7af71345580e0cb7142594ded7a747d00b5d1fffbea95e6f5842f544593",
+  "mutation_keys": 1,
+  "new_connection_works": true,
+  "pid_after": 88,
+  "pid_before": 88,
+  "port_preserved": true,
+  "pre_digest": "86a6adb653271fb9f2a3a021e9220e04569d63e877ad3aa2385264fb11ee23cc",
+  "reconnect_required": true,
+  "restore_ns": 17906917,
+  "restored": {
+    "authorization": "user",
+    "documents": {},
+    "query_history": [],
+    "retrieval_cache": {},
+    "summary_cache": {}
+  },
+  "restored_digest": "86a6adb653271fb9f2a3a021e9220e04569d63e877ad3aa2385264fb11ee23cc",
+  "size_mb": 0,
+  "success": true
+}

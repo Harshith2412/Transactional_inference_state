@@ -1,0 +1,30 @@
+{
+  "commit": {
+    "count": 129,
+    "median_commit_or_rollback_ns": 12291,
+    "median_enforcement_end_to_end_ns": 49209,
+    "median_full_end_to_end_ns": 2090872166,
+    "median_lineage_recording_ns": 51333,
+    "median_model_generation_ns": 2090707750,
+    "median_operation_execution_ns": 18041,
+    "median_parse_ns": 90333,
+    "median_provenance_issuance_ns": 8875,
+    "median_transaction_begin_ns": 5125,
+    "median_transaction_validation_ns": 3542,
+    "median_transport_normalization_ns": 47291
+  },
+  "rollback": {
+    "count": 129,
+    "median_commit_or_rollback_ns": 23458,
+    "median_enforcement_end_to_end_ns": 58542,
+    "median_full_end_to_end_ns": 2090881125,
+    "median_lineage_recording_ns": 50417,
+    "median_model_generation_ns": 2090707750,
+    "median_operation_execution_ns": 16583,
+    "median_parse_ns": 90333,
+    "median_provenance_issuance_ns": 8500,
+    "median_transaction_begin_ns": 4750,
+    "median_transaction_validation_ns": 3417,
+    "median_transport_normalization_ns": 47291
+  }
+}

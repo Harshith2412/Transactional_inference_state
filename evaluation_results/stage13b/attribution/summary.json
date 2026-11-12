@@ -1,0 +1,26 @@
+{
+  "contamination_precision": {
+    "count": 7,
+    "denominator": 7
+  },
+  "contamination_recall": {
+    "count": 7,
+    "denominator": 7
+  },
+  "correct_origin_session": {
+    "count": 2,
+    "denominator": 2
+  },
+  "correct_origin_source": {
+    "count": 2,
+    "denominator": 2
+  },
+  "correct_origin_transaction": {
+    "count": 2,
+    "denominator": 2
+  },
+  "correct_origin_user": {
+    "count": 2,
+    "denominator": 2
+  }
+}

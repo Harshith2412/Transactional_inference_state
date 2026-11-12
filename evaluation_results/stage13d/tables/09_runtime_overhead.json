@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "disabled",
+    "throughput_transactions_per_second": 8000000.0,
+    "transaction_median_us": 0.125,
+    "transaction_p95_us": 0.25
+  },
+  {
+    "mode": "enabled_no_fsync",
+    "throughput_transactions_per_second": 3471.2218353738335,
+    "transaction_median_us": 288.08299999999997,
+    "transaction_p95_us": 324.833
+  },
+  {
+    "mode": "enabled_fsync",
+    "throughput_transactions_per_second": 2449.353493145484,
+    "transaction_median_us": 408.271,
+    "transaction_p95_us": 475.417
+  }
+]

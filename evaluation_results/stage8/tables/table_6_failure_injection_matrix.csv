@@ -1,0 +1,9 @@
+failure_point,internal_state_visible,effects_visible,rollback_possible,recovery_required,idempotency_status,outcome
+AFTER_BEGIN,False,0,False,False,keys retained only after successful execution,FAILURE_INJECTED_SAFE
+AFTER_MUTATION,False,0,True,False,keys retained only after successful execution,FAILURE_INJECTED_SAFE
+AFTER_VALIDATION,False,0,True,False,keys retained only after successful execution,FAILURE_INJECTED_SAFE
+DURING_INTERNAL_COMMIT,False,0,True,False,keys retained only after successful execution,FAILURE_INJECTED_SAFE
+AFTER_INTERNAL_COMMIT,True,0,False,True,keys retained only after successful execution,FAILURE_INJECTED_PARTIAL_STATE
+BEFORE_EFFECT_EXECUTION,True,0,False,True,keys retained only after successful execution,FAILURE_INJECTED_PARTIAL_STATE
+DURING_EFFECT_EXECUTION,True,0,False,True,keys retained only after successful execution,FAILURE_INJECTED_PARTIAL_STATE
+AFTER_FIRST_EFFECT,True,1,False,True,keys retained only after successful execution,FAILURE_INJECTED_PARTIAL_EFFECT

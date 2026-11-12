@@ -1,0 +1,181 @@
+[
+  {
+    "crash_point": "AFTER_TX_BEGIN",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_FIRST_MUTATION",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_PROVENANCE_WRITE",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_LINEAGE_WRITE",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_VALIDATION",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_PREPARE_COMMIT",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "PREPARED",
+    "state": {}
+  },
+  {
+    "crash_point": "DURING_STATE_COMMIT",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 0,
+    "recovery_status": "PREPARED",
+    "state": {}
+  },
+  {
+    "crash_point": "AFTER_STATE_COMMIT",
+    "effects_before_crash": [],
+    "effects_replayed": [
+      "mail-1"
+    ],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  },
+  {
+    "crash_point": "BEFORE_FIRST_EFFECT",
+    "effects_before_crash": [],
+    "effects_replayed": [
+      "mail-1"
+    ],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  },
+  {
+    "crash_point": "AFTER_FIRST_EFFECT",
+    "effects_before_crash": [
+      "mail-1"
+    ],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  },
+  {
+    "crash_point": "DURING_SECOND_EFFECT",
+    "effects_before_crash": [
+      "mail-1",
+      "mail-2"
+    ],
+    "effects_replayed": [],
+    "effects_unknown": [
+      "effect-2"
+    ],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "PARTIAL_EFFECT_EXECUTION",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  },
+  {
+    "crash_point": "AFTER_QUARANTINE_WRITE",
+    "effects_before_crash": [],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 0,
+    "lineage_nodes": 0,
+    "provenance_count": 0,
+    "quarantine_count": 1,
+    "recovery_status": "INCOMPLETE_UNCOMMITTED",
+    "state": {}
+  },
+  {
+    "crash_point": "BEFORE_TX_COMPLETE",
+    "effects_before_crash": [
+      "mail-1"
+    ],
+    "effects_replayed": [],
+    "effects_unknown": [],
+    "lineage_edges": 1,
+    "lineage_nodes": 2,
+    "provenance_count": 1,
+    "quarantine_count": 0,
+    "recovery_status": "STATE_COMMITTED_EFFECTS_PENDING",
+    "state": {
+      "session_memory.authorization": "approved"
+    }
+  }
+]

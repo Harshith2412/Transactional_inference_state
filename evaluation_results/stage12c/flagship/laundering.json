@@ -1,0 +1,20 @@
+{
+  "allowed": false,
+  "chain_source_ids": [
+    "source-000004",
+    "source-000005",
+    "source-000006",
+    "source-000007"
+  ],
+  "leaked": false,
+  "outcome": "FLOW_DENIED_CROSS_USER",
+  "root_sessions": [
+    "SA"
+  ],
+  "root_transactions": [
+    "txn-000003"
+  ],
+  "root_users": [
+    "A"
+  ]
+}

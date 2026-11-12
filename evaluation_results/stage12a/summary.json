@@ -1,0 +1,32 @@
+{
+  "stage": "12A",
+  "scope": "deterministic provenance-aware transactions",
+  "tests": {
+    "passed": 276,
+    "skipped": 1,
+    "failed": 0,
+    "new_stage12a_tests": 13
+  },
+  "experiments": {
+    "committed_origin_identified": true,
+    "commit_preserved_provenance": true,
+    "rollback_removed_value": true,
+    "rollback_removed_lineage": true,
+    "cross_session_origin_preserved": true,
+    "claimed_provenance_overrode_runtime": false,
+    "effect_provenance_attached": true
+  },
+  "microbenchmark": {
+    "iterations": 2000,
+    "baseline_median_ns": 6291.0,
+    "provenance_median_ns": 18209.0,
+    "incremental_median_ns": 11918.0,
+    "scope": "local Python 3.13.9 issue-plus-private-write microbenchmark"
+  },
+  "complexity": {
+    "modules": 8,
+    "python_loc": 1646,
+    "third_party_runtime_dependencies": 0,
+    "stage11_frozen_baseline_python_loc": 1210
+  }
+}

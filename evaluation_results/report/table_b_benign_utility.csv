@@ -1,0 +1,7 @@
+benign_trials,completion_rate,expected_effect_correctness,expected_state_correctness,false_rejection,mode,model,parse_success
+76,1.0,1.0,1.0,0.0,baseline,deterministic,0.8297872340425532
+76,1.0,1.0,1.0,0.0,transactional,deterministic,0.8297872340425532
+124,0.20967741935483872,1.0,0.5161290322580645,0.7903225806451613,baseline,llama3.2:3b,0.285140562248996
+124,0.20967741935483872,1.0,0.5161290322580645,0.7903225806451613,transactional,llama3.2:3b,0.285140562248996
+125,0.0,1.0,0.36,1.0,baseline,qwen3:4b,0.0
+125,0.0,1.0,0.36,1.0,transactional,qwen3:4b,0.0

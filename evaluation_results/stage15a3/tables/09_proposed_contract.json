@@ -1,0 +1,23 @@
+{
+  "excluded": [
+    "filesystem transactional assumption",
+    "unmanaged external effects",
+    "persistent socket requirement",
+    "process trees",
+    "atomic multi-service groups"
+  ],
+  "future_failure_status": [
+    "EXTERNAL_ROLLBACK_FAILED",
+    "PARTIAL_ROLLBACK_FAILURE"
+  ],
+  "mandatory": [
+    "one externally managed process",
+    "CRIU checkpoint and restore succeed",
+    "health check",
+    "structural state oracle",
+    "state digest oracle",
+    "fresh reconnect",
+    "mutation quiesce",
+    "observable restore failure"
+  ]
+}

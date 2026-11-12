@@ -1,0 +1,7 @@
+[
+  "filesystem_tool",
+  "observer_tool",
+  "persistent_socket_tool",
+  "parent_child_tool",
+  "multi_service_group"
+]

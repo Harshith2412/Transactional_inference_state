@@ -1,0 +1,19 @@
+{
+  "automatic": {
+    "correct_root_attribution": true,
+    "edges": 9,
+    "estimated_bytes": 3481,
+    "explicit_application_lineage_calls": 0,
+    "nodes": 9,
+    "provenance_coverage": 1.0,
+    "trusted_dataflow_calls": 8
+  },
+  "manual": {
+    "correct_root_attribution": true,
+    "edges": 4,
+    "estimated_bytes": 1491,
+    "explicit_application_lineage_calls": 9,
+    "nodes": 5,
+    "provenance_coverage": 1.0
+  }
+}

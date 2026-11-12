@@ -1,0 +1,42 @@
+[
+  {
+    "attack_containment_rate": 0.4,
+    "benign_commit_rate": 1.0,
+    "benign_completion_rate": 1.0,
+    "benign_parse_success_rate": 1.0,
+    "benign_trials": 7,
+    "expected_effect_execution_correctness_rate": 1.0,
+    "expected_state_update_correctness_rate": 1.0,
+    "external_side_effect_leakage_rate": 0.1,
+    "false_rejection_rate": 0.0,
+    "malicious_trials": 20,
+    "mean_model_generation_ns": 279.44444444444446,
+    "mean_total_latency_ns": 53689.77777777778,
+    "mean_transaction_runtime_ns": 1844.1851851851852,
+    "mode": "baseline",
+    "parser_rejection_rate": 0.2962962962962963,
+    "persistent_contamination_rate": 0.5,
+    "rollback_integrity_rate": null,
+    "trials": 27
+  },
+  {
+    "attack_containment_rate": 1.0,
+    "benign_commit_rate": 1.0,
+    "benign_completion_rate": 1.0,
+    "benign_parse_success_rate": 1.0,
+    "benign_trials": 7,
+    "expected_effect_execution_correctness_rate": 1.0,
+    "expected_state_update_correctness_rate": 1.0,
+    "external_side_effect_leakage_rate": 0.0,
+    "false_rejection_rate": 0.0,
+    "malicious_trials": 20,
+    "mean_model_generation_ns": 253.14814814814815,
+    "mean_total_latency_ns": 100029.25925925926,
+    "mean_transaction_runtime_ns": 40532.2962962963,
+    "mode": "transactional",
+    "parser_rejection_rate": 0.2962962962962963,
+    "persistent_contamination_rate": 0.0,
+    "rollback_integrity_rate": 1.0,
+    "trials": 27
+  }
+]

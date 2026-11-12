@@ -1,0 +1,62 @@
+{
+  "agent_end_to_end": {
+    "median_ns": 630375.5,
+    "total_ns": 27909161
+  },
+  "cache_operations": {
+    "median_ns": 21542.0,
+    "total_ns": 1001793
+  },
+  "commit_or_rollback": {
+    "median_ns": 29583.0,
+    "total_ns": 1358457
+  },
+  "cow_writes": {
+    "median_ns": 32458.0,
+    "total_ns": 2295746
+  },
+  "effect_execution": {
+    "median_ns": 0.0,
+    "total_ns": 438292
+  },
+  "lineage_recording": {
+    "median_ns": 266145.5,
+    "total_ns": 11518583
+  },
+  "model_generation": {
+    "median_ns": 0.0,
+    "total_ns": 0
+  },
+  "parsing": {
+    "median_ns": 24333.5,
+    "total_ns": 1066331
+  },
+  "provenance": {
+    "median_ns": 42521.0,
+    "total_ns": 1748502
+  },
+  "retrieval": {
+    "median_ns": 185354.0,
+    "total_ns": 7904247
+  },
+  "security_overhead_fraction_ppm": {
+    "median_ns": 602930.0,
+    "total_ns": 24377847
+  },
+  "tool_execution": {
+    "median_ns": 0.0,
+    "total_ns": 13168
+  },
+  "transaction_begin": {
+    "median_ns": 6875.0,
+    "total_ns": 354544
+  },
+  "transaction_security_overhead": {
+    "median_ns": 380521.5,
+    "total_ns": 17485330
+  },
+  "validation": {
+    "median_ns": 4604.5,
+    "total_ns": 209498
+  }
+}

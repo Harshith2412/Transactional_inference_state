@@ -1,0 +1,2 @@
+passed,skipped,failed,policy_v1_fingerprint,policy_v2_fingerprint,historical_freeze_files_checked,historical_freeze_mismatches,stage12a_reference_hash_match,stage12b_reference_hashes_match,stage12c_reference_results_match,stage12d_reference_results_match,stage12e_reference_results_match,trusted_core
+351,1,0,b9c476b30befcd7ae7a34c0effaee6f991cc84d76d64154d56ee95aba460ffb7,ca3702e69066389a46b785e067ad068d34a6401828d0dfc933523216a386962e,15,0,True,True,True,True,True,"{""modules"": 12, ""python_loc"": 2940, ""third_party_runtime_dependencies"": 0}"

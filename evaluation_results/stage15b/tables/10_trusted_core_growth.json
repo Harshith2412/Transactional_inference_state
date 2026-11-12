@@ -1,0 +1,11 @@
+{
+  "baseline_loc": 3619,
+  "baseline_modules": 15,
+  "criu_adapter_loc": 37,
+  "external_participant_integration_loc": 118,
+  "third_party_core_runtime_dependencies": 0,
+  "trusted_growth_loc": 155,
+  "trusted_growth_modules": 2,
+  "trusted_loc": 3774,
+  "trusted_modules": 17
+}
